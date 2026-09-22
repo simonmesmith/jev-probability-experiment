@@ -1,0 +1,823 @@
+[
+  {
+    "id": "P001",
+    "group": "coins",
+    "state": "A fair coin is flipped 1 time(s). Flips are independent. No outcomes have been observed.",
+    "event": "Exactly 1 of the 1 flips land heads.",
+    "numeric_options": {
+      "answer_1": "1/2",
+      "answer_2": "1/100",
+      "answer_3": "1/6",
+      "answer_4": "3/4"
+    }
+  },
+  {
+    "id": "P002",
+    "group": "coins",
+    "state": "A fair coin is flipped 1 time(s). Flips are independent. No outcomes have been observed.",
+    "event": "Exactly 0 of the 1 flips land heads.",
+    "numeric_options": {
+      "answer_1": "1",
+      "answer_2": "1/2",
+      "answer_3": "1/3",
+      "answer_4": "1/4"
+    }
+  },
+  {
+    "id": "P003",
+    "group": "coins",
+    "state": "A fair coin is flipped 2 time(s). Flips are independent. No outcomes have been observed.",
+    "event": "Exactly 0 of the 2 flips land heads.",
+    "numeric_options": {
+      "answer_1": "1/4",
+      "answer_2": "1/100",
+      "answer_3": "9/10",
+      "answer_4": "3/4"
+    }
+  },
+  {
+    "id": "P004",
+    "group": "coins",
+    "state": "A fair coin is flipped 2 time(s). Flips are independent. No outcomes have been observed.",
+    "event": "Exactly 1 of the 2 flips land heads.",
+    "numeric_options": {
+      "answer_1": "2/3",
+      "answer_2": "1/20",
+      "answer_3": "1/2",
+      "answer_4": "1/6"
+    }
+  },
+  {
+    "id": "P005",
+    "group": "coins",
+    "state": "A fair coin is flipped 2 time(s). Flips are independent. No outcomes have been observed.",
+    "event": "Exactly 2 of the 2 flips land heads.",
+    "numeric_options": {
+      "answer_1": "1/20",
+      "answer_2": "1/2",
+      "answer_3": "1/100",
+      "answer_4": "1/4"
+    }
+  },
+  {
+    "id": "P006",
+    "group": "coins",
+    "state": "A fair coin is flipped 3 time(s). Flips are independent. No outcomes have been observed.",
+    "event": "Exactly 1 of the 3 flips land heads.",
+    "numeric_options": {
+      "answer_1": "1/2",
+      "answer_2": "3/8",
+      "answer_3": "0",
+      "answer_4": "1/20"
+    }
+  },
+  {
+    "id": "P007",
+    "group": "coins",
+    "state": "A fair coin is flipped 3 time(s). Flips are independent. No outcomes have been observed.",
+    "event": "Exactly 2 of the 3 flips land heads.",
+    "numeric_options": {
+      "answer_1": "2/3",
+      "answer_2": "1/6",
+      "answer_3": "3/8",
+      "answer_4": "1"
+    }
+  },
+  {
+    "id": "P008",
+    "group": "coins",
+    "state": "A fair coin is flipped 4 time(s). Flips are independent. No outcomes have been observed.",
+    "event": "Exactly 2 of the 4 flips land heads.",
+    "numeric_options": {
+      "answer_1": "1/2",
+      "answer_2": "3/8",
+      "answer_3": "1/4",
+      "answer_4": "1/100"
+    }
+  },
+  {
+    "id": "P009",
+    "group": "coins",
+    "state": "A fair coin is flipped 5 time(s). Flips are independent. No outcomes have been observed.",
+    "event": "Exactly 0 of the 5 flips land heads.",
+    "numeric_options": {
+      "answer_1": "3/4",
+      "answer_2": "1/32",
+      "answer_3": "1/3",
+      "answer_4": "0"
+    }
+  },
+  {
+    "id": "P010",
+    "group": "coins",
+    "state": "A fair coin is flipped 5 time(s). Flips are independent. No outcomes have been observed.",
+    "event": "Exactly 3 of the 5 flips land heads.",
+    "numeric_options": {
+      "answer_1": "9/10",
+      "answer_2": "1/2",
+      "answer_3": "3/4",
+      "answer_4": "5/16"
+    }
+  },
+  {
+    "id": "P011",
+    "group": "coins",
+    "state": "A fair coin is flipped 8 time(s). Flips are independent. No outcomes have been observed.",
+    "event": "Exactly 4 of the 8 flips land heads.",
+    "numeric_options": {
+      "answer_1": "1",
+      "answer_2": "35/128",
+      "answer_3": "1/2",
+      "answer_4": "1/4"
+    }
+  },
+  {
+    "id": "P012",
+    "group": "coins",
+    "state": "A fair coin is flipped 10 time(s). Flips are independent. No outcomes have been observed.",
+    "event": "Exactly 10 of the 10 flips land heads.",
+    "numeric_options": {
+      "answer_1": "0",
+      "answer_2": "1/2",
+      "answer_3": "1/1024",
+      "answer_4": "1/6"
+    }
+  },
+  {
+    "id": "P013",
+    "group": "biased_coins",
+    "state": "A coin lands heads with probability 1/10 and tails otherwise. It is flipped 1 time(s) independently. No outcomes are observed.",
+    "event": "Exactly 1 flips land heads.",
+    "numeric_options": {
+      "answer_1": "1/2",
+      "answer_2": "1/4",
+      "answer_3": "1/10",
+      "answer_4": "2/3"
+    }
+  },
+  {
+    "id": "P014",
+    "group": "biased_coins",
+    "state": "A coin lands heads with probability 9/10 and tails otherwise. It is flipped 1 time(s) independently. No outcomes are observed.",
+    "event": "Exactly 1 flips land heads.",
+    "numeric_options": {
+      "answer_1": "1/6",
+      "answer_2": "9/10",
+      "answer_3": "3/4",
+      "answer_4": "1/3"
+    }
+  },
+  {
+    "id": "P015",
+    "group": "biased_coins",
+    "state": "A coin lands heads with probability 1/4 and tails otherwise. It is flipped 2 time(s) independently. No outcomes are observed.",
+    "event": "Exactly 2 flips land heads.",
+    "numeric_options": {
+      "answer_1": "1/2",
+      "answer_2": "0",
+      "answer_3": "3/4",
+      "answer_4": "1/16"
+    }
+  },
+  {
+    "id": "P016",
+    "group": "biased_coins",
+    "state": "A coin lands heads with probability 3/4 and tails otherwise. It is flipped 2 time(s) independently. No outcomes are observed.",
+    "event": "Exactly 1 flips land heads.",
+    "numeric_options": {
+      "answer_1": "1/10",
+      "answer_2": "1/3",
+      "answer_3": "1/6",
+      "answer_4": "3/8"
+    }
+  },
+  {
+    "id": "P017",
+    "group": "biased_coins",
+    "state": "A coin lands heads with probability 1/5 and tails otherwise. It is flipped 3 time(s) independently. No outcomes are observed.",
+    "event": "Exactly 0 flips land heads.",
+    "numeric_options": {
+      "answer_1": "64/125",
+      "answer_2": "1/20",
+      "answer_3": "1/4",
+      "answer_4": "2/3"
+    }
+  },
+  {
+    "id": "P018",
+    "group": "biased_coins",
+    "state": "A coin lands heads with probability 4/5 and tails otherwise. It is flipped 3 time(s) independently. No outcomes are observed.",
+    "event": "Exactly 2 flips land heads.",
+    "numeric_options": {
+      "answer_1": "1/3",
+      "answer_2": "2/3",
+      "answer_3": "48/125",
+      "answer_4": "1/10"
+    }
+  },
+  {
+    "id": "P019",
+    "group": "dice",
+    "state": "Two fair six-sided dice numbered 1 through 6 are rolled independently. Neither result is observed.",
+    "event": "The sum is 2.",
+    "numeric_options": {
+      "answer_1": "1/36",
+      "answer_2": "1",
+      "answer_3": "1/6",
+      "answer_4": "1/100"
+    }
+  },
+  {
+    "id": "P020",
+    "group": "dice",
+    "state": "Two fair six-sided dice numbered 1 through 6 are rolled independently. Neither result is observed.",
+    "event": "The sum is 7.",
+    "numeric_options": {
+      "answer_1": "1/20",
+      "answer_2": "2/3",
+      "answer_3": "1/4",
+      "answer_4": "1/6"
+    }
+  },
+  {
+    "id": "P021",
+    "group": "dice",
+    "state": "Two fair six-sided dice numbered 1 through 6 are rolled independently. Neither result is observed.",
+    "event": "The sum is at least 10.",
+    "numeric_options": {
+      "answer_1": "1/20",
+      "answer_2": "99/100",
+      "answer_3": "1/100",
+      "answer_4": "1/6"
+    }
+  },
+  {
+    "id": "P022",
+    "group": "dice",
+    "state": "Two fair six-sided dice numbered 1 through 6 are rolled independently. Neither result is observed.",
+    "event": "Both dice show the same number.",
+    "numeric_options": {
+      "answer_1": "0",
+      "answer_2": "1/6",
+      "answer_3": "1/2",
+      "answer_4": "1"
+    }
+  },
+  {
+    "id": "P023",
+    "group": "dice",
+    "state": "Two fair six-sided dice numbered 1 through 6 are rolled independently. Neither result is observed.",
+    "event": "At least one die shows 6.",
+    "numeric_options": {
+      "answer_1": "11/36",
+      "answer_2": "1/4",
+      "answer_3": "0",
+      "answer_4": "1/6"
+    }
+  },
+  {
+    "id": "P024",
+    "group": "dice",
+    "state": "Two fair six-sided dice numbered 1 through 6 are rolled independently. Neither result is observed.",
+    "event": "The sum is even.",
+    "numeric_options": {
+      "answer_1": "1/100",
+      "answer_2": "1/4",
+      "answer_3": "1/2",
+      "answer_4": "1/20"
+    }
+  },
+  {
+    "id": "P025",
+    "group": "dice",
+    "state": "Two fair six-sided dice numbered 1 through 6 are rolled independently. Neither result is observed.",
+    "event": "The first die is greater than the second.",
+    "numeric_options": {
+      "answer_1": "5/12",
+      "answer_2": "1/10",
+      "answer_3": "1/20",
+      "answer_4": "9/10"
+    }
+  },
+  {
+    "id": "P026",
+    "group": "dice",
+    "state": "Two fair six-sided dice numbered 1 through 6 are rolled independently. Neither result is observed.",
+    "event": "The product is odd.",
+    "numeric_options": {
+      "answer_1": "1/2",
+      "answer_2": "1/100",
+      "answer_3": "1/4",
+      "answer_4": "1/6"
+    }
+  },
+  {
+    "id": "P027",
+    "group": "dice",
+    "state": "Two fair six-sided dice numbered 1 through 6 are rolled independently. Neither result is observed.",
+    "event": "The sum is 13.",
+    "numeric_options": {
+      "answer_1": "1/4",
+      "answer_2": "0",
+      "answer_3": "2/3",
+      "answer_4": "1/6"
+    }
+  },
+  {
+    "id": "P028",
+    "group": "dice",
+    "state": "Two fair six-sided dice numbered 1 through 6 are rolled independently. Neither result is observed.",
+    "event": "The sum is between 2 and 12 inclusive.",
+    "numeric_options": {
+      "answer_1": "1/100",
+      "answer_2": "1",
+      "answer_3": "1/3",
+      "answer_4": "1/6"
+    }
+  },
+  {
+    "id": "P029",
+    "group": "cards",
+    "state": "One card is drawn uniformly from a standard 52-card deck with no jokers. The card is not observed.",
+    "event": "The card is a heart.",
+    "numeric_options": {
+      "answer_1": "1/4",
+      "answer_2": "9/10",
+      "answer_3": "2/3",
+      "answer_4": "1/2"
+    }
+  },
+  {
+    "id": "P030",
+    "group": "cards",
+    "state": "One card is drawn uniformly from a standard 52-card deck with no jokers. The card is not observed.",
+    "event": "The card is red.",
+    "numeric_options": {
+      "answer_1": "9/10",
+      "answer_2": "1/6",
+      "answer_3": "3/4",
+      "answer_4": "1/2"
+    }
+  },
+  {
+    "id": "P031",
+    "group": "cards",
+    "state": "One card is drawn uniformly from a standard 52-card deck with no jokers. The card is not observed.",
+    "event": "The card is an ace.",
+    "numeric_options": {
+      "answer_1": "3/4",
+      "answer_2": "1/13",
+      "answer_3": "1/2",
+      "answer_4": "1"
+    }
+  },
+  {
+    "id": "P032",
+    "group": "cards",
+    "state": "One card is drawn uniformly from a standard 52-card deck with no jokers. The card is not observed.",
+    "event": "The card is a face card (jack, queen or king).",
+    "numeric_options": {
+      "answer_1": "2/3",
+      "answer_2": "3/4",
+      "answer_3": "3/13",
+      "answer_4": "0"
+    }
+  },
+  {
+    "id": "P033",
+    "group": "cards",
+    "state": "One card is drawn uniformly from a standard 52-card deck with no jokers. The card is not observed.",
+    "event": "The card is a red ace.",
+    "numeric_options": {
+      "answer_1": "9/10",
+      "answer_2": "1/2",
+      "answer_3": "3/4",
+      "answer_4": "1/26"
+    }
+  },
+  {
+    "id": "P034",
+    "group": "cards",
+    "state": "One card is drawn uniformly from a standard 52-card deck with no jokers. The card is not observed.",
+    "event": "The card is a heart or an ace (or both).",
+    "numeric_options": {
+      "answer_1": "1/4",
+      "answer_2": "1/2",
+      "answer_3": "4/13",
+      "answer_4": "99/100"
+    }
+  },
+  {
+    "id": "P035",
+    "group": "cards",
+    "state": "One card is drawn uniformly from a standard 52-card deck with no jokers. The card is not observed.",
+    "event": "The card is the queen of spades.",
+    "numeric_options": {
+      "answer_1": "99/100",
+      "answer_2": "1/52",
+      "answer_3": "1/2",
+      "answer_4": "1/10"
+    }
+  },
+  {
+    "id": "P036",
+    "group": "cards",
+    "state": "One card is drawn uniformly from a standard 52-card deck with no jokers. The card is not observed.",
+    "event": "The card is neither a heart nor an ace.",
+    "numeric_options": {
+      "answer_1": "1/6",
+      "answer_2": "9/13",
+      "answer_3": "1/2",
+      "answer_4": "1/100"
+    }
+  },
+  {
+    "id": "P037",
+    "group": "sampling",
+    "state": "A bag contains 1 red and 9 blue balls. Draw 1 balls uniformly without replacement. No colors are observed.",
+    "event": "Exactly 1 drawn balls are red.",
+    "numeric_options": {
+      "answer_1": "1/10",
+      "answer_2": "0",
+      "answer_3": "1/6",
+      "answer_4": "1/4"
+    }
+  },
+  {
+    "id": "P038",
+    "group": "sampling",
+    "state": "A bag contains 9 red and 1 blue balls. Draw 1 balls uniformly without replacement. No colors are observed.",
+    "event": "Exactly 1 drawn balls are red.",
+    "numeric_options": {
+      "answer_1": "2/3",
+      "answer_2": "1/100",
+      "answer_3": "9/10",
+      "answer_4": "1/3"
+    }
+  },
+  {
+    "id": "P039",
+    "group": "sampling",
+    "state": "A bag contains 3 red and 7 blue balls. Draw 2 balls uniformly without replacement. No colors are observed.",
+    "event": "Exactly 2 drawn balls are red.",
+    "numeric_options": {
+      "answer_1": "9/10",
+      "answer_2": "1/15",
+      "answer_3": "1/4",
+      "answer_4": "2/3"
+    }
+  },
+  {
+    "id": "P040",
+    "group": "sampling",
+    "state": "A bag contains 3 red and 7 blue balls. Draw 2 balls uniformly with replacement, mixing after every draw. No colors are observed.",
+    "event": "Exactly 2 drawn balls are red.",
+    "numeric_options": {
+      "answer_1": "3/4",
+      "answer_2": "9/100",
+      "answer_3": "2/3",
+      "answer_4": "99/100"
+    }
+  },
+  {
+    "id": "P041",
+    "group": "sampling",
+    "state": "A bag contains 5 red and 5 blue balls. Draw 2 balls uniformly without replacement. No colors are observed.",
+    "event": "Exactly 1 drawn balls are red.",
+    "numeric_options": {
+      "answer_1": "99/100",
+      "answer_2": "5/9",
+      "answer_3": "3/4",
+      "answer_4": "1/100"
+    }
+  },
+  {
+    "id": "P042",
+    "group": "sampling",
+    "state": "A bag contains 5 red and 5 blue balls. Draw 2 balls uniformly with replacement, mixing after every draw. No colors are observed.",
+    "event": "Exactly 1 drawn balls are red.",
+    "numeric_options": {
+      "answer_1": "1/2",
+      "answer_2": "1/10",
+      "answer_3": "1/100",
+      "answer_4": "9/10"
+    }
+  },
+  {
+    "id": "P043",
+    "group": "sampling",
+    "state": "A bag contains 2 red and 8 blue balls. Draw 3 balls uniformly without replacement. No colors are observed.",
+    "event": "Exactly 0 drawn balls are red.",
+    "numeric_options": {
+      "answer_1": "1/100",
+      "answer_2": "1/4",
+      "answer_3": "1/2",
+      "answer_4": "7/15"
+    }
+  },
+  {
+    "id": "P044",
+    "group": "sampling",
+    "state": "A bag contains 7 red and 3 blue balls. Draw 3 balls uniformly without replacement. No colors are observed.",
+    "event": "Exactly 2 drawn balls are red.",
+    "numeric_options": {
+      "answer_1": "1/10",
+      "answer_2": "9/10",
+      "answer_3": "21/40",
+      "answer_4": "0"
+    }
+  },
+  {
+    "id": "P045",
+    "group": "sampling",
+    "state": "A bag contains 1 red and 9 blue balls. Draw 2 balls uniformly without replacement. No colors are observed.",
+    "event": "Exactly 2 drawn balls are red.",
+    "numeric_options": {
+      "answer_1": "2/3",
+      "answer_2": "0",
+      "answer_3": "1/4",
+      "answer_4": "1/10"
+    }
+  },
+  {
+    "id": "P046",
+    "group": "sampling",
+    "state": "A bag contains 10 red and 0 blue balls. Draw 2 balls uniformly without replacement. No colors are observed.",
+    "event": "Exactly 2 drawn balls are red.",
+    "numeric_options": {
+      "answer_1": "1/10",
+      "answer_2": "1/20",
+      "answer_3": "1/4",
+      "answer_4": "1"
+    }
+  },
+  {
+    "id": "P047",
+    "group": "uniform_integers",
+    "state": "An integer is selected uniformly from 1 through 10 inclusive. Its value is not observed.",
+    "event": "The integer is even.",
+    "numeric_options": {
+      "answer_1": "1/100",
+      "answer_2": "1",
+      "answer_3": "1/20",
+      "answer_4": "1/2"
+    }
+  },
+  {
+    "id": "P048",
+    "group": "uniform_integers",
+    "state": "An integer is selected uniformly from 1 through 100 inclusive. Its value is not observed.",
+    "event": "The integer is 1.",
+    "numeric_options": {
+      "answer_1": "1/20",
+      "answer_2": "1/3",
+      "answer_3": "1/10",
+      "answer_4": "1/100"
+    }
+  },
+  {
+    "id": "P049",
+    "group": "uniform_integers",
+    "state": "An integer is selected uniformly from 1 through 100 inclusive. Its value is not observed.",
+    "event": "The integer is at most 99.",
+    "numeric_options": {
+      "answer_1": "99/100",
+      "answer_2": "1/4",
+      "answer_3": "1/100",
+      "answer_4": "1/2"
+    }
+  },
+  {
+    "id": "P050",
+    "group": "uniform_integers",
+    "state": "An integer is selected uniformly from 0 through 9 inclusive. Its value is not observed.",
+    "event": "The integer is at least 8.",
+    "numeric_options": {
+      "answer_1": "1/10",
+      "answer_2": "1/5",
+      "answer_3": "1/3",
+      "answer_4": "9/10"
+    }
+  },
+  {
+    "id": "P051",
+    "group": "uniform_integers",
+    "state": "An integer is selected uniformly from 1 through 12 inclusive. Its value is not observed.",
+    "event": "The integer is divisible by 3.",
+    "numeric_options": {
+      "answer_1": "1/100",
+      "answer_2": "1/3",
+      "answer_3": "1/4",
+      "answer_4": "0"
+    }
+  },
+  {
+    "id": "P052",
+    "group": "uniform_integers",
+    "state": "An integer is selected uniformly from 1 through 20 inclusive. Its value is not observed.",
+    "event": "The integer is prime.",
+    "numeric_options": {
+      "answer_1": "2/5",
+      "answer_2": "2/3",
+      "answer_3": "9/10",
+      "answer_4": "1/4"
+    }
+  },
+  {
+    "id": "P053",
+    "group": "conditional",
+    "state": "A factory makes items. Fraction 1/100 are defective. A detector flags a defective item with probability 9/10, and flags a nondefective item with probability 1/10. An item is sampled uniformly from production and is observed to be flagged.",
+    "event": "The sampled item is defective.",
+    "numeric_options": {
+      "answer_1": "1/100",
+      "answer_2": "1",
+      "answer_3": "1/6",
+      "answer_4": "1/12"
+    }
+  },
+  {
+    "id": "P054",
+    "group": "conditional",
+    "state": "A factory makes items. Fraction 1/2 are defective. A detector flags a defective item with probability 9/10, and flags a nondefective item with probability 1/10. An item is sampled uniformly from production and is observed to be flagged.",
+    "event": "The sampled item is defective.",
+    "numeric_options": {
+      "answer_1": "1",
+      "answer_2": "2/3",
+      "answer_3": "9/10",
+      "answer_4": "1/4"
+    }
+  },
+  {
+    "id": "P055",
+    "group": "conditional",
+    "state": "A factory makes items. Fraction 1/1000 are defective. A detector flags a defective item with probability 99/100, and flags a nondefective item with probability 1/100. An item is sampled uniformly from production and is observed to be flagged.",
+    "event": "The sampled item is defective.",
+    "numeric_options": {
+      "answer_1": "1/20",
+      "answer_2": "1/100",
+      "answer_3": "3/4",
+      "answer_4": "11/122"
+    }
+  },
+  {
+    "id": "P056",
+    "group": "conditional",
+    "state": "A factory makes items. Fraction 1/10 are defective. A detector flags a defective item with probability 4/5, and flags a nondefective item with probability 1/5. An item is sampled uniformly from production and is observed to be flagged.",
+    "event": "The sampled item is defective.",
+    "numeric_options": {
+      "answer_1": "9/10",
+      "answer_2": "1/3",
+      "answer_3": "1/100",
+      "answer_4": "4/13"
+    }
+  },
+  {
+    "id": "P057",
+    "group": "conditional",
+    "state": "A fair six-sided die numbered 1 through 6 is rolled. You learn only that the result is even.",
+    "event": "The result is 6.",
+    "numeric_options": {
+      "answer_1": "2/3",
+      "answer_2": "9/10",
+      "answer_3": "1/100",
+      "answer_4": "1/3"
+    }
+  },
+  {
+    "id": "P058",
+    "group": "conditional",
+    "state": "One card is drawn uniformly from a standard 52-card deck. You learn only that it is red.",
+    "event": "The card is a heart.",
+    "numeric_options": {
+      "answer_1": "1/100",
+      "answer_2": "2/3",
+      "answer_3": "3/4",
+      "answer_4": "1/2"
+    }
+  },
+  {
+    "id": "P059",
+    "group": "conditional",
+    "state": "A bag has 3 red and 7 blue balls. Two balls are drawn uniformly without replacement. The first is observed to be red; the second has not been observed.",
+    "event": "The second ball is red.",
+    "numeric_options": {
+      "answer_1": "1/4",
+      "answer_2": "1/2",
+      "answer_3": "99/100",
+      "answer_4": "2/9"
+    }
+  },
+  {
+    "id": "P060",
+    "group": "conditional",
+    "state": "A prize is placed uniformly behind one of three doors. You choose door 1. A host who knows the location always opens a different, empty door and always offers a switch. If both other doors are empty, the host chooses between them uniformly. You switch to the remaining unopened door.",
+    "event": "You win the prize.",
+    "numeric_options": {
+      "answer_1": "0",
+      "answer_2": "2/3",
+      "answer_3": "1/20",
+      "answer_4": "3/4"
+    }
+  },
+  {
+    "id": "P061",
+    "group": "multiclass",
+    "state": "A fair coin is flipped once. No result has been observed.",
+    "event": "",
+    "outcomes": {
+      "heads": "The coin lands heads.",
+      "tails": "The coin lands tails."
+    }
+  },
+  {
+    "id": "P062",
+    "group": "multiclass",
+    "state": "A fair six-sided die numbered 1 through 6 is rolled. No result has been observed.",
+    "event": "",
+    "outcomes": {
+      "face_1": "The die shows 1.",
+      "face_2": "The die shows 2.",
+      "face_3": "The die shows 3.",
+      "face_4": "The die shows 4.",
+      "face_5": "The die shows 5.",
+      "face_6": "The die shows 6."
+    }
+  },
+  {
+    "id": "P063",
+    "group": "multiclass",
+    "state": "One card is drawn uniformly from a standard 52-card deck. No card is observed.",
+    "event": "",
+    "outcomes": {
+      "hearts": "The card is hearts.",
+      "diamonds": "The card is diamonds.",
+      "clubs": "The card is clubs.",
+      "spades": "The card is spades."
+    }
+  },
+  {
+    "id": "P064",
+    "group": "multiclass",
+    "state": "A fair coin is flipped twice independently. No results are observed.",
+    "event": "",
+    "outcomes": {
+      "heads_0": "Exactly 0 flips are heads.",
+      "heads_1": "Exactly 1 flips are heads.",
+      "heads_2": "Exactly 2 flips are heads."
+    }
+  },
+  {
+    "id": "P065",
+    "group": "multiclass",
+    "state": "Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.",
+    "event": "",
+    "outcomes": {
+      "sum_2": "The sum is 2.",
+      "sum_3": "The sum is 3.",
+      "sum_4": "The sum is 4.",
+      "sum_5": "The sum is 5.",
+      "sum_6": "The sum is 6.",
+      "sum_7": "The sum is 7.",
+      "sum_8": "The sum is 8.",
+      "sum_9": "The sum is 9.",
+      "sum_10": "The sum is 10.",
+      "sum_11": "The sum is 11.",
+      "sum_12": "The sum is 12."
+    }
+  },
+  {
+    "id": "P066",
+    "group": "multiclass",
+    "state": "One ball is drawn uniformly from a bag containing 1 red, 2 blue and 7 green balls. No color is observed.",
+    "event": "",
+    "outcomes": {
+      "red": "The ball is red.",
+      "blue": "The ball is blue.",
+      "green": "The ball is green."
+    }
+  },
+  {
+    "id": "P067",
+    "group": "multiclass",
+    "state": "A pointer stops uniformly around a circular spinner. Red occupies 180 degrees, blue 90 degrees, green 60 degrees and yellow 30 degrees. The result has not been observed.",
+    "event": "",
+    "outcomes": {
+      "red": "The pointer stops on red.",
+      "blue": "The pointer stops on blue.",
+      "green": "The pointer stops on green.",
+      "yellow": "The pointer stops on yellow."
+    }
+  },
+  {
+    "id": "P068",
+    "group": "multiclass",
+    "state": "Two fair coins are flipped independently. Their ordered outcomes have not been observed.",
+    "event": "",
+    "outcomes": {
+      "HH": "The first coin is H and the second is H, where H means heads and T tails.",
+      "HT": "The first coin is H and the second is T, where H means heads and T tails.",
+      "TH": "The first coin is T and the second is H, where H means heads and T tails.",
+      "TT": "The first coin is T and the second is T, where H means heads and T tails."
+    }
+  }
+]

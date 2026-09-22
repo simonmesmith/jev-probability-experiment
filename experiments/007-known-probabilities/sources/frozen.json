@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-22T13:40:17.168892+00:00",
+  "files": {
+    "src/build_data.py": "4fc77101f3587e256907e3cf8e481de82b2b8bfe417b19f3db68de3ee371589d",
+    "src/common.py": "e7ba8ae7b4c15a65f418e062433ccbbb13d652b7c6eb03c7513acb257bfa105e",
+    "src/method.py": "94b1ca99d6f8886f3bafdf45491e0df5bc2c1f384c45e3499c2da58f0df04418",
+    "src/run.py": "b0ebcd03b3b8b43c4cb01bf7e6b764b8dac520cf4857226178e9617d5b3c3526",
+    "PROTOCOL.md": "0f55258e855e08e2c1595243a036fb0e47dc25ae79e85971c1a9a33a64d5e084",
+    "data/cases.json": "dc90c222ded8ff0cdf426bca10ec52594f1c5f45d2f293ed5004f442004362ac",
+    "data/answers.json": "6eb30943ea6f91e1fad44eda6d704496ecdde22cd2eaa33fe7bc2e633be3aaea"
+  }
+}

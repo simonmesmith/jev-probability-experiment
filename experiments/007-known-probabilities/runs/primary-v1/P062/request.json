@@ -1,0 +1,44 @@
+{
+  "model": "jev-1.13.0",
+  "state": {
+    "scenario": "A fair six-sided die numbered 1 through 6 is rolled. No result has been observed."
+  },
+  "questions": {
+    "plain": {
+      "type": "choice",
+      "instructions": "Which outcome will occur?",
+      "criteria": {
+        "face_1": "The die shows 1.",
+        "face_2": "The die shows 2.",
+        "face_3": "The die shows 3.",
+        "face_4": "The die shows 4.",
+        "face_5": "The die shows 5.",
+        "face_6": "The die shows 6."
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "instructions": "Predict the unobserved outcome of the stated random process. Your option probabilities should represent the mathematical chances of the outcomes, not confidence that an outcome is the most likely. Use only the supplied information.",
+      "criteria": {
+        "face_1": "The die shows 1.",
+        "face_2": "The die shows 2.",
+        "face_3": "The die shows 3.",
+        "face_4": "The die shows 4.",
+        "face_5": "The die shows 5.",
+        "face_6": "The die shows 6."
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "instructions": "Which outcome will occur?",
+      "criteria": {
+        "face_6": "The die shows 6.",
+        "face_5": "The die shows 5.",
+        "face_4": "The die shows 4.",
+        "face_3": "The die shows 3.",
+        "face_2": "The die shows 2.",
+        "face_1": "The die shows 1."
+      }
+    }
+  }
+}

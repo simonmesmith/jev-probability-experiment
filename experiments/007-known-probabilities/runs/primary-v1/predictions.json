@@ -1,0 +1,3177 @@
+{
+  "P001": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.77,
+      "probabilities": {
+        "event_does_not_occur": 0.12,
+        "event_occurs": 0.88
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.92,
+      "probabilities": {
+        "event_does_not_occur": 0.04,
+        "event_occurs": 0.96
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.68,
+      "probabilities": {
+        "event_does_not_occur": 0.16,
+        "event_occurs": 0.84
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.55
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.35
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_1",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_4": 0.0,
+        "answer_3": 0.0,
+        "answer_2": 0.0,
+        "answer_1": 1.0
+      }
+    }
+  },
+  "P002": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.68,
+      "probabilities": {
+        "event_occurs": 0.84,
+        "event_does_not_occur": 0.16
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.89,
+      "probabilities": {
+        "event_occurs": 0.95,
+        "event_does_not_occur": 0.05
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.54,
+      "probabilities": {
+        "event_occurs": 0.77,
+        "event_does_not_occur": 0.23
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.42
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.43
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_2",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_4": 0.0,
+        "answer_1": 0.0,
+        "answer_3": 0.0,
+        "answer_2": 1.0
+      }
+    }
+  },
+  "P003": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.07,
+      "probabilities": {
+        "event_does_not_occur": 0.54,
+        "event_occurs": 0.46
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.12,
+      "probabilities": {
+        "event_does_not_occur": 0.44,
+        "event_occurs": 0.56
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.15,
+      "probabilities": {
+        "event_does_not_occur": 0.57,
+        "event_occurs": 0.43
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.2
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.69
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_1",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_2": 0.0,
+        "answer_3": 0.0,
+        "answer_4": 0.0,
+        "answer_1": 1.0
+      }
+    }
+  },
+  "P004": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.81,
+      "probabilities": {
+        "event_does_not_occur": 0.09,
+        "event_occurs": 0.91
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.93,
+      "probabilities": {
+        "event_does_not_occur": 0.04,
+        "event_occurs": 0.96
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.74,
+      "probabilities": {
+        "event_does_not_occur": 0.13,
+        "event_occurs": 0.87
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.45
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.42
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_3",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_4": 0.0,
+        "answer_3": 1.0,
+        "answer_1": 0.0,
+        "answer_2": 0.0
+      }
+    }
+  },
+  "P005": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.55,
+      "probabilities": {
+        "event_occurs": 0.23,
+        "event_does_not_occur": 0.77
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.24,
+      "probabilities": {
+        "event_occurs": 0.38,
+        "event_does_not_occur": 0.62
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.61,
+      "probabilities": {
+        "event_occurs": 0.19,
+        "event_does_not_occur": 0.81
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.13
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.8
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_4",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_3": 0.0,
+        "answer_2": 0.0,
+        "answer_4": 1.0,
+        "answer_1": 0.0
+      }
+    }
+  },
+  "P006": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.58,
+      "probabilities": {
+        "event_occurs": 0.79,
+        "event_does_not_occur": 0.21
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.68,
+      "probabilities": {
+        "event_occurs": 0.84,
+        "event_does_not_occur": 0.16
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.48,
+      "probabilities": {
+        "event_occurs": 0.74,
+        "event_does_not_occur": 0.26
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.31
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.55
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_2",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_1": 0.0,
+        "answer_2": 1.0,
+        "answer_3": 0.0,
+        "answer_4": 0.0
+      }
+    }
+  },
+  "P007": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.29,
+      "probabilities": {
+        "event_does_not_occur": 0.36,
+        "event_occurs": 0.64
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.63,
+      "probabilities": {
+        "event_does_not_occur": 0.19,
+        "event_occurs": 0.81
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.25,
+      "probabilities": {
+        "event_does_not_occur": 0.37,
+        "event_occurs": 0.63
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.25
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.56
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_3",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_3": 1.0,
+        "answer_4": 0.0,
+        "answer_2": 0.0,
+        "answer_1": 0.0
+      }
+    }
+  },
+  "P008": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.62,
+      "probabilities": {
+        "event_does_not_occur": 0.19,
+        "event_occurs": 0.81
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.83,
+      "probabilities": {
+        "event_does_not_occur": 0.09,
+        "event_occurs": 0.91
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.51,
+      "probabilities": {
+        "event_does_not_occur": 0.25,
+        "event_occurs": 0.75
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.33
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.51
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_2",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_4": 0.0,
+        "answer_3": 0.0,
+        "answer_1": 0.0,
+        "answer_2": 1.0
+      }
+    }
+  },
+  "P009": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.46,
+      "probabilities": {
+        "event_occurs": 0.27,
+        "event_does_not_occur": 0.73
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.24,
+      "probabilities": {
+        "event_occurs": 0.38,
+        "event_does_not_occur": 0.62
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.52,
+      "probabilities": {
+        "event_occurs": 0.24,
+        "event_does_not_occur": 0.76
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.09
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.87
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_2",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_1": 0.0,
+        "answer_2": 1.0,
+        "answer_4": 0.0,
+        "answer_3": 0.0
+      }
+    }
+  },
+  "P010": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.08,
+      "probabilities": {
+        "event_does_not_occur": 0.46,
+        "event_occurs": 0.54
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.45,
+      "probabilities": {
+        "event_does_not_occur": 0.27,
+        "event_occurs": 0.73
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.0,
+      "probabilities": {
+        "event_does_not_occur": 0.5,
+        "event_occurs": 0.5
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.23
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.66
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_4",
+      "confidence": 0.99,
+      "probabilities": {
+        "answer_1": 0.0,
+        "answer_3": 0.0,
+        "answer_2": 0.0,
+        "answer_4": 1.0
+      }
+    }
+  },
+  "P011": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.16,
+      "probabilities": {
+        "event_occurs": 0.58,
+        "event_does_not_occur": 0.42
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.6,
+      "probabilities": {
+        "event_occurs": 0.8,
+        "event_does_not_occur": 0.2
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.25,
+      "probabilities": {
+        "event_occurs": 0.63,
+        "event_does_not_occur": 0.37
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.21
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.65
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_2",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_4": 0.0,
+        "answer_3": 0.0,
+        "answer_1": 0.0,
+        "answer_2": 1.0
+      }
+    }
+  },
+  "P012": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.87,
+      "probabilities": {
+        "event_occurs": 0.06,
+        "event_does_not_occur": 0.94
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.74,
+      "probabilities": {
+        "event_occurs": 0.13,
+        "event_does_not_occur": 0.87
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.87,
+      "probabilities": {
+        "event_occurs": 0.06,
+        "event_does_not_occur": 0.94
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.03
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_3",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_4": 0.0,
+        "answer_3": 1.0,
+        "answer_2": 0.0,
+        "answer_1": 0.0
+      }
+    }
+  },
+  "P013": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.15,
+      "probabilities": {
+        "event_does_not_occur": 0.43,
+        "event_occurs": 0.57
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.64,
+      "probabilities": {
+        "event_does_not_occur": 0.18,
+        "event_occurs": 0.82
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.06,
+      "probabilities": {
+        "event_does_not_occur": 0.53,
+        "event_occurs": 0.47
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.16
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.83
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_3",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_1": 0.0,
+        "answer_4": 0.0,
+        "answer_3": 1.0,
+        "answer_2": 0.0
+      }
+    }
+  },
+  "P014": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.75,
+      "probabilities": {
+        "event_occurs": 0.88,
+        "event_does_not_occur": 0.12
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.96,
+      "probabilities": {
+        "event_occurs": 0.98,
+        "event_does_not_occur": 0.02
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.66,
+      "probabilities": {
+        "event_occurs": 0.83,
+        "event_does_not_occur": 0.17
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.8
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.17
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_2",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_2": 1.0,
+        "answer_4": 0.0,
+        "answer_3": 0.0,
+        "answer_1": 0.0
+      }
+    }
+  },
+  "P015": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.79,
+      "probabilities": {
+        "event_occurs": 0.11,
+        "event_does_not_occur": 0.89
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.52,
+      "probabilities": {
+        "event_occurs": 0.24,
+        "event_does_not_occur": 0.76
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.79,
+      "probabilities": {
+        "event_does_not_occur": 0.89,
+        "event_occurs": 0.11
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.07
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.89
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_4",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_2": 0.0,
+        "answer_4": 1.0,
+        "answer_1": 0.0,
+        "answer_3": 0.0
+      }
+    }
+  },
+  "P016": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.43,
+      "probabilities": {
+        "event_does_not_occur": 0.28,
+        "event_occurs": 0.72
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.57,
+      "probabilities": {
+        "event_does_not_occur": 0.21,
+        "event_occurs": 0.79
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.37,
+      "probabilities": {
+        "event_does_not_occur": 0.32,
+        "event_occurs": 0.68
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.36
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.39
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_4",
+      "confidence": 0.99,
+      "probabilities": {
+        "answer_2": 0.0,
+        "answer_3": 0.0,
+        "answer_4": 1.0,
+        "answer_1": 0.0
+      }
+    }
+  },
+  "P017": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.49,
+      "probabilities": {
+        "event_does_not_occur": 0.26,
+        "event_occurs": 0.74
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.28,
+      "probabilities": {
+        "event_does_not_occur": 0.36,
+        "event_occurs": 0.64
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.38,
+      "probabilities": {
+        "event_does_not_occur": 0.31,
+        "event_occurs": 0.69
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.48
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.51
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_1",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_2": 0.0,
+        "answer_4": 0.0,
+        "answer_3": 0.0,
+        "answer_1": 1.0
+      }
+    }
+  },
+  "P018": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.07,
+      "probabilities": {
+        "event_occurs": 0.53,
+        "event_does_not_occur": 0.47
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.42,
+      "probabilities": {
+        "event_occurs": 0.71,
+        "event_does_not_occur": 0.29
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.16,
+      "probabilities": {
+        "event_occurs": 0.58,
+        "event_does_not_occur": 0.42
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.28
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.47
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_3",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_1": 0.0,
+        "answer_4": 0.0,
+        "answer_2": 0.0,
+        "answer_3": 1.0
+      }
+    }
+  },
+  "P019": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.86,
+      "probabilities": {
+        "event_does_not_occur": 0.93,
+        "event_occurs": 0.07
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.69,
+      "probabilities": {
+        "event_does_not_occur": 0.84,
+        "event_occurs": 0.16
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.88,
+      "probabilities": {
+        "event_does_not_occur": 0.94,
+        "event_occurs": 0.06
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.05
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.93
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_1",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_4": 0.0,
+        "answer_2": 0.0,
+        "answer_3": 0.0,
+        "answer_1": 1.0
+      }
+    }
+  },
+  "P020": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.01,
+      "probabilities": {
+        "event_occurs": 0.49,
+        "event_does_not_occur": 0.51
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.49,
+      "probabilities": {
+        "event_occurs": 0.74,
+        "event_does_not_occur": 0.26
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.08,
+      "probabilities": {
+        "event_occurs": 0.54,
+        "event_does_not_occur": 0.46
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.2
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.66
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_4",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_4": 1.0,
+        "answer_3": 0.0,
+        "answer_1": 0.0,
+        "answer_2": 0.0
+      }
+    }
+  },
+  "P021": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.59,
+      "probabilities": {
+        "event_occurs": 0.2,
+        "event_does_not_occur": 0.8
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.83,
+      "probabilities": {
+        "event_occurs": 0.09,
+        "event_does_not_occur": 0.91
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.68,
+      "probabilities": {
+        "event_occurs": 0.16,
+        "event_does_not_occur": 0.84
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.17
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.77
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_4",
+      "confidence": 0.97,
+      "probabilities": {
+        "answer_3": 0.0,
+        "answer_1": 0.02,
+        "answer_4": 0.98,
+        "answer_2": 0.0
+      }
+    }
+  },
+  "P022": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.71,
+      "probabilities": {
+        "event_does_not_occur": 0.85,
+        "event_occurs": 0.15
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.25,
+      "probabilities": {
+        "event_does_not_occur": 0.62,
+        "event_occurs": 0.38
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.66,
+      "probabilities": {
+        "event_does_not_occur": 0.83,
+        "event_occurs": 0.17
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.17
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.79
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_2",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_1": 0.0,
+        "answer_4": 0.0,
+        "answer_3": 0.0,
+        "answer_2": 1.0
+      }
+    }
+  },
+  "P023": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.18,
+      "probabilities": {
+        "event_does_not_occur": 0.59,
+        "event_occurs": 0.41
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.01,
+      "probabilities": {
+        "event_does_not_occur": 0.49,
+        "event_occurs": 0.51
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.21,
+      "probabilities": {
+        "event_does_not_occur": 0.6,
+        "event_occurs": 0.4
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.2
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.74
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_1",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_4": 0.0,
+        "answer_3": 0.0,
+        "answer_1": 1.0,
+        "answer_2": 0.0
+      }
+    }
+  },
+  "P024": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.94,
+      "probabilities": {
+        "event_does_not_occur": 0.03,
+        "event_occurs": 0.97
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.97,
+      "probabilities": {
+        "event_does_not_occur": 0.01,
+        "event_occurs": 0.99
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.89,
+      "probabilities": {
+        "event_does_not_occur": 0.06,
+        "event_occurs": 0.94
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.55
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.32
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_3",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_3": 1.0,
+        "answer_1": 0.0,
+        "answer_2": 0.0,
+        "answer_4": 0.0
+      }
+    }
+  },
+  "P025": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.22,
+      "probabilities": {
+        "event_does_not_occur": 0.39,
+        "event_occurs": 0.61
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.52,
+      "probabilities": {
+        "event_does_not_occur": 0.24,
+        "event_occurs": 0.76
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.38,
+      "probabilities": {
+        "event_does_not_occur": 0.31,
+        "event_occurs": 0.69
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.38
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.49
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_1",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_3": 0.0,
+        "answer_4": 0.0,
+        "answer_2": 0.0,
+        "answer_1": 1.0
+      }
+    }
+  },
+  "P026": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.52,
+      "probabilities": {
+        "event_does_not_occur": 0.76,
+        "event_occurs": 0.24
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.4,
+      "probabilities": {
+        "event_does_not_occur": 0.7,
+        "event_occurs": 0.3
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.5,
+      "probabilities": {
+        "event_does_not_occur": 0.75,
+        "event_occurs": 0.25
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.21
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.69
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_3",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_2": 0.0,
+        "answer_1": 0.0,
+        "answer_3": 1.0,
+        "answer_4": 0.0
+      }
+    }
+  },
+  "P027": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.98,
+      "probabilities": {
+        "event_occurs": 0.01,
+        "event_does_not_occur": 0.99
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.95,
+      "probabilities": {
+        "event_occurs": 0.02,
+        "event_does_not_occur": 0.98
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.99,
+      "probabilities": {
+        "event_occurs": 0.01,
+        "event_does_not_occur": 0.99
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.02
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.98
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_2",
+      "confidence": 0.99,
+      "probabilities": {
+        "answer_2": 0.99,
+        "answer_4": 0.01,
+        "answer_1": 0.0,
+        "answer_3": 0.0
+      }
+    }
+  },
+  "P028": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 1.0,
+      "probabilities": {
+        "event_does_not_occur": 0.0,
+        "event_occurs": 1.0
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 1.0,
+      "probabilities": {
+        "event_does_not_occur": 0.0,
+        "event_occurs": 1.0
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 1.0,
+      "probabilities": {
+        "event_does_not_occur": 0.0,
+        "event_occurs": 1.0
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.99
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.01
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_2",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_1": 0.0,
+        "answer_4": 0.0,
+        "answer_2": 1.0,
+        "answer_3": 0.0
+      }
+    }
+  },
+  "P029": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.38,
+      "probabilities": {
+        "event_occurs": 0.69,
+        "event_does_not_occur": 0.31
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.79,
+      "probabilities": {
+        "event_occurs": 0.89,
+        "event_does_not_occur": 0.11
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.42,
+      "probabilities": {
+        "event_occurs": 0.71,
+        "event_does_not_occur": 0.29
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.23
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.74
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_1",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_4": 0.0,
+        "answer_1": 1.0,
+        "answer_3": 0.0,
+        "answer_2": 0.0
+      }
+    }
+  },
+  "P030": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.86,
+      "probabilities": {
+        "event_occurs": 0.93,
+        "event_does_not_occur": 0.07
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.93,
+      "probabilities": {
+        "event_occurs": 0.96,
+        "event_does_not_occur": 0.04
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.8,
+      "probabilities": {
+        "event_occurs": 0.9,
+        "event_does_not_occur": 0.1
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.49
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.42
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_4",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_2": 0.0,
+        "answer_4": 1.0,
+        "answer_1": 0.0,
+        "answer_3": 0.0
+      }
+    }
+  },
+  "P031": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.39,
+      "probabilities": {
+        "event_does_not_occur": 0.7,
+        "event_occurs": 0.3
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.12,
+      "probabilities": {
+        "event_does_not_occur": 0.44,
+        "event_occurs": 0.56
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.43,
+      "probabilities": {
+        "event_does_not_occur": 0.72,
+        "event_occurs": 0.28
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.11
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.87
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_2",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_2": 1.0,
+        "answer_3": 0.0,
+        "answer_4": 0.0,
+        "answer_1": 0.0
+      }
+    }
+  },
+  "P032": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.15,
+      "probabilities": {
+        "event_does_not_occur": 0.58,
+        "event_occurs": 0.42
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.13,
+      "probabilities": {
+        "event_does_not_occur": 0.43,
+        "event_occurs": 0.57
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.1,
+      "probabilities": {
+        "event_does_not_occur": 0.55,
+        "event_occurs": 0.45
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.18
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.78
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_3",
+      "confidence": 0.98,
+      "probabilities": {
+        "answer_2": 0.0,
+        "answer_3": 0.99,
+        "answer_4": 0.01,
+        "answer_1": 0.0
+      }
+    }
+  },
+  "P033": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.68,
+      "probabilities": {
+        "event_does_not_occur": 0.84,
+        "event_occurs": 0.16
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.22,
+      "probabilities": {
+        "event_does_not_occur": 0.61,
+        "event_occurs": 0.39
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.6,
+      "probabilities": {
+        "event_does_not_occur": 0.8,
+        "event_occurs": 0.2
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.08
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.92
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_4",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_3": 0.0,
+        "answer_4": 1.0,
+        "answer_1": 0.0,
+        "answer_2": 0.0
+      }
+    }
+  },
+  "P034": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.65,
+      "probabilities": {
+        "event_does_not_occur": 0.17,
+        "event_occurs": 0.83
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.91,
+      "probabilities": {
+        "event_does_not_occur": 0.04,
+        "event_occurs": 0.96
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.66,
+      "probabilities": {
+        "event_does_not_occur": 0.17,
+        "event_occurs": 0.83
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.3
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.62
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_3",
+      "confidence": 0.99,
+      "probabilities": {
+        "answer_2": 0.01,
+        "answer_3": 0.99,
+        "answer_4": 0.0,
+        "answer_1": 0.0
+      }
+    }
+  },
+  "P035": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.74,
+      "probabilities": {
+        "event_occurs": 0.13,
+        "event_does_not_occur": 0.87
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.24,
+      "probabilities": {
+        "event_occurs": 0.38,
+        "event_does_not_occur": 0.62
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.79,
+      "probabilities": {
+        "event_does_not_occur": 0.89,
+        "event_occurs": 0.11
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.05
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.93
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_2",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_2": 1.0,
+        "answer_4": 0.0,
+        "answer_1": 0.0,
+        "answer_3": 0.0
+      }
+    }
+  },
+  "P036": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.81,
+      "probabilities": {
+        "event_does_not_occur": 0.1,
+        "event_occurs": 0.9
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.79,
+      "probabilities": {
+        "event_does_not_occur": 0.1,
+        "event_occurs": 0.9
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.73,
+      "probabilities": {
+        "event_does_not_occur": 0.13,
+        "event_occurs": 0.87
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.67
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.24
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_2",
+      "confidence": 0.97,
+      "probabilities": {
+        "answer_2": 0.98,
+        "answer_3": 0.02,
+        "answer_4": 0.0,
+        "answer_1": 0.0
+      }
+    }
+  },
+  "P037": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.19,
+      "probabilities": {
+        "event_does_not_occur": 0.6,
+        "event_occurs": 0.4
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.15,
+      "probabilities": {
+        "event_does_not_occur": 0.43,
+        "event_occurs": 0.57
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.33,
+      "probabilities": {
+        "event_does_not_occur": 0.66,
+        "event_occurs": 0.34
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.14
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.86
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_1",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_2": 0.0,
+        "answer_3": 0.0,
+        "answer_4": 0.0,
+        "answer_1": 1.0
+      }
+    }
+  },
+  "P038": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.85,
+      "probabilities": {
+        "event_does_not_occur": 0.07,
+        "event_occurs": 0.93
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.91,
+      "probabilities": {
+        "event_does_not_occur": 0.05,
+        "event_occurs": 0.95
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.78,
+      "probabilities": {
+        "event_does_not_occur": 0.11,
+        "event_occurs": 0.89
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.74
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.17
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_3",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_3": 1.0,
+        "answer_4": 0.0,
+        "answer_1": 0.0,
+        "answer_2": 0.0
+      }
+    }
+  },
+  "P039": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.78,
+      "probabilities": {
+        "event_occurs": 0.11,
+        "event_does_not_occur": 0.89
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.78,
+      "probabilities": {
+        "event_occurs": 0.11,
+        "event_does_not_occur": 0.89
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.85,
+      "probabilities": {
+        "event_occurs": 0.07,
+        "event_does_not_occur": 0.93
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.07
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.86
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_2",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_2": 1.0,
+        "answer_3": 0.0,
+        "answer_4": 0.0,
+        "answer_1": 0.0
+      }
+    }
+  },
+  "P040": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.61,
+      "probabilities": {
+        "event_occurs": 0.19,
+        "event_does_not_occur": 0.81
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.59,
+      "probabilities": {
+        "event_occurs": 0.21,
+        "event_does_not_occur": 0.79
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.64,
+      "probabilities": {
+        "event_occurs": 0.18,
+        "event_does_not_occur": 0.82
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.1
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.75
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_2",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_3": 0.0,
+        "answer_1": 0.0,
+        "answer_4": 0.0,
+        "answer_2": 1.0
+      }
+    }
+  },
+  "P041": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.77,
+      "probabilities": {
+        "event_does_not_occur": 0.12,
+        "event_occurs": 0.88
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.89,
+      "probabilities": {
+        "event_does_not_occur": 0.06,
+        "event_occurs": 0.94
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.69,
+      "probabilities": {
+        "event_does_not_occur": 0.16,
+        "event_occurs": 0.84
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.49
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.29
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_2",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_1": 0.0,
+        "answer_2": 1.0,
+        "answer_4": 0.0,
+        "answer_3": 0.0
+      }
+    }
+  },
+  "P042": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.75,
+      "probabilities": {
+        "event_does_not_occur": 0.13,
+        "event_occurs": 0.87
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.89,
+      "probabilities": {
+        "event_does_not_occur": 0.06,
+        "event_occurs": 0.94
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.67,
+      "probabilities": {
+        "event_does_not_occur": 0.17,
+        "event_occurs": 0.83
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.47
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.32
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_1",
+      "confidence": 0.99,
+      "probabilities": {
+        "answer_2": 0.0,
+        "answer_4": 0.0,
+        "answer_3": 0.0,
+        "answer_1": 1.0
+      }
+    }
+  },
+  "P043": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.79,
+      "probabilities": {
+        "event_does_not_occur": 0.1,
+        "event_occurs": 0.9
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.83,
+      "probabilities": {
+        "event_does_not_occur": 0.08,
+        "event_occurs": 0.92
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.79,
+      "probabilities": {
+        "event_does_not_occur": 0.1,
+        "event_occurs": 0.9
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.69
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.29
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_4",
+      "confidence": 0.64,
+      "probabilities": {
+        "answer_4": 0.74,
+        "answer_2": 0.09,
+        "answer_3": 0.17,
+        "answer_1": 0.0
+      }
+    }
+  },
+  "P044": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.62,
+      "probabilities": {
+        "event_occurs": 0.81,
+        "event_does_not_occur": 0.19
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.65,
+      "probabilities": {
+        "event_occurs": 0.83,
+        "event_does_not_occur": 0.17
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.55,
+      "probabilities": {
+        "event_occurs": 0.77,
+        "event_does_not_occur": 0.23
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.47
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.33
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_3",
+      "confidence": 0.98,
+      "probabilities": {
+        "answer_3": 0.99,
+        "answer_2": 0.01,
+        "answer_4": 0.0,
+        "answer_1": 0.0
+      }
+    }
+  },
+  "P045": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 1.0,
+      "probabilities": {
+        "event_occurs": 0.0,
+        "event_does_not_occur": 1.0
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.99,
+      "probabilities": {
+        "event_occurs": 0.0,
+        "event_does_not_occur": 1.0
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 1.0,
+      "probabilities": {
+        "event_occurs": 0.0,
+        "event_does_not_occur": 1.0
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.01
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.98
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_2",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_2": 1.0,
+        "answer_1": 0.0,
+        "answer_3": 0.0,
+        "answer_4": 0.0
+      }
+    }
+  },
+  "P046": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 1.0,
+      "probabilities": {
+        "event_occurs": 1.0,
+        "event_does_not_occur": 0.0
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.99,
+      "probabilities": {
+        "event_occurs": 1.0,
+        "event_does_not_occur": 0.0
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 1.0,
+      "probabilities": {
+        "event_does_not_occur": 0.0,
+        "event_occurs": 1.0
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.99
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.02
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_4",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_2": 0.0,
+        "answer_4": 1.0,
+        "answer_1": 0.0,
+        "answer_3": 0.0
+      }
+    }
+  },
+  "P047": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.9,
+      "probabilities": {
+        "event_occurs": 0.95,
+        "event_does_not_occur": 0.05
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.95,
+      "probabilities": {
+        "event_occurs": 0.97,
+        "event_does_not_occur": 0.03
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.8,
+      "probabilities": {
+        "event_occurs": 0.9,
+        "event_does_not_occur": 0.1
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.51
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.45
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_4",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_1": 0.0,
+        "answer_4": 1.0,
+        "answer_3": 0.0,
+        "answer_2": 0.0
+      }
+    }
+  },
+  "P048": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.76,
+      "probabilities": {
+        "event_does_not_occur": 0.88,
+        "event_occurs": 0.12
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.19,
+      "probabilities": {
+        "event_does_not_occur": 0.59,
+        "event_occurs": 0.41
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.79,
+      "probabilities": {
+        "event_does_not_occur": 0.89,
+        "event_occurs": 0.11
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.06
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_4",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_3": 0.0,
+        "answer_2": 0.0,
+        "answer_1": 0.0,
+        "answer_4": 1.0
+      }
+    }
+  },
+  "P049": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.96,
+      "probabilities": {
+        "event_does_not_occur": 0.02,
+        "event_occurs": 0.98
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.99,
+      "probabilities": {
+        "event_does_not_occur": 0.01,
+        "event_occurs": 0.99
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.92,
+      "probabilities": {
+        "event_does_not_occur": 0.04,
+        "event_occurs": 0.96
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.05
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_1",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_3": 0.0,
+        "answer_4": 0.0,
+        "answer_1": 1.0,
+        "answer_2": 0.0
+      }
+    }
+  },
+  "P050": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.13,
+      "probabilities": {
+        "event_does_not_occur": 0.57,
+        "event_occurs": 0.43
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.52,
+      "probabilities": {
+        "event_does_not_occur": 0.76,
+        "event_occurs": 0.24
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.32,
+      "probabilities": {
+        "event_does_not_occur": 0.66,
+        "event_occurs": 0.34
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.17
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.8
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_2",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_4": 0.0,
+        "answer_3": 0.0,
+        "answer_1": 0.0,
+        "answer_2": 1.0
+      }
+    }
+  },
+  "P051": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.66,
+      "probabilities": {
+        "event_occurs": 0.83,
+        "event_does_not_occur": 0.17
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.66,
+      "probabilities": {
+        "event_occurs": 0.83,
+        "event_does_not_occur": 0.17
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.6,
+      "probabilities": {
+        "event_occurs": 0.8,
+        "event_does_not_occur": 0.2
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.27
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.7
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_2",
+      "confidence": 0.79,
+      "probabilities": {
+        "answer_4": 0.0,
+        "answer_1": 0.0,
+        "answer_3": 0.16,
+        "answer_2": 0.84
+      }
+    }
+  },
+  "P052": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.39,
+      "probabilities": {
+        "event_occurs": 0.7,
+        "event_does_not_occur": 0.3
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.05,
+      "probabilities": {
+        "event_occurs": 0.48,
+        "event_does_not_occur": 0.52
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.44,
+      "probabilities": {
+        "event_occurs": 0.72,
+        "event_does_not_occur": 0.28
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.35
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.64
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_1",
+      "confidence": 0.93,
+      "probabilities": {
+        "answer_4": 0.05,
+        "answer_3": 0.0,
+        "answer_2": 0.0,
+        "answer_1": 0.95
+      }
+    }
+  },
+  "P053": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.4,
+      "probabilities": {
+        "event_does_not_occur": 0.7,
+        "event_occurs": 0.3
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.3,
+      "probabilities": {
+        "event_does_not_occur": 0.65,
+        "event_occurs": 0.35
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.23,
+      "probabilities": {
+        "event_does_not_occur": 0.62,
+        "event_occurs": 0.38
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.23
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.72
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_4",
+      "confidence": 0.54,
+      "probabilities": {
+        "answer_3": 0.32,
+        "answer_4": 0.65,
+        "answer_1": 0.02,
+        "answer_2": 0.01
+      }
+    }
+  },
+  "P054": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.97,
+      "probabilities": {
+        "event_occurs": 0.98,
+        "event_does_not_occur": 0.02
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.93,
+      "probabilities": {
+        "event_occurs": 0.96,
+        "event_does_not_occur": 0.04
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.97,
+      "probabilities": {
+        "event_occurs": 0.98,
+        "event_does_not_occur": 0.02
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.86
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.15
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_3",
+      "confidence": 0.76,
+      "probabilities": {
+        "answer_1": 0.02,
+        "answer_3": 0.82,
+        "answer_4": 0.0,
+        "answer_2": 0.16
+      }
+    }
+  },
+  "P055": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.42,
+      "probabilities": {
+        "event_occurs": 0.29,
+        "event_does_not_occur": 0.71
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.29,
+      "probabilities": {
+        "event_occurs": 0.35,
+        "event_does_not_occur": 0.65
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.27,
+      "probabilities": {
+        "event_occurs": 0.36,
+        "event_does_not_occur": 0.64
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.26
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.75
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_4",
+      "confidence": 0.56,
+      "probabilities": {
+        "answer_3": 0.03,
+        "answer_2": 0.08,
+        "answer_4": 0.67,
+        "answer_1": 0.22
+      }
+    }
+  },
+  "P056": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.11,
+      "probabilities": {
+        "event_does_not_occur": 0.56,
+        "event_occurs": 0.44
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.08,
+      "probabilities": {
+        "event_does_not_occur": 0.54,
+        "event_occurs": 0.46
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.02,
+      "probabilities": {
+        "event_does_not_occur": 0.51,
+        "event_occurs": 0.49
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.28
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.67
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_4",
+      "confidence": 0.7,
+      "probabilities": {
+        "answer_3": 0.0,
+        "answer_2": 0.22,
+        "answer_4": 0.78,
+        "answer_1": 0.0
+      }
+    }
+  },
+  "P057": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.17,
+      "probabilities": {
+        "event_does_not_occur": 0.58,
+        "event_occurs": 0.42
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.22,
+      "probabilities": {
+        "event_does_not_occur": 0.39,
+        "event_occurs": 0.61
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.13,
+      "probabilities": {
+        "event_does_not_occur": 0.56,
+        "event_occurs": 0.44
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.25
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.61
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_4",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_4": 1.0,
+        "answer_3": 0.0,
+        "answer_1": 0.0,
+        "answer_2": 0.0
+      }
+    }
+  },
+  "P058": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.66,
+      "probabilities": {
+        "event_does_not_occur": 0.17,
+        "event_occurs": 0.83
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.78,
+      "probabilities": {
+        "event_does_not_occur": 0.11,
+        "event_occurs": 0.89
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.49,
+      "probabilities": {
+        "event_does_not_occur": 0.25,
+        "event_occurs": 0.75
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.45
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.48
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_4",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_4": 1.0,
+        "answer_2": 0.0,
+        "answer_3": 0.0,
+        "answer_1": 0.0
+      }
+    }
+  },
+  "P059": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.51,
+      "probabilities": {
+        "event_does_not_occur": 0.76,
+        "event_occurs": 0.24
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.24,
+      "probabilities": {
+        "event_does_not_occur": 0.62,
+        "event_occurs": 0.38
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.56,
+      "probabilities": {
+        "event_does_not_occur": 0.78,
+        "event_occurs": 0.22
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.15
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.81
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_4",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_2": 0.0,
+        "answer_3": 0.0,
+        "answer_4": 1.0,
+        "answer_1": 0.0
+      }
+    }
+  },
+  "P060": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.08,
+      "probabilities": {
+        "event_does_not_occur": 0.46,
+        "event_occurs": 0.54
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.1,
+      "probabilities": {
+        "event_does_not_occur": 0.55,
+        "event_occurs": 0.45
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_occurs",
+      "confidence": 0.12,
+      "probabilities": {
+        "event_does_not_occur": 0.44,
+        "event_occurs": 0.56
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.46
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.49
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_2",
+      "confidence": 0.99,
+      "probabilities": {
+        "answer_3": 0.0,
+        "answer_4": 0.0,
+        "answer_1": 0.0,
+        "answer_2": 1.0
+      }
+    }
+  },
+  "P061": {
+    "plain": {
+      "type": "choice",
+      "choice": "heads",
+      "confidence": 0.89,
+      "probabilities": {
+        "heads": 0.94,
+        "tails": 0.06
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "heads",
+      "confidence": 0.94,
+      "probabilities": {
+        "heads": 0.97,
+        "tails": 0.03
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "heads",
+      "confidence": 0.86,
+      "probabilities": {
+        "heads": 0.93,
+        "tails": 0.07
+      }
+    }
+  },
+  "P062": {
+    "plain": {
+      "type": "choice",
+      "choice": "face_1",
+      "confidence": 0.72,
+      "probabilities": {
+        "face_2": 0.02,
+        "face_1": 0.78,
+        "face_4": 0.06,
+        "face_3": 0.09,
+        "face_6": 0.04,
+        "face_5": 0.01
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "face_1",
+      "confidence": 0.84,
+      "probabilities": {
+        "face_2": 0.01,
+        "face_1": 0.87,
+        "face_4": 0.04,
+        "face_3": 0.06,
+        "face_6": 0.02,
+        "face_5": 0.0
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "face_1",
+      "confidence": 0.73,
+      "probabilities": {
+        "face_2": 0.02,
+        "face_1": 0.77,
+        "face_4": 0.04,
+        "face_3": 0.11,
+        "face_6": 0.04,
+        "face_5": 0.02
+      }
+    }
+  },
+  "P063": {
+    "plain": {
+      "type": "choice",
+      "choice": "hearts",
+      "confidence": 0.54,
+      "probabilities": {
+        "hearts": 0.65,
+        "spades": 0.2,
+        "diamonds": 0.06,
+        "clubs": 0.09
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "hearts",
+      "confidence": 0.76,
+      "probabilities": {
+        "hearts": 0.82,
+        "spades": 0.11,
+        "diamonds": 0.04,
+        "clubs": 0.03
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "spades",
+      "confidence": 0.41,
+      "probabilities": {
+        "hearts": 0.28,
+        "spades": 0.56,
+        "diamonds": 0.07,
+        "clubs": 0.09
+      }
+    }
+  },
+  "P064": {
+    "plain": {
+      "type": "choice",
+      "choice": "heads_1",
+      "confidence": 0.94,
+      "probabilities": {
+        "heads_2": 0.01,
+        "heads_1": 0.96,
+        "heads_0": 0.03
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "heads_1",
+      "confidence": 0.94,
+      "probabilities": {
+        "heads_2": 0.01,
+        "heads_1": 0.96,
+        "heads_0": 0.03
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "heads_1",
+      "confidence": 0.92,
+      "probabilities": {
+        "heads_2": 0.03,
+        "heads_1": 0.95,
+        "heads_0": 0.02
+      }
+    }
+  },
+  "P065": {
+    "plain": {
+      "type": "choice",
+      "choice": "sum_7",
+      "confidence": 0.99,
+      "probabilities": {
+        "sum_5": 0.0,
+        "sum_3": 0.0,
+        "sum_9": 0.0,
+        "sum_4": 0.0,
+        "sum_8": 0.0,
+        "sum_11": 0.0,
+        "sum_2": 0.0,
+        "sum_12": 0.0,
+        "sum_10": 0.0,
+        "sum_6": 0.0,
+        "sum_7": 1.0
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "sum_7",
+      "confidence": 0.99,
+      "probabilities": {
+        "sum_5": 0.0,
+        "sum_3": 0.0,
+        "sum_11": 0.0,
+        "sum_4": 0.0,
+        "sum_8": 0.0,
+        "sum_9": 0.0,
+        "sum_2": 0.0,
+        "sum_12": 0.0,
+        "sum_10": 0.0,
+        "sum_6": 0.0,
+        "sum_7": 1.0
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "sum_7",
+      "confidence": 0.99,
+      "probabilities": {
+        "sum_5": 0.0,
+        "sum_3": 0.0,
+        "sum_9": 0.0,
+        "sum_4": 0.0,
+        "sum_8": 0.0,
+        "sum_11": 0.0,
+        "sum_7": 1.0,
+        "sum_12": 0.0,
+        "sum_10": 0.0,
+        "sum_6": 0.0,
+        "sum_2": 0.0
+      }
+    }
+  },
+  "P066": {
+    "plain": {
+      "type": "choice",
+      "choice": "green",
+      "confidence": 0.99,
+      "probabilities": {
+        "red": 0.0,
+        "green": 1.0,
+        "blue": 0.0
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "green",
+      "confidence": 0.97,
+      "probabilities": {
+        "red": 0.02,
+        "green": 0.98,
+        "blue": 0.0
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "green",
+      "confidence": 0.99,
+      "probabilities": {
+        "red": 0.0,
+        "green": 1.0,
+        "blue": 0.0
+      }
+    }
+  },
+  "P067": {
+    "plain": {
+      "type": "choice",
+      "choice": "red",
+      "confidence": 0.99,
+      "probabilities": {
+        "green": 0.0,
+        "red": 1.0,
+        "yellow": 0.0,
+        "blue": 0.0
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "red",
+      "confidence": 0.99,
+      "probabilities": {
+        "green": 0.0,
+        "red": 0.99,
+        "yellow": 0.0,
+        "blue": 0.01
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "red",
+      "confidence": 0.99,
+      "probabilities": {
+        "green": 0.0,
+        "red": 0.99,
+        "blue": 0.0,
+        "yellow": 0.01
+      }
+    }
+  },
+  "P068": {
+    "plain": {
+      "type": "choice",
+      "choice": "HH",
+      "confidence": 0.52,
+      "probabilities": {
+        "TH": 0.02,
+        "TT": 0.04,
+        "HH": 0.64,
+        "HT": 0.3
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "HH",
+      "confidence": 0.73,
+      "probabilities": {
+        "TH": 0.02,
+        "HH": 0.79,
+        "TT": 0.01,
+        "HT": 0.17
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "HH",
+      "confidence": 0.68,
+      "probabilities": {
+        "TH": 0.03,
+        "TT": 0.05,
+        "HH": 0.77,
+        "HT": 0.15
+      }
+    }
+  }
+}

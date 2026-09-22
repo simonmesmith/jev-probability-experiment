@@ -1,0 +1,3782 @@
+{
+  "summary": {
+    "model": "jev-1.13.0",
+    "binary": {
+      "plain": {
+        "valid": 60,
+        "total": 60,
+        "mae_pp": 21.139973281476227,
+        "rmse_pp": 26.370165152058036,
+        "signed_error_pp": 20.46219550369845,
+        "max_error_pp": 52.230769230769226,
+        "within_1pp": 6,
+        "within_5pp": 15,
+        "within_10pp": 19
+      },
+      "explicit": {
+        "valid": 60,
+        "total": 60,
+        "mae_pp": 29.406639948142892,
+        "rmse_pp": 34.9875778340294,
+        "signed_error_pp": 28.428862170365115,
+        "max_error_pp": 72.0,
+        "within_1pp": 4,
+        "within_5pp": 9,
+        "within_10pp": 13
+      },
+      "reversed": {
+        "valid": 60,
+        "total": 60,
+        "mae_pp": 20.080714022216966,
+        "rmse_pp": 24.94676866545667,
+        "signed_error_pp": 19.128862170365117,
+        "max_error_pp": 52.230769230769226,
+        "within_1pp": 10,
+        "within_5pp": 13,
+        "within_10pp": 21
+      },
+      "noul": {
+        "valid": 60,
+        "total": 60,
+        "mae_pp": 5.557970076348022,
+        "rmse_pp": 7.363777458862855,
+        "signed_error_pp": -1.871137829634884,
+        "max_error_pp": 22.33333333333333,
+        "within_1pp": 11,
+        "within_5pp": 38,
+        "within_10pp": 51
+      },
+      "complement_inverted": {
+        "valid": 60,
+        "total": 60,
+        "mae_pp": 7.747352198855145,
+        "rmse_pp": 9.669141224627285,
+        "signed_error_pp": 5.578862170365116,
+        "max_error_pp": 24.33333333333333,
+        "within_1pp": 3,
+        "within_5pp": 25,
+        "within_10pp": 46
+      }
+    },
+    "by_family": {
+      "biased_coins": {
+        "plain": {
+          "valid": 6,
+          "total": 6,
+          "mae_pp": 20.941666666666666,
+          "rmse_pp": 26.327465063440243,
+          "signed_error_pp": 20.275,
+          "max_error_pp": 47.0,
+          "within_1pp": 0,
+          "within_5pp": 2,
+          "within_10pp": 2
+        },
+        "explicit": {
+          "valid": 6,
+          "total": 6,
+          "mae_pp": 30.775,
+          "rmse_pp": 37.664998119385764,
+          "signed_error_pp": 30.775,
+          "max_error_pp": 72.0,
+          "within_1pp": 0,
+          "within_5pp": 0,
+          "within_10pp": 1
+        },
+        "reversed": {
+          "valid": 6,
+          "total": 6,
+          "mae_pp": 19.441666666666666,
+          "rmse_pp": 22.626726453466482,
+          "signed_error_pp": 17.10833333333333,
+          "max_error_pp": 37.0,
+          "within_1pp": 0,
+          "within_5pp": 1,
+          "within_10pp": 2
+        },
+        "noul": {
+          "valid": 6,
+          "total": 6,
+          "mae_pp": 5.308333333333334,
+          "rmse_pp": 6.5474231572428545,
+          "signed_error_pp": -3.0583333333333336,
+          "max_error_pp": 10.399999999999999,
+          "within_1pp": 1,
+          "within_5pp": 3,
+          "within_10pp": 5
+        },
+        "complement_inverted": {
+          "valid": 6,
+          "total": 6,
+          "mae_pp": 9.841666666666669,
+          "rmse_pp": 12.184775336459841,
+          "signed_error_pp": 6.7749999999999995,
+          "max_error_pp": 23.5,
+          "within_1pp": 0,
+          "within_5pp": 2,
+          "within_10pp": 4
+        }
+      },
+      "cards": {
+        "plain": {
+          "valid": 8,
+          "total": 8,
+          "mae_pp": 28.057692307692307,
+          "rmse_pp": 31.761896154626506,
+          "signed_error_pp": 28.057692307692307,
+          "max_error_pp": 52.230769230769226,
+          "within_1pp": 0,
+          "within_5pp": 0,
+          "within_10pp": 0
+        },
+        "explicit": {
+          "valid": 8,
+          "total": 8,
+          "mae_pp": 43.68269230769231,
+          "rmse_pp": 45.98934627078538,
+          "signed_error_pp": 43.68269230769231,
+          "max_error_pp": 65.23076923076923,
+          "within_1pp": 0,
+          "within_5pp": 0,
+          "within_10pp": 0
+        },
+        "reversed": {
+          "valid": 8,
+          "total": 8,
+          "mae_pp": 27.932692307692307,
+          "rmse_pp": 31.615185756439914,
+          "signed_error_pp": 27.932692307692307,
+          "max_error_pp": 52.230769230769226,
+          "within_1pp": 0,
+          "within_5pp": 0,
+          "within_10pp": 1
+        },
+        "noul": {
+          "valid": 8,
+          "total": 8,
+          "mae_pp": 2.7019230769230766,
+          "rmse_pp": 3.0415028596025375,
+          "signed_error_pp": -0.06730769230769221,
+          "max_error_pp": 5.076923076923078,
+          "within_1pp": 2,
+          "within_5pp": 7,
+          "within_10pp": 8
+        },
+        "complement_inverted": {
+          "valid": 8,
+          "total": 8,
+          "mae_pp": 4.8269230769230775,
+          "rmse_pp": 5.425258699146312,
+          "signed_error_pp": 4.557692307692307,
+          "max_error_pp": 8.000000000000007,
+          "within_1pp": 1,
+          "within_5pp": 3,
+          "within_10pp": 8
+        }
+      },
+      "coins": {
+        "plain": {
+          "valid": 12,
+          "total": 12,
+          "mae_pp": 27.556966145833332,
+          "rmse_pp": 30.420622734703162,
+          "signed_error_pp": 27.223632812500004,
+          "max_error_pp": 43.50000000000001,
+          "within_1pp": 0,
+          "within_5pp": 1,
+          "within_10pp": 2
+        },
+        "explicit": {
+          "valid": 12,
+          "total": 12,
+          "mae_pp": 38.89029947916667,
+          "rmse_pp": 41.03070929530066,
+          "signed_error_pp": 38.89029947916667,
+          "max_error_pp": 53.5,
+          "within_1pp": 0,
+          "within_5pp": 0,
+          "within_10pp": 0
+        },
+        "reversed": {
+          "valid": 12,
+          "total": 12,
+          "mae_pp": 25.223632812500004,
+          "rmse_pp": 27.532229524089374,
+          "signed_error_pp": 24.2236328125,
+          "max_error_pp": 37.5,
+          "within_1pp": 0,
+          "within_5pp": 0,
+          "within_10pp": 2
+        },
+        "noul": {
+          "valid": 12,
+          "total": 12,
+          "mae_pp": 6.822591145833333,
+          "rmse_pp": 7.376736452669206,
+          "signed_error_pp": -4.526367187499999,
+          "max_error_pp": 12.5,
+          "within_1pp": 0,
+          "within_5pp": 5,
+          "within_10pp": 10
+        },
+        "complement_inverted": {
+          "valid": 12,
+          "total": 12,
+          "mae_pp": 7.723632812500002,
+          "rmse_pp": 8.30804805999211,
+          "signed_error_pp": 6.890299479166667,
+          "max_error_pp": 15.000000000000002,
+          "within_1pp": 0,
+          "within_5pp": 2,
+          "within_10pp": 10
+        }
+      },
+      "conditional": {
+        "plain": {
+          "valid": 8,
+          "total": 8,
+          "mae_pp": 14.874019195740507,
+          "rmse_pp": 17.44834619421377,
+          "signed_error_pp": 11.707352529073841,
+          "max_error_pp": 32.99999999999999,
+          "within_1pp": 0,
+          "within_5pp": 1,
+          "within_10pp": 3
+        },
+        "explicit": {
+          "valid": 8,
+          "total": 8,
+          "mae_pp": 22.249019195740505,
+          "rmse_pp": 24.13260867761309,
+          "signed_error_pp": 16.83235252907384,
+          "max_error_pp": 39.0,
+          "within_1pp": 0,
+          "within_5pp": 0,
+          "within_10pp": 1
+        },
+        "reversed": {
+          "valid": 8,
+          "total": 8,
+          "mae_pp": 16.179574751296062,
+          "rmse_pp": 18.898386237228035,
+          "signed_error_pp": 13.457352529073841,
+          "max_error_pp": 29.666666666666668,
+          "within_1pp": 1,
+          "within_5pp": 1,
+          "within_10pp": 2
+        },
+        "noul": {
+          "valid": 8,
+          "total": 8,
+          "mae_pp": 9.955215776937088,
+          "rmse_pp": 11.73104157376308,
+          "signed_error_pp": -2.042647470926158,
+          "max_error_pp": 20.66666666666666,
+          "within_1pp": 0,
+          "within_5pp": 3,
+          "within_10pp": 5
+        },
+        "complement_inverted": {
+          "valid": 8,
+          "total": 8,
+          "mae_pp": 8.679574751296064,
+          "rmse_pp": 10.97820601990991,
+          "signed_error_pp": 2.7073525290738405,
+          "max_error_pp": 19.66666666666667,
+          "within_1pp": 0,
+          "within_5pp": 4,
+          "within_10pp": 5
+        }
+      },
+      "dice": {
+        "plain": {
+          "valid": 10,
+          "total": 10,
+          "mae_pp": 12.033333333333333,
+          "rmse_pp": 19.419126374165305,
+          "signed_error_pp": 11.5,
+          "max_error_pp": 47.0,
+          "within_1pp": 3,
+          "within_5pp": 6,
+          "within_10pp": 6
+        },
+        "explicit": {
+          "valid": 10,
+          "total": 10,
+          "mae_pp": 21.033333333333335,
+          "rmse_pp": 28.28883215495751,
+          "signed_error_pp": 19.5,
+          "max_error_pp": 57.333333333333336,
+          "within_1pp": 1,
+          "within_5pp": 3,
+          "within_10pp": 4
+        },
+        "reversed": {
+          "valid": 10,
+          "total": 10,
+          "mae_pp": 12.333333333333332,
+          "rmse_pp": 20.440216954225374,
+          "signed_error_pp": 12.2,
+          "max_error_pp": 43.99999999999999,
+          "within_1pp": 5,
+          "within_5pp": 6,
+          "within_10pp": 7
+        },
+        "noul": {
+          "valid": 10,
+          "total": 10,
+          "mae_pp": 3.2444444444444462,
+          "rmse_pp": 4.3259195839628815,
+          "signed_error_pp": -0.5999999999999993,
+          "max_error_pp": 10.555555555555557,
+          "within_1pp": 3,
+          "within_5pp": 9,
+          "within_10pp": 9
+        },
+        "complement_inverted": {
+          "valid": 10,
+          "total": 10,
+          "mae_pp": 7.31111111111111,
+          "rmse_pp": 9.219678364010452,
+          "signed_error_pp": 6.199999999999998,
+          "max_error_pp": 17.999999999999993,
+          "within_1pp": 1,
+          "within_5pp": 5,
+          "within_10pp": 8
+        }
+      },
+      "sampling": {
+        "plain": {
+          "valid": 10,
+          "total": 10,
+          "mae_pp": 18.86111111111111,
+          "rmse_pp": 24.777908569659786,
+          "signed_error_pp": 18.86111111111111,
+          "max_error_pp": 43.333333333333336,
+          "within_1pp": 2,
+          "within_5pp": 4,
+          "within_10pp": 5
+        },
+        "explicit": {
+          "valid": 10,
+          "total": 10,
+          "mae_pp": 22.66111111111111,
+          "rmse_pp": 29.658243706482118,
+          "signed_error_pp": 22.66111111111111,
+          "max_error_pp": 47.0,
+          "within_1pp": 2,
+          "within_5pp": 4,
+          "within_10pp": 4
+        },
+        "reversed": {
+          "valid": 10,
+          "total": 10,
+          "mae_pp": 16.36111111111111,
+          "rmse_pp": 22.437079374646725,
+          "signed_error_pp": 16.161111111111108,
+          "max_error_pp": 43.333333333333336,
+          "within_1pp": 4,
+          "within_5pp": 4,
+          "within_10pp": 5
+        },
+        "noul": {
+          "valid": 10,
+          "total": 10,
+          "mae_pp": 6.072222222222223,
+          "rmse_pp": 9.25264393311914,
+          "signed_error_pp": -0.33888888888889074,
+          "max_error_pp": 22.33333333333333,
+          "within_1pp": 4,
+          "within_5pp": 6,
+          "within_10pp": 8
+        },
+        "complement_inverted": {
+          "valid": 10,
+          "total": 10,
+          "mae_pp": 11.06111111111111,
+          "rmse_pp": 13.219946115950771,
+          "signed_error_pp": 9.26111111111111,
+          "max_error_pp": 24.33333333333333,
+          "within_1pp": 0,
+          "within_5pp": 3,
+          "within_10pp": 5
+        }
+      },
+      "uniform_integers": {
+        "plain": {
+          "valid": 6,
+          "total": 6,
+          "mae_pp": 26.611111111111107,
+          "rmse_pp": 31.73530572768489,
+          "signed_error_pp": 26.27777777777778,
+          "max_error_pp": 49.666666666666664,
+          "within_1pp": 1,
+          "within_5pp": 1,
+          "within_10pp": 1
+        },
+        "explicit": {
+          "valid": 6,
+          "total": 6,
+          "mae_pp": 24.777777777777775,
+          "rmse_pp": 32.546832354259855,
+          "signed_error_pp": 24.777777777777775,
+          "max_error_pp": 49.666666666666664,
+          "within_1pp": 1,
+          "within_5pp": 2,
+          "within_10pp": 3
+        },
+        "reversed": {
+          "valid": 6,
+          "total": 6,
+          "mae_pp": 24.27777777777778,
+          "rmse_pp": 29.174126030262325,
+          "signed_error_pp": 23.27777777777778,
+          "max_error_pp": 46.66666666666667,
+          "within_1pp": 0,
+          "within_5pp": 1,
+          "within_10pp": 2
+        },
+        "noul": {
+          "valid": 6,
+          "total": 6,
+          "mae_pp": 4.222222222222223,
+          "rmse_pp": 4.566382797341005,
+          "signed_error_pp": -2.222222222222223,
+          "max_error_pp": 6.3333333333333295,
+          "within_1pp": 1,
+          "within_5pp": 5,
+          "within_10pp": 6
+        },
+        "complement_inverted": {
+          "valid": 6,
+          "total": 6,
+          "mae_pp": 3.5555555555555585,
+          "rmse_pp": 3.939355089163522,
+          "signed_error_pp": -0.2222222222222217,
+          "max_error_pp": 5.000000000000005,
+          "within_1pp": 1,
+          "within_5pp": 6,
+          "within_10pp": 6
+        }
+      }
+    },
+    "by_certainty": {
+      "certain": {
+        "plain": {
+          "valid": 4,
+          "total": 4,
+          "mae_pp": 0.25,
+          "rmse_pp": 0.5,
+          "signed_error_pp": 0.25,
+          "max_error_pp": 1.0,
+          "within_1pp": 4,
+          "within_5pp": 4,
+          "within_10pp": 4
+        },
+        "explicit": {
+          "valid": 4,
+          "total": 4,
+          "mae_pp": 0.5,
+          "rmse_pp": 1.0,
+          "signed_error_pp": 0.5,
+          "max_error_pp": 2.0,
+          "within_1pp": 3,
+          "within_5pp": 4,
+          "within_10pp": 4
+        },
+        "reversed": {
+          "valid": 4,
+          "total": 4,
+          "mae_pp": 0.25,
+          "rmse_pp": 0.5,
+          "signed_error_pp": 0.25,
+          "max_error_pp": 1.0,
+          "within_1pp": 4,
+          "within_5pp": 4,
+          "within_10pp": 4
+        },
+        "noul": {
+          "valid": 4,
+          "total": 4,
+          "mae_pp": 1.2500000000000004,
+          "rmse_pp": 1.3228756555322958,
+          "signed_error_pp": 0.24999999999999958,
+          "max_error_pp": 2.0,
+          "within_1pp": 3,
+          "within_5pp": 4,
+          "within_10pp": 4
+        },
+        "complement_inverted": {
+          "valid": 4,
+          "total": 4,
+          "mae_pp": 1.7500000000000016,
+          "rmse_pp": 1.8027756377319963,
+          "signed_error_pp": 0.2500000000000002,
+          "max_error_pp": 2.0000000000000018,
+          "within_1pp": 1,
+          "within_5pp": 4,
+          "within_10pp": 4
+        }
+      },
+      "uncertain": {
+        "plain": {
+          "valid": 56,
+          "total": 56,
+          "mae_pp": 22.6321142301531,
+          "rmse_pp": 27.29538704119675,
+          "signed_error_pp": 21.905923753962625,
+          "max_error_pp": 52.230769230769226,
+          "within_1pp": 2,
+          "within_5pp": 11,
+          "within_10pp": 15
+        },
+        "explicit": {
+          "valid": 56,
+          "total": 56,
+          "mae_pp": 31.471399944438815,
+          "rmse_pp": 36.21459753073534,
+          "signed_error_pp": 30.423780896819768,
+          "max_error_pp": 72.0,
+          "within_1pp": 1,
+          "within_5pp": 5,
+          "within_10pp": 9
+        },
+        "reversed": {
+          "valid": 56,
+          "total": 56,
+          "mae_pp": 21.497193595232464,
+          "rmse_pp": 25.8220130380445,
+          "signed_error_pp": 20.477352325391195,
+          "max_error_pp": 52.230769230769226,
+          "within_1pp": 6,
+          "within_5pp": 9,
+          "within_10pp": 17
+        },
+        "noul": {
+          "valid": 56,
+          "total": 56,
+          "mae_pp": 5.865682224658595,
+          "rmse_pp": 7.614029705347745,
+          "signed_error_pp": -2.022647674608804,
+          "max_error_pp": 22.33333333333333,
+          "within_1pp": 8,
+          "within_5pp": 34,
+          "within_10pp": 47
+        },
+        "complement_inverted": {
+          "valid": 56,
+          "total": 56,
+          "mae_pp": 8.17573449877337,
+          "rmse_pp": 9.99690802315111,
+          "signed_error_pp": 5.959495182534051,
+          "max_error_pp": 24.33333333333333,
+          "within_1pp": 2,
+          "within_5pp": 21,
+          "within_10pp": 42
+        }
+      }
+    },
+    "numeric_correct": 60,
+    "numeric_total": 60,
+    "baseline_half_mae_pp": 25.583961885464834,
+    "coherence": {
+      "mean_order_difference_pp": 3.366666666666667,
+      "max_order_difference_pp": 9.999999999999998,
+      "mean_complement_sum_error_pp": 7.55,
+      "max_complement_sum_error_pp": 25.0,
+      "mean_choice_noul_gap_pp": 22.466666666666665,
+      "max_raw_choice_sum_error": 0.009999999999999898
+    },
+    "repeats": [
+      {
+        "run": "repeat-1",
+        "answered": 10,
+        "total": 10,
+        "identical_case_vectors": 0,
+        "max_component_change_pp": 9.999999999999998,
+        "mean_component_change_pp": 1.0666666666666669
+      },
+      {
+        "run": "repeat-2",
+        "answered": 10,
+        "total": 10,
+        "identical_case_vectors": 0,
+        "max_component_change_pp": 10.999999999999998,
+        "mean_component_change_pp": 1.3583333333333334
+      }
+    ],
+    "accounting": {
+      "primary-v1": {
+        "requested": 68,
+        "answered": 68,
+        "errors": [],
+        "wall_seconds": 8.474685915978625,
+        "budget_charge_cumulative": 0.0020181839999999997,
+        "api_attempts": 68,
+        "input_tokens": 48052,
+        "output_tokens": 13720,
+        "estimated_cost_usd": 0.002018184,
+        "median_request_seconds": 0.39678370900219306
+      },
+      "repeat-1": {
+        "requested": 10,
+        "answered": 10,
+        "errors": [],
+        "wall_seconds": 1.4902025840128772,
+        "budget_charge_cumulative": 0.0023162580000000003,
+        "api_attempts": 10,
+        "input_tokens": 7097,
+        "output_tokens": 2054,
+        "estimated_cost_usd": 0.00029807400000000006,
+        "median_request_seconds": 0.40214072898379527
+      },
+      "repeat-2": {
+        "requested": 10,
+        "answered": 10,
+        "errors": [],
+        "wall_seconds": 1.5509411669918336,
+        "budget_charge_cumulative": 0.002614331999999999,
+        "api_attempts": 10,
+        "input_tokens": 7097,
+        "output_tokens": 2057,
+        "estimated_cost_usd": 0.00029807400000000006,
+        "median_request_seconds": 0.42578633298398927
+      }
+    },
+    "total_estimated_cost_usd": 0.0026143320000000005,
+    "multiclass_mean_tv": {
+      "plain": 0.49833333333333335,
+      "explicit": 0.544330808080808,
+      "reversed": 0.49583333333333335
+    }
+  },
+  "binary_cases": [
+    {
+      "id": "P001",
+      "family": "coins",
+      "scenario": "A fair coin is flipped 1 time(s). Flips are independent. No outcomes have been observed.",
+      "event": "Exactly 1 of the 1 flips land heads.",
+      "true_probability": 0.5,
+      "exact_fraction": "1/2",
+      "derivation": "C(1,1) / 2^1 = 1/2",
+      "valid": true,
+      "plain": 0.88,
+      "explicit": 0.96,
+      "reversed": 0.84,
+      "noul": 0.55,
+      "complement_inverted": 0.65,
+      "numeric_correct": true,
+      "numeric_selected": "1/2",
+      "complement_sum": 0.9,
+      "order_difference": 0.040000000000000036,
+      "plain_error_pp": 38.0,
+      "explicit_error_pp": 46.0,
+      "reversed_error_pp": 34.0,
+      "noul_error_pp": 5.000000000000004,
+      "complement_inverted_error_pp": 15.000000000000002
+    },
+    {
+      "id": "P002",
+      "family": "coins",
+      "scenario": "A fair coin is flipped 1 time(s). Flips are independent. No outcomes have been observed.",
+      "event": "Exactly 0 of the 1 flips land heads.",
+      "true_probability": 0.5,
+      "exact_fraction": "1/2",
+      "derivation": "C(1,0) / 2^1 = 1/2",
+      "valid": true,
+      "plain": 0.84,
+      "explicit": 0.95,
+      "reversed": 0.77,
+      "noul": 0.42,
+      "complement_inverted": 0.5700000000000001,
+      "numeric_correct": true,
+      "numeric_selected": "1/2",
+      "complement_sum": 0.85,
+      "order_difference": 0.06999999999999995,
+      "plain_error_pp": 34.0,
+      "explicit_error_pp": 44.99999999999999,
+      "reversed_error_pp": 27.0,
+      "noul_error_pp": -8.000000000000002,
+      "complement_inverted_error_pp": 7.000000000000006
+    },
+    {
+      "id": "P003",
+      "family": "coins",
+      "scenario": "A fair coin is flipped 2 time(s). Flips are independent. No outcomes have been observed.",
+      "event": "Exactly 0 of the 2 flips land heads.",
+      "true_probability": 0.25,
+      "exact_fraction": "1/4",
+      "derivation": "C(2,0) / 2^2 = 1/4",
+      "valid": true,
+      "plain": 0.46,
+      "explicit": 0.56,
+      "reversed": 0.43,
+      "noul": 0.2,
+      "complement_inverted": 0.31000000000000005,
+      "numeric_correct": true,
+      "numeric_selected": "1/4",
+      "complement_sum": 0.8899999999999999,
+      "order_difference": 0.030000000000000027,
+      "plain_error_pp": 21.000000000000004,
+      "explicit_error_pp": 31.000000000000007,
+      "reversed_error_pp": 18.0,
+      "noul_error_pp": -4.999999999999999,
+      "complement_inverted_error_pp": 6.000000000000005
+    },
+    {
+      "id": "P004",
+      "family": "coins",
+      "scenario": "A fair coin is flipped 2 time(s). Flips are independent. No outcomes have been observed.",
+      "event": "Exactly 1 of the 2 flips land heads.",
+      "true_probability": 0.5,
+      "exact_fraction": "1/2",
+      "derivation": "C(2,1) / 2^2 = 1/2",
+      "valid": true,
+      "plain": 0.91,
+      "explicit": 0.96,
+      "reversed": 0.87,
+      "noul": 0.45,
+      "complement_inverted": 0.5800000000000001,
+      "numeric_correct": true,
+      "numeric_selected": "1/2",
+      "complement_sum": 0.87,
+      "order_difference": 0.040000000000000036,
+      "plain_error_pp": 41.0,
+      "explicit_error_pp": 46.0,
+      "reversed_error_pp": 37.0,
+      "noul_error_pp": -4.999999999999999,
+      "complement_inverted_error_pp": 8.000000000000007
+    },
+    {
+      "id": "P005",
+      "family": "coins",
+      "scenario": "A fair coin is flipped 2 time(s). Flips are independent. No outcomes have been observed.",
+      "event": "Exactly 2 of the 2 flips land heads.",
+      "true_probability": 0.25,
+      "exact_fraction": "1/4",
+      "derivation": "C(2,2) / 2^2 = 1/4",
+      "valid": true,
+      "plain": 0.23,
+      "explicit": 0.38,
+      "reversed": 0.19,
+      "noul": 0.13,
+      "complement_inverted": 0.19999999999999996,
+      "numeric_correct": true,
+      "numeric_selected": "1/4",
+      "complement_sum": 0.93,
+      "order_difference": 0.04000000000000001,
+      "plain_error_pp": -1.9999999999999991,
+      "explicit_error_pp": 13.0,
+      "reversed_error_pp": -6.0,
+      "noul_error_pp": -12.0,
+      "complement_inverted_error_pp": -5.000000000000004
+    },
+    {
+      "id": "P006",
+      "family": "coins",
+      "scenario": "A fair coin is flipped 3 time(s). Flips are independent. No outcomes have been observed.",
+      "event": "Exactly 1 of the 3 flips land heads.",
+      "true_probability": 0.375,
+      "exact_fraction": "3/8",
+      "derivation": "C(3,1) / 2^3 = 3/8",
+      "valid": true,
+      "plain": 0.79,
+      "explicit": 0.84,
+      "reversed": 0.74,
+      "noul": 0.31,
+      "complement_inverted": 0.44999999999999996,
+      "numeric_correct": true,
+      "numeric_selected": "3/8",
+      "complement_sum": 0.8600000000000001,
+      "order_difference": 0.050000000000000044,
+      "plain_error_pp": 41.5,
+      "explicit_error_pp": 46.5,
+      "reversed_error_pp": 36.5,
+      "noul_error_pp": -6.5,
+      "complement_inverted_error_pp": 7.499999999999996
+    },
+    {
+      "id": "P007",
+      "family": "coins",
+      "scenario": "A fair coin is flipped 3 time(s). Flips are independent. No outcomes have been observed.",
+      "event": "Exactly 2 of the 3 flips land heads.",
+      "true_probability": 0.375,
+      "exact_fraction": "3/8",
+      "derivation": "C(3,2) / 2^3 = 3/8",
+      "valid": true,
+      "plain": 0.64,
+      "explicit": 0.81,
+      "reversed": 0.63,
+      "noul": 0.25,
+      "complement_inverted": 0.43999999999999995,
+      "numeric_correct": true,
+      "numeric_selected": "3/8",
+      "complement_sum": 0.81,
+      "order_difference": 0.010000000000000009,
+      "plain_error_pp": 26.5,
+      "explicit_error_pp": 43.50000000000001,
+      "reversed_error_pp": 25.5,
+      "noul_error_pp": -12.5,
+      "complement_inverted_error_pp": 6.499999999999995
+    },
+    {
+      "id": "P008",
+      "family": "coins",
+      "scenario": "A fair coin is flipped 4 time(s). Flips are independent. No outcomes have been observed.",
+      "event": "Exactly 2 of the 4 flips land heads.",
+      "true_probability": 0.375,
+      "exact_fraction": "3/8",
+      "derivation": "C(4,2) / 2^4 = 3/8",
+      "valid": true,
+      "plain": 0.81,
+      "explicit": 0.91,
+      "reversed": 0.75,
+      "noul": 0.33,
+      "complement_inverted": 0.49,
+      "numeric_correct": true,
+      "numeric_selected": "3/8",
+      "complement_sum": 0.8400000000000001,
+      "order_difference": 0.06000000000000005,
+      "plain_error_pp": 43.50000000000001,
+      "explicit_error_pp": 53.5,
+      "reversed_error_pp": 37.5,
+      "noul_error_pp": -4.499999999999998,
+      "complement_inverted_error_pp": 11.5
+    },
+    {
+      "id": "P009",
+      "family": "coins",
+      "scenario": "A fair coin is flipped 5 time(s). Flips are independent. No outcomes have been observed.",
+      "event": "Exactly 0 of the 5 flips land heads.",
+      "true_probability": 0.03125,
+      "exact_fraction": "1/32",
+      "derivation": "C(5,0) / 2^5 = 1/32",
+      "valid": true,
+      "plain": 0.27,
+      "explicit": 0.38,
+      "reversed": 0.24,
+      "noul": 0.09,
+      "complement_inverted": 0.13,
+      "numeric_correct": true,
+      "numeric_selected": "1/32",
+      "complement_sum": 0.96,
+      "order_difference": 0.030000000000000027,
+      "plain_error_pp": 23.875,
+      "explicit_error_pp": 34.875,
+      "reversed_error_pp": 20.875,
+      "noul_error_pp": 5.875,
+      "complement_inverted_error_pp": 9.875
+    },
+    {
+      "id": "P010",
+      "family": "coins",
+      "scenario": "A fair coin is flipped 5 time(s). Flips are independent. No outcomes have been observed.",
+      "event": "Exactly 3 of the 5 flips land heads.",
+      "true_probability": 0.3125,
+      "exact_fraction": "5/16",
+      "derivation": "C(5,3) / 2^5 = 5/16",
+      "valid": true,
+      "plain": 0.54,
+      "explicit": 0.73,
+      "reversed": 0.5,
+      "noul": 0.23,
+      "complement_inverted": 0.33999999999999997,
+      "numeric_correct": true,
+      "numeric_selected": "5/16",
+      "complement_sum": 0.89,
+      "order_difference": 0.040000000000000036,
+      "plain_error_pp": 22.750000000000004,
+      "explicit_error_pp": 41.75,
+      "reversed_error_pp": 18.75,
+      "noul_error_pp": -8.249999999999998,
+      "complement_inverted_error_pp": 2.749999999999997
+    },
+    {
+      "id": "P011",
+      "family": "coins",
+      "scenario": "A fair coin is flipped 8 time(s). Flips are independent. No outcomes have been observed.",
+      "event": "Exactly 4 of the 8 flips land heads.",
+      "true_probability": 0.2734375,
+      "exact_fraction": "35/128",
+      "derivation": "C(8,4) / 2^8 = 35/128",
+      "valid": true,
+      "plain": 0.58,
+      "explicit": 0.8,
+      "reversed": 0.63,
+      "noul": 0.21,
+      "complement_inverted": 0.35,
+      "numeric_correct": true,
+      "numeric_selected": "35/128",
+      "complement_sum": 0.86,
+      "order_difference": 0.050000000000000044,
+      "plain_error_pp": 30.656249999999996,
+      "explicit_error_pp": 52.65625000000001,
+      "reversed_error_pp": 35.65625,
+      "noul_error_pp": -6.343750000000001,
+      "complement_inverted_error_pp": 7.656249999999998
+    },
+    {
+      "id": "P012",
+      "family": "coins",
+      "scenario": "A fair coin is flipped 10 time(s). Flips are independent. No outcomes have been observed.",
+      "event": "Exactly 10 of the 10 flips land heads.",
+      "true_probability": 0.0009765625,
+      "exact_fraction": "1/1024",
+      "derivation": "C(10,10) / 2^10 = 1/1024",
+      "valid": true,
+      "plain": 0.06,
+      "explicit": 0.13,
+      "reversed": 0.06,
+      "noul": 0.03,
+      "complement_inverted": 0.06000000000000005,
+      "numeric_correct": true,
+      "numeric_selected": "1/1024",
+      "complement_sum": 0.97,
+      "order_difference": 0.0,
+      "plain_error_pp": 5.90234375,
+      "explicit_error_pp": 12.90234375,
+      "reversed_error_pp": 5.90234375,
+      "noul_error_pp": 2.90234375,
+      "complement_inverted_error_pp": 5.902343750000005
+    },
+    {
+      "id": "P013",
+      "family": "biased_coins",
+      "scenario": "A coin lands heads with probability 1/10 and tails otherwise. It is flipped 1 time(s) independently. No outcomes are observed.",
+      "event": "Exactly 1 flips land heads.",
+      "true_probability": 0.1,
+      "exact_fraction": "1/10",
+      "derivation": "C(1,1)*(1/10)^1*(1-1/10)^0 = 1/10",
+      "valid": true,
+      "plain": 0.57,
+      "explicit": 0.82,
+      "reversed": 0.47,
+      "noul": 0.16,
+      "complement_inverted": 0.17000000000000004,
+      "numeric_correct": true,
+      "numeric_selected": "1/10",
+      "complement_sum": 0.99,
+      "order_difference": 0.09999999999999998,
+      "plain_error_pp": 47.0,
+      "explicit_error_pp": 72.0,
+      "reversed_error_pp": 37.0,
+      "noul_error_pp": 6.0,
+      "complement_inverted_error_pp": 7.0000000000000036
+    },
+    {
+      "id": "P014",
+      "family": "biased_coins",
+      "scenario": "A coin lands heads with probability 9/10 and tails otherwise. It is flipped 1 time(s) independently. No outcomes are observed.",
+      "event": "Exactly 1 flips land heads.",
+      "true_probability": 0.9,
+      "exact_fraction": "9/10",
+      "derivation": "C(1,1)*(9/10)^1*(1-9/10)^0 = 9/10",
+      "valid": true,
+      "plain": 0.88,
+      "explicit": 0.98,
+      "reversed": 0.83,
+      "noul": 0.8,
+      "complement_inverted": 0.83,
+      "numeric_correct": true,
+      "numeric_selected": "9/10",
+      "complement_sum": 0.9700000000000001,
+      "order_difference": 0.050000000000000044,
+      "plain_error_pp": -2.0000000000000018,
+      "explicit_error_pp": 7.9999999999999964,
+      "reversed_error_pp": -7.000000000000006,
+      "noul_error_pp": -9.999999999999998,
+      "complement_inverted_error_pp": -7.000000000000006
+    },
+    {
+      "id": "P015",
+      "family": "biased_coins",
+      "scenario": "A coin lands heads with probability 1/4 and tails otherwise. It is flipped 2 time(s) independently. No outcomes are observed.",
+      "event": "Exactly 2 flips land heads.",
+      "true_probability": 0.0625,
+      "exact_fraction": "1/16",
+      "derivation": "C(2,2)*(1/4)^2*(1-1/4)^0 = 1/16",
+      "valid": true,
+      "plain": 0.11,
+      "explicit": 0.24,
+      "reversed": 0.11,
+      "noul": 0.07,
+      "complement_inverted": 0.10999999999999999,
+      "numeric_correct": true,
+      "numeric_selected": "1/16",
+      "complement_sum": 0.96,
+      "order_difference": 0.0,
+      "plain_error_pp": 4.75,
+      "explicit_error_pp": 17.75,
+      "reversed_error_pp": 4.75,
+      "noul_error_pp": 0.7500000000000007,
+      "complement_inverted_error_pp": 4.749999999999998
+    },
+    {
+      "id": "P016",
+      "family": "biased_coins",
+      "scenario": "A coin lands heads with probability 3/4 and tails otherwise. It is flipped 2 time(s) independently. No outcomes are observed.",
+      "event": "Exactly 1 flips land heads.",
+      "true_probability": 0.375,
+      "exact_fraction": "3/8",
+      "derivation": "C(2,1)*(3/4)^1*(1-3/4)^1 = 3/8",
+      "valid": true,
+      "plain": 0.72,
+      "explicit": 0.79,
+      "reversed": 0.68,
+      "noul": 0.36,
+      "complement_inverted": 0.61,
+      "numeric_correct": true,
+      "numeric_selected": "3/8",
+      "complement_sum": 0.75,
+      "order_difference": 0.039999999999999925,
+      "plain_error_pp": 34.5,
+      "explicit_error_pp": 41.5,
+      "reversed_error_pp": 30.500000000000004,
+      "noul_error_pp": -1.5000000000000013,
+      "complement_inverted_error_pp": 23.5
+    },
+    {
+      "id": "P017",
+      "family": "biased_coins",
+      "scenario": "A coin lands heads with probability 1/5 and tails otherwise. It is flipped 3 time(s) independently. No outcomes are observed.",
+      "event": "Exactly 0 flips land heads.",
+      "true_probability": 0.512,
+      "exact_fraction": "64/125",
+      "derivation": "C(3,0)*(1/5)^0*(1-1/5)^3 = 64/125",
+      "valid": true,
+      "plain": 0.74,
+      "explicit": 0.64,
+      "reversed": 0.69,
+      "noul": 0.48,
+      "complement_inverted": 0.49,
+      "numeric_correct": true,
+      "numeric_selected": "64/125",
+      "complement_sum": 0.99,
+      "order_difference": 0.050000000000000044,
+      "plain_error_pp": 22.799999999999997,
+      "explicit_error_pp": 12.8,
+      "reversed_error_pp": 17.799999999999994,
+      "noul_error_pp": -3.200000000000003,
+      "complement_inverted_error_pp": -2.200000000000002
+    },
+    {
+      "id": "P018",
+      "family": "biased_coins",
+      "scenario": "A coin lands heads with probability 4/5 and tails otherwise. It is flipped 3 time(s) independently. No outcomes are observed.",
+      "event": "Exactly 2 flips land heads.",
+      "true_probability": 0.384,
+      "exact_fraction": "48/125",
+      "derivation": "C(3,2)*(4/5)^2*(1-4/5)^1 = 48/125",
+      "valid": true,
+      "plain": 0.53,
+      "explicit": 0.71,
+      "reversed": 0.58,
+      "noul": 0.28,
+      "complement_inverted": 0.53,
+      "numeric_correct": true,
+      "numeric_selected": "48/125",
+      "complement_sum": 0.75,
+      "order_difference": 0.04999999999999993,
+      "plain_error_pp": 14.600000000000001,
+      "explicit_error_pp": 32.599999999999994,
+      "reversed_error_pp": 19.599999999999994,
+      "noul_error_pp": -10.399999999999999,
+      "complement_inverted_error_pp": 14.600000000000001
+    },
+    {
+      "id": "P019",
+      "family": "dice",
+      "scenario": "Two fair six-sided dice numbered 1 through 6 are rolled independently. Neither result is observed.",
+      "event": "The sum is 2.",
+      "true_probability": 0.027777777777777776,
+      "exact_fraction": "1/36",
+      "derivation": "Enumerate 36 ordered pairs; 1 satisfy the event.",
+      "valid": true,
+      "plain": 0.07,
+      "explicit": 0.16,
+      "reversed": 0.06,
+      "noul": 0.05,
+      "complement_inverted": 0.06999999999999995,
+      "numeric_correct": true,
+      "numeric_selected": "1/36",
+      "complement_sum": 0.9800000000000001,
+      "order_difference": 0.010000000000000009,
+      "plain_error_pp": 4.222222222222223,
+      "explicit_error_pp": 13.222222222222225,
+      "reversed_error_pp": 3.2222222222222223,
+      "noul_error_pp": 2.2222222222222228,
+      "complement_inverted_error_pp": 4.222222222222218
+    },
+    {
+      "id": "P020",
+      "family": "dice",
+      "scenario": "Two fair six-sided dice numbered 1 through 6 are rolled independently. Neither result is observed.",
+      "event": "The sum is 7.",
+      "true_probability": 0.16666666666666666,
+      "exact_fraction": "1/6",
+      "derivation": "Enumerate 36 ordered pairs; 6 satisfy the event.",
+      "valid": true,
+      "plain": 0.49,
+      "explicit": 0.74,
+      "reversed": 0.54,
+      "noul": 0.2,
+      "complement_inverted": 0.33999999999999997,
+      "numeric_correct": true,
+      "numeric_selected": "1/6",
+      "complement_sum": 0.8600000000000001,
+      "order_difference": 0.050000000000000044,
+      "plain_error_pp": 32.333333333333336,
+      "explicit_error_pp": 57.333333333333336,
+      "reversed_error_pp": 37.33333333333334,
+      "noul_error_pp": 3.3333333333333353,
+      "complement_inverted_error_pp": 17.333333333333332
+    },
+    {
+      "id": "P021",
+      "family": "dice",
+      "scenario": "Two fair six-sided dice numbered 1 through 6 are rolled independently. Neither result is observed.",
+      "event": "The sum is at least 10.",
+      "true_probability": 0.16666666666666666,
+      "exact_fraction": "1/6",
+      "derivation": "Enumerate 36 ordered pairs; 6 satisfy the event.",
+      "valid": true,
+      "plain": 0.2,
+      "explicit": 0.09,
+      "reversed": 0.16,
+      "noul": 0.17,
+      "complement_inverted": 0.22999999999999998,
+      "numeric_correct": true,
+      "numeric_selected": "1/6",
+      "complement_sum": 0.9400000000000001,
+      "order_difference": 0.04000000000000001,
+      "plain_error_pp": 3.3333333333333353,
+      "explicit_error_pp": -7.666666666666666,
+      "reversed_error_pp": -0.6666666666666654,
+      "noul_error_pp": 0.3333333333333355,
+      "complement_inverted_error_pp": 6.333333333333332
+    },
+    {
+      "id": "P022",
+      "family": "dice",
+      "scenario": "Two fair six-sided dice numbered 1 through 6 are rolled independently. Neither result is observed.",
+      "event": "Both dice show the same number.",
+      "true_probability": 0.16666666666666666,
+      "exact_fraction": "1/6",
+      "derivation": "Enumerate 36 ordered pairs; 6 satisfy the event.",
+      "valid": true,
+      "plain": 0.15,
+      "explicit": 0.38,
+      "reversed": 0.17,
+      "noul": 0.17,
+      "complement_inverted": 0.20999999999999996,
+      "numeric_correct": true,
+      "numeric_selected": "1/6",
+      "complement_sum": 0.9600000000000001,
+      "order_difference": 0.020000000000000018,
+      "plain_error_pp": -1.6666666666666663,
+      "explicit_error_pp": 21.333333333333336,
+      "reversed_error_pp": 0.3333333333333355,
+      "noul_error_pp": 0.3333333333333355,
+      "complement_inverted_error_pp": 4.33333333333333
+    },
+    {
+      "id": "P023",
+      "family": "dice",
+      "scenario": "Two fair six-sided dice numbered 1 through 6 are rolled independently. Neither result is observed.",
+      "event": "At least one die shows 6.",
+      "true_probability": 0.3055555555555556,
+      "exact_fraction": "11/36",
+      "derivation": "Enumerate 36 ordered pairs; 11 satisfy the event.",
+      "valid": true,
+      "plain": 0.41,
+      "explicit": 0.51,
+      "reversed": 0.4,
+      "noul": 0.2,
+      "complement_inverted": 0.26,
+      "numeric_correct": true,
+      "numeric_selected": "11/36",
+      "complement_sum": 0.94,
+      "order_difference": 0.009999999999999953,
+      "plain_error_pp": 10.44444444444444,
+      "explicit_error_pp": 20.444444444444443,
+      "reversed_error_pp": 9.444444444444445,
+      "noul_error_pp": -10.555555555555557,
+      "complement_inverted_error_pp": -4.555555555555557
+    },
+    {
+      "id": "P024",
+      "family": "dice",
+      "scenario": "Two fair six-sided dice numbered 1 through 6 are rolled independently. Neither result is observed.",
+      "event": "The sum is even.",
+      "true_probability": 0.5,
+      "exact_fraction": "1/2",
+      "derivation": "Enumerate 36 ordered pairs; 18 satisfy the event.",
+      "valid": true,
+      "plain": 0.97,
+      "explicit": 0.99,
+      "reversed": 0.94,
+      "noul": 0.55,
+      "complement_inverted": 0.6799999999999999,
+      "numeric_correct": true,
+      "numeric_selected": "1/2",
+      "complement_sum": 0.8700000000000001,
+      "order_difference": 0.030000000000000027,
+      "plain_error_pp": 47.0,
+      "explicit_error_pp": 49.0,
+      "reversed_error_pp": 43.99999999999999,
+      "noul_error_pp": 5.000000000000004,
+      "complement_inverted_error_pp": 17.999999999999993
+    },
+    {
+      "id": "P025",
+      "family": "dice",
+      "scenario": "Two fair six-sided dice numbered 1 through 6 are rolled independently. Neither result is observed.",
+      "event": "The first die is greater than the second.",
+      "true_probability": 0.4166666666666667,
+      "exact_fraction": "5/12",
+      "derivation": "Enumerate 36 ordered pairs; 15 satisfy the event.",
+      "valid": true,
+      "plain": 0.61,
+      "explicit": 0.76,
+      "reversed": 0.69,
+      "noul": 0.38,
+      "complement_inverted": 0.51,
+      "numeric_correct": true,
+      "numeric_selected": "5/12",
+      "complement_sum": 0.87,
+      "order_difference": 0.07999999999999996,
+      "plain_error_pp": 19.33333333333333,
+      "explicit_error_pp": 34.333333333333336,
+      "reversed_error_pp": 27.333333333333325,
+      "noul_error_pp": -3.666666666666668,
+      "complement_inverted_error_pp": 9.333333333333332
+    },
+    {
+      "id": "P026",
+      "family": "dice",
+      "scenario": "Two fair six-sided dice numbered 1 through 6 are rolled independently. Neither result is observed.",
+      "event": "The product is odd.",
+      "true_probability": 0.25,
+      "exact_fraction": "1/4",
+      "derivation": "Enumerate 36 ordered pairs; 9 satisfy the event.",
+      "valid": true,
+      "plain": 0.24,
+      "explicit": 0.3,
+      "reversed": 0.25,
+      "noul": 0.21,
+      "complement_inverted": 0.31000000000000005,
+      "numeric_correct": true,
+      "numeric_selected": "1/4",
+      "complement_sum": 0.8999999999999999,
+      "order_difference": 0.010000000000000009,
+      "plain_error_pp": -1.0000000000000009,
+      "explicit_error_pp": 4.999999999999999,
+      "reversed_error_pp": 0.0,
+      "noul_error_pp": -4.000000000000001,
+      "complement_inverted_error_pp": 6.000000000000005
+    },
+    {
+      "id": "P027",
+      "family": "dice",
+      "scenario": "Two fair six-sided dice numbered 1 through 6 are rolled independently. Neither result is observed.",
+      "event": "The sum is 13.",
+      "true_probability": 0.0,
+      "exact_fraction": "0",
+      "derivation": "Enumerate 36 ordered pairs; 0 satisfy the event.",
+      "valid": true,
+      "plain": 0.01,
+      "explicit": 0.02,
+      "reversed": 0.01,
+      "noul": 0.02,
+      "complement_inverted": 0.020000000000000018,
+      "numeric_correct": true,
+      "numeric_selected": "0",
+      "complement_sum": 1.0,
+      "order_difference": 0.0,
+      "plain_error_pp": 1.0,
+      "explicit_error_pp": 2.0,
+      "reversed_error_pp": 1.0,
+      "noul_error_pp": 2.0,
+      "complement_inverted_error_pp": 2.0000000000000018
+    },
+    {
+      "id": "P028",
+      "family": "dice",
+      "scenario": "Two fair six-sided dice numbered 1 through 6 are rolled independently. Neither result is observed.",
+      "event": "The sum is between 2 and 12 inclusive.",
+      "true_probability": 1.0,
+      "exact_fraction": "1",
+      "derivation": "Enumerate 36 ordered pairs; 36 satisfy the event.",
+      "valid": true,
+      "plain": 1.0,
+      "explicit": 1.0,
+      "reversed": 1.0,
+      "noul": 0.99,
+      "complement_inverted": 0.99,
+      "numeric_correct": true,
+      "numeric_selected": "1",
+      "complement_sum": 1.0,
+      "order_difference": 0.0,
+      "plain_error_pp": 0.0,
+      "explicit_error_pp": 0.0,
+      "reversed_error_pp": 0.0,
+      "noul_error_pp": -1.0000000000000009,
+      "complement_inverted_error_pp": -1.0000000000000009
+    },
+    {
+      "id": "P029",
+      "family": "cards",
+      "scenario": "One card is drawn uniformly from a standard 52-card deck with no jokers. The card is not observed.",
+      "event": "The card is a heart.",
+      "true_probability": 0.25,
+      "exact_fraction": "1/4",
+      "derivation": "Enumerate 52 cards; 13 satisfy the event.",
+      "valid": true,
+      "plain": 0.69,
+      "explicit": 0.89,
+      "reversed": 0.71,
+      "noul": 0.23,
+      "complement_inverted": 0.26,
+      "numeric_correct": true,
+      "numeric_selected": "1/4",
+      "complement_sum": 0.97,
+      "order_difference": 0.020000000000000018,
+      "plain_error_pp": 43.99999999999999,
+      "explicit_error_pp": 64.0,
+      "reversed_error_pp": 46.0,
+      "noul_error_pp": -1.9999999999999991,
+      "complement_inverted_error_pp": 1.0000000000000009
+    },
+    {
+      "id": "P030",
+      "family": "cards",
+      "scenario": "One card is drawn uniformly from a standard 52-card deck with no jokers. The card is not observed.",
+      "event": "The card is red.",
+      "true_probability": 0.5,
+      "exact_fraction": "1/2",
+      "derivation": "Enumerate 52 cards; 26 satisfy the event.",
+      "valid": true,
+      "plain": 0.93,
+      "explicit": 0.96,
+      "reversed": 0.9,
+      "noul": 0.49,
+      "complement_inverted": 0.5800000000000001,
+      "numeric_correct": true,
+      "numeric_selected": "1/2",
+      "complement_sum": 0.9099999999999999,
+      "order_difference": 0.030000000000000027,
+      "plain_error_pp": 43.00000000000001,
+      "explicit_error_pp": 46.0,
+      "reversed_error_pp": 40.0,
+      "noul_error_pp": -1.0000000000000009,
+      "complement_inverted_error_pp": 8.000000000000007
+    },
+    {
+      "id": "P031",
+      "family": "cards",
+      "scenario": "One card is drawn uniformly from a standard 52-card deck with no jokers. The card is not observed.",
+      "event": "The card is an ace.",
+      "true_probability": 0.07692307692307693,
+      "exact_fraction": "1/13",
+      "derivation": "Enumerate 52 cards; 4 satisfy the event.",
+      "valid": true,
+      "plain": 0.3,
+      "explicit": 0.56,
+      "reversed": 0.28,
+      "noul": 0.11,
+      "complement_inverted": 0.13,
+      "numeric_correct": true,
+      "numeric_selected": "1/13",
+      "complement_sum": 0.98,
+      "order_difference": 0.019999999999999962,
+      "plain_error_pp": 22.307692307692307,
+      "explicit_error_pp": 48.307692307692314,
+      "reversed_error_pp": 20.30769230769231,
+      "noul_error_pp": 3.3076923076923075,
+      "complement_inverted_error_pp": 5.3076923076923075
+    },
+    {
+      "id": "P032",
+      "family": "cards",
+      "scenario": "One card is drawn uniformly from a standard 52-card deck with no jokers. The card is not observed.",
+      "event": "The card is a face card (jack, queen or king).",
+      "true_probability": 0.23076923076923078,
+      "exact_fraction": "3/13",
+      "derivation": "Enumerate 52 cards; 12 satisfy the event.",
+      "valid": true,
+      "plain": 0.42,
+      "explicit": 0.57,
+      "reversed": 0.45,
+      "noul": 0.18,
+      "complement_inverted": 0.21999999999999997,
+      "numeric_correct": true,
+      "numeric_selected": "3/13",
+      "complement_sum": 0.96,
+      "order_difference": 0.030000000000000027,
+      "plain_error_pp": 18.92307692307692,
+      "explicit_error_pp": 33.92307692307692,
+      "reversed_error_pp": 21.923076923076923,
+      "noul_error_pp": -5.076923076923078,
+      "complement_inverted_error_pp": -1.0769230769230809
+    },
+    {
+      "id": "P033",
+      "family": "cards",
+      "scenario": "One card is drawn uniformly from a standard 52-card deck with no jokers. The card is not observed.",
+      "event": "The card is a red ace.",
+      "true_probability": 0.038461538461538464,
+      "exact_fraction": "1/26",
+      "derivation": "Enumerate 52 cards; 2 satisfy the event.",
+      "valid": true,
+      "plain": 0.16,
+      "explicit": 0.39,
+      "reversed": 0.2,
+      "noul": 0.08,
+      "complement_inverted": 0.07999999999999996,
+      "numeric_correct": true,
+      "numeric_selected": "1/26",
+      "complement_sum": 1.0,
+      "order_difference": 0.04000000000000001,
+      "plain_error_pp": 12.153846153846153,
+      "explicit_error_pp": 35.15384615384616,
+      "reversed_error_pp": 16.153846153846153,
+      "noul_error_pp": 4.153846153846154,
+      "complement_inverted_error_pp": 4.15384615384615
+    },
+    {
+      "id": "P034",
+      "family": "cards",
+      "scenario": "One card is drawn uniformly from a standard 52-card deck with no jokers. The card is not observed.",
+      "event": "The card is a heart or an ace (or both).",
+      "true_probability": 0.3076923076923077,
+      "exact_fraction": "4/13",
+      "derivation": "Enumerate 52 cards; 16 satisfy the event.",
+      "valid": true,
+      "plain": 0.83,
+      "explicit": 0.96,
+      "reversed": 0.83,
+      "noul": 0.3,
+      "complement_inverted": 0.38,
+      "numeric_correct": true,
+      "numeric_selected": "4/13",
+      "complement_sum": 0.9199999999999999,
+      "order_difference": 0.0,
+      "plain_error_pp": 52.230769230769226,
+      "explicit_error_pp": 65.23076923076923,
+      "reversed_error_pp": 52.230769230769226,
+      "noul_error_pp": -0.769230769230772,
+      "complement_inverted_error_pp": 7.23076923076923
+    },
+    {
+      "id": "P035",
+      "family": "cards",
+      "scenario": "One card is drawn uniformly from a standard 52-card deck with no jokers. The card is not observed.",
+      "event": "The card is the queen of spades.",
+      "true_probability": 0.019230769230769232,
+      "exact_fraction": "1/52",
+      "derivation": "Enumerate 52 cards; 1 satisfy the event.",
+      "valid": true,
+      "plain": 0.13,
+      "explicit": 0.38,
+      "reversed": 0.11,
+      "noul": 0.05,
+      "complement_inverted": 0.06999999999999995,
+      "numeric_correct": true,
+      "numeric_selected": "1/52",
+      "complement_sum": 0.9800000000000001,
+      "order_difference": 0.020000000000000004,
+      "plain_error_pp": 11.076923076923077,
+      "explicit_error_pp": 36.07692307692308,
+      "reversed_error_pp": 9.076923076923077,
+      "noul_error_pp": 3.076923076923077,
+      "complement_inverted_error_pp": 5.076923076923072
+    },
+    {
+      "id": "P036",
+      "family": "cards",
+      "scenario": "One card is drawn uniformly from a standard 52-card deck with no jokers. The card is not observed.",
+      "event": "The card is neither a heart nor an ace.",
+      "true_probability": 0.6923076923076923,
+      "exact_fraction": "9/13",
+      "derivation": "Enumerate 52 cards; 36 satisfy the event.",
+      "valid": true,
+      "plain": 0.9,
+      "explicit": 0.9,
+      "reversed": 0.87,
+      "noul": 0.67,
+      "complement_inverted": 0.76,
+      "numeric_correct": true,
+      "numeric_selected": "9/13",
+      "complement_sum": 0.91,
+      "order_difference": 0.030000000000000027,
+      "plain_error_pp": 20.769230769230774,
+      "explicit_error_pp": 20.769230769230774,
+      "reversed_error_pp": 17.76923076923077,
+      "noul_error_pp": -2.230769230769225,
+      "complement_inverted_error_pp": 6.769230769230772
+    },
+    {
+      "id": "P037",
+      "family": "sampling",
+      "scenario": "A bag contains 1 red and 9 blue balls. Draw 1 balls uniformly without replacement. No colors are observed.",
+      "event": "Exactly 1 drawn balls are red.",
+      "true_probability": 0.1,
+      "exact_fraction": "1/10",
+      "derivation": "C(1,1)*C(9,0)/C(10,1) = 1/10",
+      "valid": true,
+      "plain": 0.4,
+      "explicit": 0.57,
+      "reversed": 0.34,
+      "noul": 0.14,
+      "complement_inverted": 0.14,
+      "numeric_correct": true,
+      "numeric_selected": "1/10",
+      "complement_sum": 1.0,
+      "order_difference": 0.06,
+      "plain_error_pp": 30.000000000000004,
+      "explicit_error_pp": 47.0,
+      "reversed_error_pp": 24.000000000000004,
+      "noul_error_pp": 4.000000000000001,
+      "complement_inverted_error_pp": 4.000000000000001
+    },
+    {
+      "id": "P038",
+      "family": "sampling",
+      "scenario": "A bag contains 9 red and 1 blue balls. Draw 1 balls uniformly without replacement. No colors are observed.",
+      "event": "Exactly 1 drawn balls are red.",
+      "true_probability": 0.9,
+      "exact_fraction": "9/10",
+      "derivation": "C(9,1)*C(1,0)/C(10,1) = 9/10",
+      "valid": true,
+      "plain": 0.93,
+      "explicit": 0.95,
+      "reversed": 0.89,
+      "noul": 0.74,
+      "complement_inverted": 0.83,
+      "numeric_correct": true,
+      "numeric_selected": "9/10",
+      "complement_sum": 0.91,
+      "order_difference": 0.040000000000000036,
+      "plain_error_pp": 3.0000000000000027,
+      "explicit_error_pp": 4.999999999999993,
+      "reversed_error_pp": -1.0000000000000009,
+      "noul_error_pp": -16.000000000000004,
+      "complement_inverted_error_pp": -7.000000000000006
+    },
+    {
+      "id": "P039",
+      "family": "sampling",
+      "scenario": "A bag contains 3 red and 7 blue balls. Draw 2 balls uniformly without replacement. No colors are observed.",
+      "event": "Exactly 2 drawn balls are red.",
+      "true_probability": 0.06666666666666667,
+      "exact_fraction": "1/15",
+      "derivation": "C(3,2)*C(7,0)/C(10,2) = 1/15",
+      "valid": true,
+      "plain": 0.11,
+      "explicit": 0.11,
+      "reversed": 0.07,
+      "noul": 0.07,
+      "complement_inverted": 0.14,
+      "numeric_correct": true,
+      "numeric_selected": "1/15",
+      "complement_sum": 0.9299999999999999,
+      "order_difference": 0.039999999999999994,
+      "plain_error_pp": 4.333333333333334,
+      "explicit_error_pp": 4.333333333333334,
+      "reversed_error_pp": 0.3333333333333341,
+      "noul_error_pp": 0.3333333333333341,
+      "complement_inverted_error_pp": 7.333333333333335
+    },
+    {
+      "id": "P040",
+      "family": "sampling",
+      "scenario": "A bag contains 3 red and 7 blue balls. Draw 2 balls uniformly with replacement, mixing after every draw. No colors are observed.",
+      "event": "Exactly 2 drawn balls are red.",
+      "true_probability": 0.09,
+      "exact_fraction": "9/100",
+      "derivation": "C(2,2)*(3/10)^2*(7/10)^0 = 9/100",
+      "valid": true,
+      "plain": 0.19,
+      "explicit": 0.21,
+      "reversed": 0.18,
+      "noul": 0.1,
+      "complement_inverted": 0.25,
+      "numeric_correct": true,
+      "numeric_selected": "9/100",
+      "complement_sum": 0.85,
+      "order_difference": 0.010000000000000009,
+      "plain_error_pp": 10.0,
+      "explicit_error_pp": 12.0,
+      "reversed_error_pp": 9.0,
+      "noul_error_pp": 1.0000000000000009,
+      "complement_inverted_error_pp": 16.0
+    },
+    {
+      "id": "P041",
+      "family": "sampling",
+      "scenario": "A bag contains 5 red and 5 blue balls. Draw 2 balls uniformly without replacement. No colors are observed.",
+      "event": "Exactly 1 drawn balls are red.",
+      "true_probability": 0.5555555555555556,
+      "exact_fraction": "5/9",
+      "derivation": "C(5,1)*C(5,1)/C(10,2) = 5/9",
+      "valid": true,
+      "plain": 0.88,
+      "explicit": 0.94,
+      "reversed": 0.84,
+      "noul": 0.49,
+      "complement_inverted": 0.71,
+      "numeric_correct": true,
+      "numeric_selected": "5/9",
+      "complement_sum": 0.78,
+      "order_difference": 0.040000000000000036,
+      "plain_error_pp": 32.44444444444444,
+      "explicit_error_pp": 38.444444444444436,
+      "reversed_error_pp": 28.44444444444444,
+      "noul_error_pp": -6.555555555555559,
+      "complement_inverted_error_pp": 15.44444444444444
+    },
+    {
+      "id": "P042",
+      "family": "sampling",
+      "scenario": "A bag contains 5 red and 5 blue balls. Draw 2 balls uniformly with replacement, mixing after every draw. No colors are observed.",
+      "event": "Exactly 1 drawn balls are red.",
+      "true_probability": 0.5,
+      "exact_fraction": "1/2",
+      "derivation": "C(2,1)*(5/10)^1*(5/10)^1 = 1/2",
+      "valid": true,
+      "plain": 0.87,
+      "explicit": 0.94,
+      "reversed": 0.83,
+      "noul": 0.47,
+      "complement_inverted": 0.6799999999999999,
+      "numeric_correct": true,
+      "numeric_selected": "1/2",
+      "complement_sum": 0.79,
+      "order_difference": 0.040000000000000036,
+      "plain_error_pp": 37.0,
+      "explicit_error_pp": 43.99999999999999,
+      "reversed_error_pp": 32.99999999999999,
+      "noul_error_pp": -3.0000000000000027,
+      "complement_inverted_error_pp": 17.999999999999993
+    },
+    {
+      "id": "P043",
+      "family": "sampling",
+      "scenario": "A bag contains 2 red and 8 blue balls. Draw 3 balls uniformly without replacement. No colors are observed.",
+      "event": "Exactly 0 drawn balls are red.",
+      "true_probability": 0.4666666666666667,
+      "exact_fraction": "7/15",
+      "derivation": "C(2,0)*C(8,3)/C(10,3) = 7/15",
+      "valid": true,
+      "plain": 0.9,
+      "explicit": 0.92,
+      "reversed": 0.9,
+      "noul": 0.69,
+      "complement_inverted": 0.71,
+      "numeric_correct": true,
+      "numeric_selected": "7/15",
+      "complement_sum": 0.98,
+      "order_difference": 0.0,
+      "plain_error_pp": 43.333333333333336,
+      "explicit_error_pp": 45.333333333333336,
+      "reversed_error_pp": 43.333333333333336,
+      "noul_error_pp": 22.33333333333333,
+      "complement_inverted_error_pp": 24.33333333333333
+    },
+    {
+      "id": "P044",
+      "family": "sampling",
+      "scenario": "A bag contains 7 red and 3 blue balls. Draw 3 balls uniformly without replacement. No colors are observed.",
+      "event": "Exactly 2 drawn balls are red.",
+      "true_probability": 0.525,
+      "exact_fraction": "21/40",
+      "derivation": "C(7,2)*C(3,1)/C(10,3) = 21/40",
+      "valid": true,
+      "plain": 0.81,
+      "explicit": 0.83,
+      "reversed": 0.77,
+      "noul": 0.47,
+      "complement_inverted": 0.6699999999999999,
+      "numeric_correct": true,
+      "numeric_selected": "21/40",
+      "complement_sum": 0.8,
+      "order_difference": 0.040000000000000036,
+      "plain_error_pp": 28.500000000000004,
+      "explicit_error_pp": 30.499999999999993,
+      "reversed_error_pp": 24.5,
+      "noul_error_pp": -5.500000000000005,
+      "complement_inverted_error_pp": 14.499999999999991
+    },
+    {
+      "id": "P045",
+      "family": "sampling",
+      "scenario": "A bag contains 1 red and 9 blue balls. Draw 2 balls uniformly without replacement. No colors are observed.",
+      "event": "Exactly 2 drawn balls are red.",
+      "true_probability": 0.0,
+      "exact_fraction": "0",
+      "derivation": "C(1,2)*C(9,0)/C(10,2) = 0",
+      "valid": true,
+      "plain": 0.0,
+      "explicit": 0.0,
+      "reversed": 0.0,
+      "noul": 0.01,
+      "complement_inverted": 0.020000000000000018,
+      "numeric_correct": true,
+      "numeric_selected": "0",
+      "complement_sum": 0.99,
+      "order_difference": 0.0,
+      "plain_error_pp": 0.0,
+      "explicit_error_pp": 0.0,
+      "reversed_error_pp": 0.0,
+      "noul_error_pp": 1.0,
+      "complement_inverted_error_pp": 2.0000000000000018
+    },
+    {
+      "id": "P046",
+      "family": "sampling",
+      "scenario": "A bag contains 10 red and 0 blue balls. Draw 2 balls uniformly without replacement. No colors are observed.",
+      "event": "Exactly 2 drawn balls are red.",
+      "true_probability": 1.0,
+      "exact_fraction": "1",
+      "derivation": "C(10,2)*C(0,0)/C(10,2) = 1",
+      "valid": true,
+      "plain": 1.0,
+      "explicit": 1.0,
+      "reversed": 1.0,
+      "noul": 0.99,
+      "complement_inverted": 0.98,
+      "numeric_correct": true,
+      "numeric_selected": "1",
+      "complement_sum": 1.01,
+      "order_difference": 0.0,
+      "plain_error_pp": 0.0,
+      "explicit_error_pp": 0.0,
+      "reversed_error_pp": 0.0,
+      "noul_error_pp": -1.0000000000000009,
+      "complement_inverted_error_pp": -2.0000000000000018
+    },
+    {
+      "id": "P047",
+      "family": "uniform_integers",
+      "scenario": "An integer is selected uniformly from 1 through 10 inclusive. Its value is not observed.",
+      "event": "The integer is even.",
+      "true_probability": 0.5,
+      "exact_fraction": "1/2",
+      "derivation": "5 favorable values / 10 equally likely values.",
+      "valid": true,
+      "plain": 0.95,
+      "explicit": 0.97,
+      "reversed": 0.9,
+      "noul": 0.51,
+      "complement_inverted": 0.55,
+      "numeric_correct": true,
+      "numeric_selected": "1/2",
+      "complement_sum": 0.96,
+      "order_difference": 0.04999999999999993,
+      "plain_error_pp": 44.99999999999999,
+      "explicit_error_pp": 47.0,
+      "reversed_error_pp": 40.0,
+      "noul_error_pp": 1.0000000000000009,
+      "complement_inverted_error_pp": 5.000000000000004
+    },
+    {
+      "id": "P048",
+      "family": "uniform_integers",
+      "scenario": "An integer is selected uniformly from 1 through 100 inclusive. Its value is not observed.",
+      "event": "The integer is 1.",
+      "true_probability": 0.01,
+      "exact_fraction": "1/100",
+      "derivation": "1 favorable values / 100 equally likely values.",
+      "valid": true,
+      "plain": 0.12,
+      "explicit": 0.41,
+      "reversed": 0.11,
+      "noul": 0.06,
+      "complement_inverted": 0.06000000000000005,
+      "numeric_correct": true,
+      "numeric_selected": "1/100",
+      "complement_sum": 1.0,
+      "order_difference": 0.009999999999999995,
+      "plain_error_pp": 11.0,
+      "explicit_error_pp": 40.0,
+      "reversed_error_pp": 10.0,
+      "noul_error_pp": 5.0,
+      "complement_inverted_error_pp": 5.000000000000005
+    },
+    {
+      "id": "P049",
+      "family": "uniform_integers",
+      "scenario": "An integer is selected uniformly from 1 through 100 inclusive. Its value is not observed.",
+      "event": "The integer is at most 99.",
+      "true_probability": 0.99,
+      "exact_fraction": "99/100",
+      "derivation": "99 favorable values / 100 equally likely values.",
+      "valid": true,
+      "plain": 0.98,
+      "explicit": 0.99,
+      "reversed": 0.96,
+      "noul": 0.94,
+      "complement_inverted": 0.95,
+      "numeric_correct": true,
+      "numeric_selected": "99/100",
+      "complement_sum": 0.99,
+      "order_difference": 0.020000000000000018,
+      "plain_error_pp": -1.0000000000000009,
+      "explicit_error_pp": 0.0,
+      "reversed_error_pp": -3.0000000000000027,
+      "noul_error_pp": -5.000000000000004,
+      "complement_inverted_error_pp": -4.0000000000000036
+    },
+    {
+      "id": "P050",
+      "family": "uniform_integers",
+      "scenario": "An integer is selected uniformly from 0 through 9 inclusive. Its value is not observed.",
+      "event": "The integer is at least 8.",
+      "true_probability": 0.2,
+      "exact_fraction": "1/5",
+      "derivation": "2 favorable values / 10 equally likely values.",
+      "valid": true,
+      "plain": 0.43,
+      "explicit": 0.24,
+      "reversed": 0.34,
+      "noul": 0.17,
+      "complement_inverted": 0.19999999999999996,
+      "numeric_correct": true,
+      "numeric_selected": "1/5",
+      "complement_sum": 0.9700000000000001,
+      "order_difference": 0.08999999999999997,
+      "plain_error_pp": 23.0,
+      "explicit_error_pp": 3.9999999999999982,
+      "reversed_error_pp": 14.000000000000002,
+      "noul_error_pp": -3.0,
+      "complement_inverted_error_pp": -5.551115123125783e-15
+    },
+    {
+      "id": "P051",
+      "family": "uniform_integers",
+      "scenario": "An integer is selected uniformly from 1 through 12 inclusive. Its value is not observed.",
+      "event": "The integer is divisible by 3.",
+      "true_probability": 0.3333333333333333,
+      "exact_fraction": "1/3",
+      "derivation": "4 favorable values / 12 equally likely values.",
+      "valid": true,
+      "plain": 0.83,
+      "explicit": 0.83,
+      "reversed": 0.8,
+      "noul": 0.27,
+      "complement_inverted": 0.30000000000000004,
+      "numeric_correct": true,
+      "numeric_selected": "1/3",
+      "complement_sum": 0.97,
+      "order_difference": 0.029999999999999916,
+      "plain_error_pp": 49.666666666666664,
+      "explicit_error_pp": 49.666666666666664,
+      "reversed_error_pp": 46.66666666666667,
+      "noul_error_pp": -6.3333333333333295,
+      "complement_inverted_error_pp": -3.333333333333327
+    },
+    {
+      "id": "P052",
+      "family": "uniform_integers",
+      "scenario": "An integer is selected uniformly from 1 through 20 inclusive. Its value is not observed.",
+      "event": "The integer is prime.",
+      "true_probability": 0.4,
+      "exact_fraction": "2/5",
+      "derivation": "8 favorable values / 20 equally likely values.",
+      "valid": true,
+      "plain": 0.7,
+      "explicit": 0.48,
+      "reversed": 0.72,
+      "noul": 0.35,
+      "complement_inverted": 0.36,
+      "numeric_correct": true,
+      "numeric_selected": "2/5",
+      "complement_sum": 0.99,
+      "order_difference": 0.020000000000000018,
+      "plain_error_pp": 29.999999999999993,
+      "explicit_error_pp": 7.9999999999999964,
+      "reversed_error_pp": 31.999999999999996,
+      "noul_error_pp": -5.000000000000004,
+      "complement_inverted_error_pp": -4.0000000000000036
+    },
+    {
+      "id": "P053",
+      "family": "conditional",
+      "scenario": "A factory makes items. Fraction 1/100 are defective. A detector flags a defective item with probability 9/10, and flags a nondefective item with probability 1/10. An item is sampled uniformly from production and is observed to be flagged.",
+      "event": "The sampled item is defective.",
+      "true_probability": 0.08333333333333333,
+      "exact_fraction": "1/12",
+      "derivation": "Bayes: (1/100*9/10)/(1/100*9/10+(1-1/100)*1/10) = 1/12",
+      "valid": true,
+      "plain": 0.3,
+      "explicit": 0.35,
+      "reversed": 0.38,
+      "noul": 0.23,
+      "complement_inverted": 0.28,
+      "numeric_correct": true,
+      "numeric_selected": "1/12",
+      "complement_sum": 0.95,
+      "order_difference": 0.08000000000000002,
+      "plain_error_pp": 21.666666666666668,
+      "explicit_error_pp": 26.666666666666668,
+      "reversed_error_pp": 29.666666666666668,
+      "noul_error_pp": 14.666666666666666,
+      "complement_inverted_error_pp": 19.66666666666667
+    },
+    {
+      "id": "P054",
+      "family": "conditional",
+      "scenario": "A factory makes items. Fraction 1/2 are defective. A detector flags a defective item with probability 9/10, and flags a nondefective item with probability 1/10. An item is sampled uniformly from production and is observed to be flagged.",
+      "event": "The sampled item is defective.",
+      "true_probability": 0.9,
+      "exact_fraction": "9/10",
+      "derivation": "Bayes: (1/2*9/10)/(1/2*9/10+(1-1/2)*1/10) = 9/10",
+      "valid": true,
+      "plain": 0.98,
+      "explicit": 0.96,
+      "reversed": 0.98,
+      "noul": 0.86,
+      "complement_inverted": 0.85,
+      "numeric_correct": true,
+      "numeric_selected": "9/10",
+      "complement_sum": 1.01,
+      "order_difference": 0.0,
+      "plain_error_pp": 7.9999999999999964,
+      "explicit_error_pp": 5.999999999999995,
+      "reversed_error_pp": 7.9999999999999964,
+      "noul_error_pp": -4.0000000000000036,
+      "complement_inverted_error_pp": -5.000000000000004
+    },
+    {
+      "id": "P055",
+      "family": "conditional",
+      "scenario": "A factory makes items. Fraction 1/1000 are defective. A detector flags a defective item with probability 99/100, and flags a nondefective item with probability 1/100. An item is sampled uniformly from production and is observed to be flagged.",
+      "event": "The sampled item is defective.",
+      "true_probability": 0.09016393442622951,
+      "exact_fraction": "11/122",
+      "derivation": "Bayes: (1/1000*99/100)/(1/1000*99/100+(1-1/1000)*1/100) = 11/122",
+      "valid": true,
+      "plain": 0.29,
+      "explicit": 0.35,
+      "reversed": 0.36,
+      "noul": 0.26,
+      "complement_inverted": 0.25,
+      "numeric_correct": true,
+      "numeric_selected": "11/122",
+      "complement_sum": 1.01,
+      "order_difference": 0.07,
+      "plain_error_pp": 19.983606557377048,
+      "explicit_error_pp": 25.983606557377048,
+      "reversed_error_pp": 26.983606557377048,
+      "noul_error_pp": 16.98360655737705,
+      "complement_inverted_error_pp": 15.983606557377051
+    },
+    {
+      "id": "P056",
+      "family": "conditional",
+      "scenario": "A factory makes items. Fraction 1/10 are defective. A detector flags a defective item with probability 4/5, and flags a nondefective item with probability 1/5. An item is sampled uniformly from production and is observed to be flagged.",
+      "event": "The sampled item is defective.",
+      "true_probability": 0.3076923076923077,
+      "exact_fraction": "4/13",
+      "derivation": "Bayes: (1/10*4/5)/(1/10*4/5+(1-1/10)*1/5) = 4/13",
+      "valid": true,
+      "plain": 0.44,
+      "explicit": 0.46,
+      "reversed": 0.49,
+      "noul": 0.28,
+      "complement_inverted": 0.32999999999999996,
+      "numeric_correct": true,
+      "numeric_selected": "4/13",
+      "complement_sum": 0.9500000000000001,
+      "order_difference": 0.04999999999999999,
+      "plain_error_pp": 13.23076923076923,
+      "explicit_error_pp": 15.230769230769232,
+      "reversed_error_pp": 18.230769230769226,
+      "noul_error_pp": -2.7692307692307683,
+      "complement_inverted_error_pp": 2.230769230769225
+    },
+    {
+      "id": "P057",
+      "family": "conditional",
+      "scenario": "A fair six-sided die numbered 1 through 6 is rolled. You learn only that the result is even.",
+      "event": "The result is 6.",
+      "true_probability": 0.3333333333333333,
+      "exact_fraction": "1/3",
+      "derivation": "Possible results {2,4,6}; one of three is 6.",
+      "valid": true,
+      "plain": 0.42,
+      "explicit": 0.61,
+      "reversed": 0.44,
+      "noul": 0.25,
+      "complement_inverted": 0.39,
+      "numeric_correct": true,
+      "numeric_selected": "1/3",
+      "complement_sum": 0.86,
+      "order_difference": 0.020000000000000018,
+      "plain_error_pp": 8.666666666666668,
+      "explicit_error_pp": 27.666666666666668,
+      "reversed_error_pp": 10.666666666666668,
+      "noul_error_pp": -8.333333333333332,
+      "complement_inverted_error_pp": 5.66666666666667
+    },
+    {
+      "id": "P058",
+      "family": "conditional",
+      "scenario": "One card is drawn uniformly from a standard 52-card deck. You learn only that it is red.",
+      "event": "The card is a heart.",
+      "true_probability": 0.5,
+      "exact_fraction": "1/2",
+      "derivation": "13 hearts among 26 red cards.",
+      "valid": true,
+      "plain": 0.83,
+      "explicit": 0.89,
+      "reversed": 0.75,
+      "noul": 0.45,
+      "complement_inverted": 0.52,
+      "numeric_correct": true,
+      "numeric_selected": "1/2",
+      "complement_sum": 0.9299999999999999,
+      "order_difference": 0.07999999999999996,
+      "plain_error_pp": 32.99999999999999,
+      "explicit_error_pp": 39.0,
+      "reversed_error_pp": 25.0,
+      "noul_error_pp": -4.999999999999999,
+      "complement_inverted_error_pp": 2.0000000000000018
+    },
+    {
+      "id": "P059",
+      "family": "conditional",
+      "scenario": "A bag has 3 red and 7 blue balls. Two balls are drawn uniformly without replacement. The first is observed to be red; the second has not been observed.",
+      "event": "The second ball is red.",
+      "true_probability": 0.2222222222222222,
+      "exact_fraction": "2/9",
+      "derivation": "After removing a red ball, 2 of 9 remaining balls are red.",
+      "valid": true,
+      "plain": 0.24,
+      "explicit": 0.38,
+      "reversed": 0.22,
+      "noul": 0.15,
+      "complement_inverted": 0.18999999999999995,
+      "numeric_correct": true,
+      "numeric_selected": "2/9",
+      "complement_sum": 0.9600000000000001,
+      "order_difference": 0.01999999999999999,
+      "plain_error_pp": 1.7777777777777781,
+      "explicit_error_pp": 15.777777777777779,
+      "reversed_error_pp": -0.22222222222222088,
+      "noul_error_pp": -7.222222222222221,
+      "complement_inverted_error_pp": -3.2222222222222263
+    },
+    {
+      "id": "P060",
+      "family": "conditional",
+      "scenario": "A prize is placed uniformly behind one of three doors. You choose door 1. A host who knows the location always opens a different, empty door and always offers a switch. If both other doors are empty, the host chooses between them uniformly. You switch to the remaining unopened door.",
+      "event": "You win the prize.",
+      "true_probability": 0.6666666666666666,
+      "exact_fraction": "2/3",
+      "derivation": "Switching wins exactly when the original choice is wrong: 2/3.",
+      "valid": true,
+      "plain": 0.54,
+      "explicit": 0.45,
+      "reversed": 0.56,
+      "noul": 0.46,
+      "complement_inverted": 0.51,
+      "numeric_correct": true,
+      "numeric_selected": "2/3",
+      "complement_sum": 0.95,
+      "order_difference": 0.020000000000000018,
+      "plain_error_pp": -12.666666666666659,
+      "explicit_error_pp": -21.66666666666666,
+      "reversed_error_pp": -10.666666666666657,
+      "noul_error_pp": -20.66666666666666,
+      "complement_inverted_error_pp": -15.666666666666663
+    }
+  ],
+  "multiclass_cases": [
+    {
+      "id": "P061",
+      "scenario": "A fair coin is flipped once. No result has been observed.",
+      "truth": {
+        "heads": 0.5,
+        "tails": 0.5
+      },
+      "derivation": "Two equally likely sides.",
+      "valid": true,
+      "predictions": {
+        "plain": {
+          "heads": 0.94,
+          "tails": 0.06
+        },
+        "explicit": {
+          "heads": 0.97,
+          "tails": 0.03
+        },
+        "reversed": {
+          "heads": 0.93,
+          "tails": 0.07
+        }
+      },
+      "tv": {
+        "plain": 0.43999999999999995,
+        "explicit": 0.47,
+        "reversed": 0.43000000000000005
+      },
+      "max_component_error": {
+        "plain": 0.44,
+        "explicit": 0.47,
+        "reversed": 0.43000000000000005
+      },
+      "order_tv": 0.009999999999999953
+    },
+    {
+      "id": "P062",
+      "scenario": "A fair six-sided die numbered 1 through 6 is rolled. No result has been observed.",
+      "truth": {
+        "face_1": 0.16666666666666666,
+        "face_2": 0.16666666666666666,
+        "face_3": 0.16666666666666666,
+        "face_4": 0.16666666666666666,
+        "face_5": 0.16666666666666666,
+        "face_6": 0.16666666666666666
+      },
+      "derivation": "Six equally likely faces.",
+      "valid": true,
+      "predictions": {
+        "plain": {
+          "face_2": 0.02,
+          "face_1": 0.78,
+          "face_4": 0.06,
+          "face_3": 0.09,
+          "face_6": 0.04,
+          "face_5": 0.01
+        },
+        "explicit": {
+          "face_2": 0.01,
+          "face_1": 0.87,
+          "face_4": 0.04,
+          "face_3": 0.06,
+          "face_6": 0.02,
+          "face_5": 0.0
+        },
+        "reversed": {
+          "face_2": 0.02,
+          "face_1": 0.77,
+          "face_4": 0.04,
+          "face_3": 0.11,
+          "face_6": 0.04,
+          "face_5": 0.02
+        }
+      },
+      "tv": {
+        "plain": 0.6133333333333333,
+        "explicit": 0.7033333333333334,
+        "reversed": 0.6033333333333334
+      },
+      "max_component_error": {
+        "plain": 0.6133333333333334,
+        "explicit": 0.7033333333333334,
+        "reversed": 0.6033333333333334
+      },
+      "order_tv": 0.030000000000000006
+    },
+    {
+      "id": "P063",
+      "scenario": "One card is drawn uniformly from a standard 52-card deck. No card is observed.",
+      "truth": {
+        "hearts": 0.25,
+        "diamonds": 0.25,
+        "clubs": 0.25,
+        "spades": 0.25
+      },
+      "derivation": "13 cards in each of four suits.",
+      "valid": true,
+      "predictions": {
+        "plain": {
+          "hearts": 0.65,
+          "spades": 0.2,
+          "diamonds": 0.06,
+          "clubs": 0.09
+        },
+        "explicit": {
+          "hearts": 0.82,
+          "spades": 0.11,
+          "diamonds": 0.04,
+          "clubs": 0.03
+        },
+        "reversed": {
+          "hearts": 0.28,
+          "spades": 0.56,
+          "diamonds": 0.07,
+          "clubs": 0.09
+        }
+      },
+      "tv": {
+        "plain": 0.4,
+        "explicit": 0.57,
+        "reversed": 0.34
+      },
+      "max_component_error": {
+        "plain": 0.4,
+        "explicit": 0.57,
+        "reversed": 0.31000000000000005
+      },
+      "order_tv": 0.37
+    },
+    {
+      "id": "P064",
+      "scenario": "A fair coin is flipped twice independently. No results are observed.",
+      "truth": {
+        "heads_0": 0.25,
+        "heads_1": 0.5,
+        "heads_2": 0.25
+      },
+      "derivation": "Binomial(2, 1/2).",
+      "valid": true,
+      "predictions": {
+        "plain": {
+          "heads_2": 0.01,
+          "heads_1": 0.96,
+          "heads_0": 0.03
+        },
+        "explicit": {
+          "heads_2": 0.01,
+          "heads_1": 0.96,
+          "heads_0": 0.03
+        },
+        "reversed": {
+          "heads_2": 0.03,
+          "heads_1": 0.95,
+          "heads_0": 0.02
+        }
+      },
+      "tv": {
+        "plain": 0.45999999999999996,
+        "explicit": 0.45999999999999996,
+        "reversed": 0.44999999999999996
+      },
+      "max_component_error": {
+        "plain": 0.45999999999999996,
+        "explicit": 0.45999999999999996,
+        "reversed": 0.44999999999999996
+      },
+      "order_tv": 0.020000000000000004
+    },
+    {
+      "id": "P065",
+      "scenario": "Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.",
+      "truth": {
+        "sum_2": 0.027777777777777776,
+        "sum_3": 0.05555555555555555,
+        "sum_4": 0.08333333333333333,
+        "sum_5": 0.1111111111111111,
+        "sum_6": 0.1388888888888889,
+        "sum_7": 0.16666666666666666,
+        "sum_8": 0.1388888888888889,
+        "sum_9": 0.1111111111111111,
+        "sum_10": 0.08333333333333333,
+        "sum_11": 0.05555555555555555,
+        "sum_12": 0.027777777777777776
+      },
+      "derivation": "Count each sum among 36 equally likely ordered pairs.",
+      "valid": true,
+      "predictions": {
+        "plain": {
+          "sum_5": 0.0,
+          "sum_3": 0.0,
+          "sum_9": 0.0,
+          "sum_4": 0.0,
+          "sum_8": 0.0,
+          "sum_11": 0.0,
+          "sum_2": 0.0,
+          "sum_12": 0.0,
+          "sum_10": 0.0,
+          "sum_6": 0.0,
+          "sum_7": 1.0
+        },
+        "explicit": {
+          "sum_5": 0.0,
+          "sum_3": 0.0,
+          "sum_11": 0.0,
+          "sum_4": 0.0,
+          "sum_8": 0.0,
+          "sum_9": 0.0,
+          "sum_2": 0.0,
+          "sum_12": 0.0,
+          "sum_10": 0.0,
+          "sum_6": 0.0,
+          "sum_7": 1.0
+        },
+        "reversed": {
+          "sum_5": 0.0,
+          "sum_3": 0.0,
+          "sum_9": 0.0,
+          "sum_4": 0.0,
+          "sum_8": 0.0,
+          "sum_11": 0.0,
+          "sum_7": 1.0,
+          "sum_12": 0.0,
+          "sum_10": 0.0,
+          "sum_6": 0.0,
+          "sum_2": 0.0
+        }
+      },
+      "tv": {
+        "plain": 0.8333333333333334,
+        "explicit": 0.8333333333333334,
+        "reversed": 0.8333333333333334
+      },
+      "max_component_error": {
+        "plain": 0.8333333333333334,
+        "explicit": 0.8333333333333334,
+        "reversed": 0.8333333333333334
+      },
+      "order_tv": 0.0
+    },
+    {
+      "id": "P066",
+      "scenario": "One ball is drawn uniformly from a bag containing 1 red, 2 blue and 7 green balls. No color is observed.",
+      "truth": {
+        "red": 0.1,
+        "blue": 0.2,
+        "green": 0.7
+      },
+      "derivation": "Color counts divided by 10.",
+      "valid": true,
+      "predictions": {
+        "plain": {
+          "red": 0.0,
+          "green": 1.0,
+          "blue": 0.0
+        },
+        "explicit": {
+          "red": 0.02,
+          "green": 0.98,
+          "blue": 0.0
+        },
+        "reversed": {
+          "red": 0.0,
+          "green": 1.0,
+          "blue": 0.0
+        }
+      },
+      "tv": {
+        "plain": 0.30000000000000004,
+        "explicit": 0.28,
+        "reversed": 0.30000000000000004
+      },
+      "max_component_error": {
+        "plain": 0.30000000000000004,
+        "explicit": 0.28,
+        "reversed": 0.30000000000000004
+      },
+      "order_tv": 0.0
+    },
+    {
+      "id": "P067",
+      "scenario": "A pointer stops uniformly around a circular spinner. Red occupies 180 degrees, blue 90 degrees, green 60 degrees and yellow 30 degrees. The result has not been observed.",
+      "truth": {
+        "red": 0.5,
+        "blue": 0.25,
+        "green": 0.16666666666666666,
+        "yellow": 0.08333333333333333
+      },
+      "derivation": "Sector angles divided by 360.",
+      "valid": true,
+      "predictions": {
+        "plain": {
+          "green": 0.0,
+          "red": 1.0,
+          "yellow": 0.0,
+          "blue": 0.0
+        },
+        "explicit": {
+          "green": 0.0,
+          "red": 0.99,
+          "yellow": 0.0,
+          "blue": 0.01
+        },
+        "reversed": {
+          "green": 0.0,
+          "red": 0.99,
+          "blue": 0.0,
+          "yellow": 0.01
+        }
+      },
+      "tv": {
+        "plain": 0.5,
+        "explicit": 0.49,
+        "reversed": 0.49
+      },
+      "max_component_error": {
+        "plain": 0.5,
+        "explicit": 0.49,
+        "reversed": 0.49
+      },
+      "order_tv": 0.010000000000000005
+    },
+    {
+      "id": "P068",
+      "scenario": "Two fair coins are flipped independently. Their ordered outcomes have not been observed.",
+      "truth": {
+        "HH": 0.25,
+        "HT": 0.25,
+        "TH": 0.25,
+        "TT": 0.25
+      },
+      "derivation": "Four equally likely ordered pairs.",
+      "valid": true,
+      "predictions": {
+        "plain": {
+          "TH": 0.02,
+          "TT": 0.04,
+          "HH": 0.64,
+          "HT": 0.3
+        },
+        "explicit": {
+          "TH": 0.02,
+          "HH": 0.79,
+          "TT": 0.01,
+          "HT": 0.17
+        },
+        "reversed": {
+          "TH": 0.03,
+          "TT": 0.05,
+          "HH": 0.77,
+          "HT": 0.15
+        }
+      },
+      "tv": {
+        "plain": 0.44,
+        "explicit": 0.5479797979797979,
+        "reversed": 0.52
+      },
+      "max_component_error": {
+        "plain": 0.39,
+        "explicit": 0.5479797979797979,
+        "reversed": 0.52
+      },
+      "order_tv": 0.15
+    }
+  ],
+  "raw_probability_sums": [
+    {
+      "id": "P001",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P001",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P001",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P001",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P002",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P002",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P002",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P002",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P003",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P003",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P003",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P003",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P004",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P004",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P004",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P004",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P005",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P005",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P005",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P005",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P006",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P006",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P006",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P006",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P007",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P007",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P007",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P007",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P008",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P008",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P008",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P008",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P009",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P009",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P009",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P009",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P010",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P010",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P010",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P010",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P011",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P011",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P011",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P011",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P012",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P012",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P012",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P012",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P013",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P013",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P013",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P013",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P014",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P014",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P014",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P014",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P015",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P015",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P015",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P015",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P016",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P016",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P016",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P016",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P017",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P017",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P017",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P017",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P018",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P018",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P018",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P018",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P019",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P019",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P019",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P019",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P020",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P020",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P020",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P020",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P021",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P021",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P021",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P021",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P022",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P022",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P022",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P022",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P023",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P023",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P023",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P023",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P024",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P024",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P024",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P024",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P025",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P025",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P025",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P025",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P026",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P026",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P026",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P026",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P027",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P027",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P027",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P027",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P028",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P028",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P028",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P028",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P029",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P029",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P029",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P029",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P030",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P030",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P030",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P030",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P031",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P031",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P031",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P031",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P032",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P032",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P032",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P032",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P033",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P033",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P033",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P033",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P034",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P034",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P034",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P034",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P035",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P035",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P035",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P035",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P036",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P036",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P036",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P036",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P037",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P037",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P037",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P037",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P038",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P038",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P038",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P038",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P039",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P039",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P039",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P039",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P040",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P040",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P040",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P040",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P041",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P041",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P041",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P041",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P042",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P042",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P042",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P042",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P043",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P043",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P043",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P043",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P044",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P044",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P044",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P044",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P045",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P045",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P045",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P045",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P046",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P046",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P046",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P046",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P047",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P047",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P047",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P047",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P048",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P048",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P048",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P048",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P049",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P049",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P049",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P049",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P050",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P050",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P050",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P050",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P051",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P051",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P051",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P051",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P052",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P052",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P052",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P052",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P053",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P053",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P053",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P053",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P054",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P054",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P054",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P054",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P055",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P055",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P055",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P055",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P056",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P056",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P056",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P056",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P057",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P057",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P057",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P057",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P058",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P058",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P058",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P058",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P059",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P059",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P059",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P059",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P060",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P060",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P060",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P060",
+      "question": "numeric",
+      "sum": 1.0
+    },
+    {
+      "id": "P061",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P061",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P061",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P062",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P062",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P062",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P063",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P063",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P063",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P064",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P064",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P064",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P065",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P065",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P065",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P066",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P066",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P066",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P067",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P067",
+      "question": "explicit",
+      "sum": 1.0
+    },
+    {
+      "id": "P067",
+      "question": "reversed",
+      "sum": 1.0
+    },
+    {
+      "id": "P068",
+      "question": "plain",
+      "sum": 1.0
+    },
+    {
+      "id": "P068",
+      "question": "explicit",
+      "sum": 0.9900000000000001
+    },
+    {
+      "id": "P068",
+      "question": "reversed",
+      "sum": 1.0
+    }
+  ]
+}

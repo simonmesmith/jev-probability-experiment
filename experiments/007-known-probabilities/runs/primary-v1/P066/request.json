@@ -1,0 +1,35 @@
+{
+  "model": "jev-1.13.0",
+  "state": {
+    "scenario": "One ball is drawn uniformly from a bag containing 1 red, 2 blue and 7 green balls. No color is observed."
+  },
+  "questions": {
+    "plain": {
+      "type": "choice",
+      "instructions": "Which outcome will occur?",
+      "criteria": {
+        "red": "The ball is red.",
+        "blue": "The ball is blue.",
+        "green": "The ball is green."
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "instructions": "Predict the unobserved outcome of the stated random process. Your option probabilities should represent the mathematical chances of the outcomes, not confidence that an outcome is the most likely. Use only the supplied information.",
+      "criteria": {
+        "red": "The ball is red.",
+        "blue": "The ball is blue.",
+        "green": "The ball is green."
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "instructions": "Which outcome will occur?",
+      "criteria": {
+        "green": "The ball is green.",
+        "blue": "The ball is blue.",
+        "red": "The ball is red."
+      }
+    }
+  }
+}

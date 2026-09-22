@@ -1,0 +1,55 @@
+{
+  "model": "jev-1.13.0",
+  "answers": {
+    "plain": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.86,
+      "probabilities": {
+        "event_does_not_occur": 0.93,
+        "event_occurs": 0.07
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.69,
+      "probabilities": {
+        "event_does_not_occur": 0.84,
+        "event_occurs": 0.16
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "choice": "event_does_not_occur",
+      "confidence": 0.88,
+      "probabilities": {
+        "event_does_not_occur": 0.94,
+        "event_occurs": 0.06
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "noul": 0.05
+    },
+    "complement": {
+      "type": "noul",
+      "noul": 0.93
+    },
+    "numeric": {
+      "type": "choice",
+      "choice": "answer_1",
+      "confidence": 1.0,
+      "probabilities": {
+        "answer_4": 0.0,
+        "answer_2": 0.0,
+        "answer_3": 0.0,
+        "answer_1": 1.0
+      }
+    }
+  },
+  "usage": {
+    "input_tokens": 704,
+    "output_tokens": 212
+  }
+}

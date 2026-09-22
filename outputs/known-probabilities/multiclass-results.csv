@@ -1,0 +1,112 @@
+case,scenario,variant,outcome,exact_probability,raw_jev_probability,raw_sum,normalized_jev_probability
+P061,A fair coin is flipped once. No result has been observed.,plain,heads,0.5,0.94,1.0,0.94
+P061,A fair coin is flipped once. No result has been observed.,plain,tails,0.5,0.06,1.0,0.06
+P061,A fair coin is flipped once. No result has been observed.,explicit,heads,0.5,0.97,1.0,0.97
+P061,A fair coin is flipped once. No result has been observed.,explicit,tails,0.5,0.03,1.0,0.03
+P061,A fair coin is flipped once. No result has been observed.,reversed,heads,0.5,0.93,1.0,0.93
+P061,A fair coin is flipped once. No result has been observed.,reversed,tails,0.5,0.07,1.0,0.07
+P062,A fair six-sided die numbered 1 through 6 is rolled. No result has been observed.,plain,face_2,0.16666666666666666,0.02,1.0,0.02
+P062,A fair six-sided die numbered 1 through 6 is rolled. No result has been observed.,plain,face_1,0.16666666666666666,0.78,1.0,0.78
+P062,A fair six-sided die numbered 1 through 6 is rolled. No result has been observed.,plain,face_4,0.16666666666666666,0.06,1.0,0.06
+P062,A fair six-sided die numbered 1 through 6 is rolled. No result has been observed.,plain,face_3,0.16666666666666666,0.09,1.0,0.09
+P062,A fair six-sided die numbered 1 through 6 is rolled. No result has been observed.,plain,face_6,0.16666666666666666,0.04,1.0,0.04
+P062,A fair six-sided die numbered 1 through 6 is rolled. No result has been observed.,plain,face_5,0.16666666666666666,0.01,1.0,0.01
+P062,A fair six-sided die numbered 1 through 6 is rolled. No result has been observed.,explicit,face_2,0.16666666666666666,0.01,1.0,0.01
+P062,A fair six-sided die numbered 1 through 6 is rolled. No result has been observed.,explicit,face_1,0.16666666666666666,0.87,1.0,0.87
+P062,A fair six-sided die numbered 1 through 6 is rolled. No result has been observed.,explicit,face_4,0.16666666666666666,0.04,1.0,0.04
+P062,A fair six-sided die numbered 1 through 6 is rolled. No result has been observed.,explicit,face_3,0.16666666666666666,0.06,1.0,0.06
+P062,A fair six-sided die numbered 1 through 6 is rolled. No result has been observed.,explicit,face_6,0.16666666666666666,0.02,1.0,0.02
+P062,A fair six-sided die numbered 1 through 6 is rolled. No result has been observed.,explicit,face_5,0.16666666666666666,0.0,1.0,0.0
+P062,A fair six-sided die numbered 1 through 6 is rolled. No result has been observed.,reversed,face_2,0.16666666666666666,0.02,1.0,0.02
+P062,A fair six-sided die numbered 1 through 6 is rolled. No result has been observed.,reversed,face_1,0.16666666666666666,0.77,1.0,0.77
+P062,A fair six-sided die numbered 1 through 6 is rolled. No result has been observed.,reversed,face_4,0.16666666666666666,0.04,1.0,0.04
+P062,A fair six-sided die numbered 1 through 6 is rolled. No result has been observed.,reversed,face_3,0.16666666666666666,0.11,1.0,0.11
+P062,A fair six-sided die numbered 1 through 6 is rolled. No result has been observed.,reversed,face_6,0.16666666666666666,0.04,1.0,0.04
+P062,A fair six-sided die numbered 1 through 6 is rolled. No result has been observed.,reversed,face_5,0.16666666666666666,0.02,1.0,0.02
+P063,One card is drawn uniformly from a standard 52-card deck. No card is observed.,plain,hearts,0.25,0.65,1.0,0.65
+P063,One card is drawn uniformly from a standard 52-card deck. No card is observed.,plain,spades,0.25,0.2,1.0,0.2
+P063,One card is drawn uniformly from a standard 52-card deck. No card is observed.,plain,diamonds,0.25,0.06,1.0,0.06
+P063,One card is drawn uniformly from a standard 52-card deck. No card is observed.,plain,clubs,0.25,0.09,1.0,0.09
+P063,One card is drawn uniformly from a standard 52-card deck. No card is observed.,explicit,hearts,0.25,0.82,1.0,0.82
+P063,One card is drawn uniformly from a standard 52-card deck. No card is observed.,explicit,spades,0.25,0.11,1.0,0.11
+P063,One card is drawn uniformly from a standard 52-card deck. No card is observed.,explicit,diamonds,0.25,0.04,1.0,0.04
+P063,One card is drawn uniformly from a standard 52-card deck. No card is observed.,explicit,clubs,0.25,0.03,1.0,0.03
+P063,One card is drawn uniformly from a standard 52-card deck. No card is observed.,reversed,hearts,0.25,0.28,1.0,0.28
+P063,One card is drawn uniformly from a standard 52-card deck. No card is observed.,reversed,spades,0.25,0.56,1.0,0.56
+P063,One card is drawn uniformly from a standard 52-card deck. No card is observed.,reversed,diamonds,0.25,0.07,1.0,0.07
+P063,One card is drawn uniformly from a standard 52-card deck. No card is observed.,reversed,clubs,0.25,0.09,1.0,0.09
+P064,A fair coin is flipped twice independently. No results are observed.,plain,heads_2,0.25,0.01,1.0,0.01
+P064,A fair coin is flipped twice independently. No results are observed.,plain,heads_1,0.5,0.96,1.0,0.96
+P064,A fair coin is flipped twice independently. No results are observed.,plain,heads_0,0.25,0.03,1.0,0.03
+P064,A fair coin is flipped twice independently. No results are observed.,explicit,heads_2,0.25,0.01,1.0,0.01
+P064,A fair coin is flipped twice independently. No results are observed.,explicit,heads_1,0.5,0.96,1.0,0.96
+P064,A fair coin is flipped twice independently. No results are observed.,explicit,heads_0,0.25,0.03,1.0,0.03
+P064,A fair coin is flipped twice independently. No results are observed.,reversed,heads_2,0.25,0.03,1.0,0.03
+P064,A fair coin is flipped twice independently. No results are observed.,reversed,heads_1,0.5,0.95,1.0,0.95
+P064,A fair coin is flipped twice independently. No results are observed.,reversed,heads_0,0.25,0.02,1.0,0.02
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,plain,sum_5,0.1111111111111111,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,plain,sum_3,0.05555555555555555,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,plain,sum_9,0.1111111111111111,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,plain,sum_4,0.08333333333333333,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,plain,sum_8,0.1388888888888889,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,plain,sum_11,0.05555555555555555,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,plain,sum_2,0.027777777777777776,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,plain,sum_12,0.027777777777777776,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,plain,sum_10,0.08333333333333333,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,plain,sum_6,0.1388888888888889,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,plain,sum_7,0.16666666666666666,1.0,1.0,1.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,explicit,sum_5,0.1111111111111111,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,explicit,sum_3,0.05555555555555555,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,explicit,sum_11,0.05555555555555555,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,explicit,sum_4,0.08333333333333333,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,explicit,sum_8,0.1388888888888889,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,explicit,sum_9,0.1111111111111111,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,explicit,sum_2,0.027777777777777776,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,explicit,sum_12,0.027777777777777776,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,explicit,sum_10,0.08333333333333333,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,explicit,sum_6,0.1388888888888889,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,explicit,sum_7,0.16666666666666666,1.0,1.0,1.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,reversed,sum_5,0.1111111111111111,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,reversed,sum_3,0.05555555555555555,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,reversed,sum_9,0.1111111111111111,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,reversed,sum_4,0.08333333333333333,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,reversed,sum_8,0.1388888888888889,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,reversed,sum_11,0.05555555555555555,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,reversed,sum_7,0.16666666666666666,1.0,1.0,1.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,reversed,sum_12,0.027777777777777776,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,reversed,sum_10,0.08333333333333333,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,reversed,sum_6,0.1388888888888889,0.0,1.0,0.0
+P065,Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed.,reversed,sum_2,0.027777777777777776,0.0,1.0,0.0
+P066,"One ball is drawn uniformly from a bag containing 1 red, 2 blue and 7 green balls. No color is observed.",plain,red,0.1,0.0,1.0,0.0
+P066,"One ball is drawn uniformly from a bag containing 1 red, 2 blue and 7 green balls. No color is observed.",plain,green,0.7,1.0,1.0,1.0
+P066,"One ball is drawn uniformly from a bag containing 1 red, 2 blue and 7 green balls. No color is observed.",plain,blue,0.2,0.0,1.0,0.0
+P066,"One ball is drawn uniformly from a bag containing 1 red, 2 blue and 7 green balls. No color is observed.",explicit,red,0.1,0.02,1.0,0.02
+P066,"One ball is drawn uniformly from a bag containing 1 red, 2 blue and 7 green balls. No color is observed.",explicit,green,0.7,0.98,1.0,0.98
+P066,"One ball is drawn uniformly from a bag containing 1 red, 2 blue and 7 green balls. No color is observed.",explicit,blue,0.2,0.0,1.0,0.0
+P066,"One ball is drawn uniformly from a bag containing 1 red, 2 blue and 7 green balls. No color is observed.",reversed,red,0.1,0.0,1.0,0.0
+P066,"One ball is drawn uniformly from a bag containing 1 red, 2 blue and 7 green balls. No color is observed.",reversed,green,0.7,1.0,1.0,1.0
+P066,"One ball is drawn uniformly from a bag containing 1 red, 2 blue and 7 green balls. No color is observed.",reversed,blue,0.2,0.0,1.0,0.0
+P067,"A pointer stops uniformly around a circular spinner. Red occupies 180 degrees, blue 90 degrees, green 60 degrees and yellow 30 degrees. The result has not been observed.",plain,green,0.16666666666666666,0.0,1.0,0.0
+P067,"A pointer stops uniformly around a circular spinner. Red occupies 180 degrees, blue 90 degrees, green 60 degrees and yellow 30 degrees. The result has not been observed.",plain,red,0.5,1.0,1.0,1.0
+P067,"A pointer stops uniformly around a circular spinner. Red occupies 180 degrees, blue 90 degrees, green 60 degrees and yellow 30 degrees. The result has not been observed.",plain,yellow,0.08333333333333333,0.0,1.0,0.0
+P067,"A pointer stops uniformly around a circular spinner. Red occupies 180 degrees, blue 90 degrees, green 60 degrees and yellow 30 degrees. The result has not been observed.",plain,blue,0.25,0.0,1.0,0.0
+P067,"A pointer stops uniformly around a circular spinner. Red occupies 180 degrees, blue 90 degrees, green 60 degrees and yellow 30 degrees. The result has not been observed.",explicit,green,0.16666666666666666,0.0,1.0,0.0
+P067,"A pointer stops uniformly around a circular spinner. Red occupies 180 degrees, blue 90 degrees, green 60 degrees and yellow 30 degrees. The result has not been observed.",explicit,red,0.5,0.99,1.0,0.99
+P067,"A pointer stops uniformly around a circular spinner. Red occupies 180 degrees, blue 90 degrees, green 60 degrees and yellow 30 degrees. The result has not been observed.",explicit,yellow,0.08333333333333333,0.0,1.0,0.0
+P067,"A pointer stops uniformly around a circular spinner. Red occupies 180 degrees, blue 90 degrees, green 60 degrees and yellow 30 degrees. The result has not been observed.",explicit,blue,0.25,0.01,1.0,0.01
+P067,"A pointer stops uniformly around a circular spinner. Red occupies 180 degrees, blue 90 degrees, green 60 degrees and yellow 30 degrees. The result has not been observed.",reversed,green,0.16666666666666666,0.0,1.0,0.0
+P067,"A pointer stops uniformly around a circular spinner. Red occupies 180 degrees, blue 90 degrees, green 60 degrees and yellow 30 degrees. The result has not been observed.",reversed,red,0.5,0.99,1.0,0.99
+P067,"A pointer stops uniformly around a circular spinner. Red occupies 180 degrees, blue 90 degrees, green 60 degrees and yellow 30 degrees. The result has not been observed.",reversed,blue,0.25,0.0,1.0,0.0
+P067,"A pointer stops uniformly around a circular spinner. Red occupies 180 degrees, blue 90 degrees, green 60 degrees and yellow 30 degrees. The result has not been observed.",reversed,yellow,0.08333333333333333,0.01,1.0,0.01
+P068,Two fair coins are flipped independently. Their ordered outcomes have not been observed.,plain,TH,0.25,0.02,1.0,0.02
+P068,Two fair coins are flipped independently. Their ordered outcomes have not been observed.,plain,TT,0.25,0.04,1.0,0.04
+P068,Two fair coins are flipped independently. Their ordered outcomes have not been observed.,plain,HH,0.25,0.64,1.0,0.64
+P068,Two fair coins are flipped independently. Their ordered outcomes have not been observed.,plain,HT,0.25,0.3,1.0,0.3
+P068,Two fair coins are flipped independently. Their ordered outcomes have not been observed.,explicit,TH,0.25,0.02,0.9900000000000001,0.0202020202020202
+P068,Two fair coins are flipped independently. Their ordered outcomes have not been observed.,explicit,HH,0.25,0.79,0.9900000000000001,0.7979797979797979
+P068,Two fair coins are flipped independently. Their ordered outcomes have not been observed.,explicit,TT,0.25,0.01,0.9900000000000001,0.0101010101010101
+P068,Two fair coins are flipped independently. Their ordered outcomes have not been observed.,explicit,HT,0.25,0.17,0.9900000000000001,0.1717171717171717
+P068,Two fair coins are flipped independently. Their ordered outcomes have not been observed.,reversed,TH,0.25,0.03,1.0,0.03
+P068,Two fair coins are flipped independently. Their ordered outcomes have not been observed.,reversed,TT,0.25,0.05,1.0,0.05
+P068,Two fair coins are flipped independently. Their ordered outcomes have not been observed.,reversed,HH,0.25,0.77,1.0,0.77
+P068,Two fair coins are flipped independently. Their ordered outcomes have not been observed.,reversed,HT,0.25,0.15,1.0,0.15

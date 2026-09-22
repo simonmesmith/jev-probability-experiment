@@ -1,0 +1,51 @@
+{
+  "model": "jev-1.13.0",
+  "state": {
+    "scenario": "A bag contains 1 red and 9 blue balls. Draw 2 balls uniformly without replacement. No colors are observed.",
+    "event": "Exactly 2 drawn balls are red."
+  },
+  "questions": {
+    "plain": {
+      "type": "choice",
+      "instructions": "Which outcome will occur?",
+      "criteria": {
+        "event_occurs": "The event described in `event` occurs.",
+        "event_does_not_occur": "The event described in `event` does not occur."
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "instructions": "Predict the unobserved outcome of the stated random process. Your option probabilities should represent the mathematical chances of the outcomes, not confidence that an outcome is the most likely. Use only the supplied information.",
+      "criteria": {
+        "event_occurs": "The event described in `event` occurs.",
+        "event_does_not_occur": "The event described in `event` does not occur."
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "instructions": "Which outcome will occur?",
+      "criteria": {
+        "event_does_not_occur": "The event described in `event` does not occur.",
+        "event_occurs": "The event described in `event` occurs."
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "instructions": "Will the event described in `event` occur?"
+    },
+    "complement": {
+      "type": "noul",
+      "instructions": "Will the event described in `event` NOT occur?"
+    },
+    "numeric": {
+      "type": "choice",
+      "instructions": "What is the exact mathematical probability that the event described in `event` occurs? Choose the correct numerical answer. Fractions denote exact probabilities.",
+      "criteria": {
+        "answer_1": "Probability = 2/3",
+        "answer_2": "Probability = 0",
+        "answer_3": "Probability = 1/4",
+        "answer_4": "Probability = 1/10"
+      }
+    }
+  }
+}

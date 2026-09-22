@@ -1,0 +1,59 @@
+{
+  "model": "jev-1.13.0",
+  "state": {
+    "scenario": "Two fair six-sided dice numbered 1 through 6 are rolled independently. No results are observed."
+  },
+  "questions": {
+    "plain": {
+      "type": "choice",
+      "instructions": "Which outcome will occur?",
+      "criteria": {
+        "sum_2": "The sum is 2.",
+        "sum_3": "The sum is 3.",
+        "sum_4": "The sum is 4.",
+        "sum_5": "The sum is 5.",
+        "sum_6": "The sum is 6.",
+        "sum_7": "The sum is 7.",
+        "sum_8": "The sum is 8.",
+        "sum_9": "The sum is 9.",
+        "sum_10": "The sum is 10.",
+        "sum_11": "The sum is 11.",
+        "sum_12": "The sum is 12."
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "instructions": "Predict the unobserved outcome of the stated random process. Your option probabilities should represent the mathematical chances of the outcomes, not confidence that an outcome is the most likely. Use only the supplied information.",
+      "criteria": {
+        "sum_2": "The sum is 2.",
+        "sum_3": "The sum is 3.",
+        "sum_4": "The sum is 4.",
+        "sum_5": "The sum is 5.",
+        "sum_6": "The sum is 6.",
+        "sum_7": "The sum is 7.",
+        "sum_8": "The sum is 8.",
+        "sum_9": "The sum is 9.",
+        "sum_10": "The sum is 10.",
+        "sum_11": "The sum is 11.",
+        "sum_12": "The sum is 12."
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "instructions": "Which outcome will occur?",
+      "criteria": {
+        "sum_12": "The sum is 12.",
+        "sum_11": "The sum is 11.",
+        "sum_10": "The sum is 10.",
+        "sum_9": "The sum is 9.",
+        "sum_8": "The sum is 8.",
+        "sum_7": "The sum is 7.",
+        "sum_6": "The sum is 6.",
+        "sum_5": "The sum is 5.",
+        "sum_4": "The sum is 4.",
+        "sum_3": "The sum is 3.",
+        "sum_2": "The sum is 2."
+      }
+    }
+  }
+}

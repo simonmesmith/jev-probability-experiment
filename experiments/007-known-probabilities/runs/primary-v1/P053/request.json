@@ -1,0 +1,51 @@
+{
+  "model": "jev-1.13.0",
+  "state": {
+    "scenario": "A factory makes items. Fraction 1/100 are defective. A detector flags a defective item with probability 9/10, and flags a nondefective item with probability 1/10. An item is sampled uniformly from production and is observed to be flagged.",
+    "event": "The sampled item is defective."
+  },
+  "questions": {
+    "plain": {
+      "type": "choice",
+      "instructions": "Which outcome will occur?",
+      "criteria": {
+        "event_occurs": "The event described in `event` occurs.",
+        "event_does_not_occur": "The event described in `event` does not occur."
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "instructions": "Predict the unobserved outcome of the stated random process. Your option probabilities should represent the mathematical chances of the outcomes, not confidence that an outcome is the most likely. Use only the supplied information.",
+      "criteria": {
+        "event_occurs": "The event described in `event` occurs.",
+        "event_does_not_occur": "The event described in `event` does not occur."
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "instructions": "Which outcome will occur?",
+      "criteria": {
+        "event_does_not_occur": "The event described in `event` does not occur.",
+        "event_occurs": "The event described in `event` occurs."
+      }
+    },
+    "noul": {
+      "type": "noul",
+      "instructions": "Will the event described in `event` occur?"
+    },
+    "complement": {
+      "type": "noul",
+      "instructions": "Will the event described in `event` NOT occur?"
+    },
+    "numeric": {
+      "type": "choice",
+      "instructions": "What is the exact mathematical probability that the event described in `event` occurs? Choose the correct numerical answer. Fractions denote exact probabilities.",
+      "criteria": {
+        "answer_1": "Probability = 1/100",
+        "answer_2": "Probability = 1",
+        "answer_3": "Probability = 1/6",
+        "answer_4": "Probability = 1/12"
+      }
+    }
+  }
+}

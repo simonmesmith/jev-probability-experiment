@@ -1,0 +1,176 @@
+{"call_id": "6090e8a342914157b875ac5e77c80483", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "7cd92e9798154060bbab1aedfc377fa9", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "32fe8790b1a0405981d3c6f7d3c906b1", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "6de0756adab3440ab7cffdf80c2c042a", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "6090e8a342914157b875ac5e77c80483", "event": "finished", "charge": 2.9862000000000003e-05, "run": "primary-v1", "usage": {"input_tokens": 711, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9862000000000003e-05, "seconds": 0.47889891697559506}
+{"call_id": "00b2566883d74f2c969815ea662b18f4", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "7cd92e9798154060bbab1aedfc377fa9", "event": "finished", "charge": 2.9694000000000004e-05, "run": "primary-v1", "usage": {"input_tokens": 707, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9694000000000004e-05, "seconds": 0.3832980829756707}
+{"call_id": "af3a0e412245485eb47d2806697aa65f", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "32fe8790b1a0405981d3c6f7d3c906b1", "event": "finished", "charge": 2.9820000000000002e-05, "run": "primary-v1", "usage": {"input_tokens": 710, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9820000000000002e-05, "seconds": 0.36983062501531094}
+{"call_id": "155e67df359f4229921ed12f77a117f0", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "6de0756adab3440ab7cffdf80c2c042a", "event": "finished", "charge": 2.9904000000000004e-05, "run": "primary-v1", "usage": {"input_tokens": 712, "output_tokens": 209}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9904000000000004e-05, "seconds": 0.383218584000133}
+{"call_id": "d8fc53621f04495bbc6ffe469f0a3d8a", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "00b2566883d74f2c969815ea662b18f4", "event": "finished", "charge": 2.9904000000000004e-05, "run": "primary-v1", "usage": {"input_tokens": 712, "output_tokens": 212}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9904000000000004e-05, "seconds": 0.40186208399245515}
+{"call_id": "6ee321f358cf429fa1456cdd98e22ff9", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "af3a0e412245485eb47d2806697aa65f", "event": "finished", "charge": 2.9736000000000005e-05, "run": "primary-v1", "usage": {"input_tokens": 708, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9736000000000005e-05, "seconds": 0.44088574999477714}
+{"call_id": "1cddee8a659f44ef95322fbe964b1988", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "155e67df359f4229921ed12f77a117f0", "event": "finished", "charge": 2.9694000000000004e-05, "run": "primary-v1", "usage": {"input_tokens": 707, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9694000000000004e-05, "seconds": 0.37647070904495195}
+{"call_id": "b1306157d8d94ab8a55c628049cc1a7e", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "d8fc53621f04495bbc6ffe469f0a3d8a", "event": "finished", "charge": 2.9862000000000003e-05, "run": "primary-v1", "usage": {"input_tokens": 711, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9862000000000003e-05, "seconds": 0.4414161659660749}
+{"call_id": "482d05c7225041d6a39d59f5bab39aa8", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "6ee321f358cf429fa1456cdd98e22ff9", "event": "finished", "charge": 2.9736000000000005e-05, "run": "primary-v1", "usage": {"input_tokens": 708, "output_tokens": 212}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9736000000000005e-05, "seconds": 0.4025820419774391}
+{"call_id": "151898542cb248189bb14eadb2fb81ab", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "1cddee8a659f44ef95322fbe964b1988", "event": "finished", "charge": 2.9862000000000003e-05, "run": "primary-v1", "usage": {"input_tokens": 711, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9862000000000003e-05, "seconds": 0.3776969999889843}
+{"call_id": "6641b7b975484d95a5e14a3fd69c6f9e", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "b1306157d8d94ab8a55c628049cc1a7e", "event": "finished", "charge": 2.9820000000000002e-05, "run": "primary-v1", "usage": {"input_tokens": 710, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9820000000000002e-05, "seconds": 0.4006576249958016}
+{"call_id": "5d1ecbc54bad4e4e800892669746444f", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "482d05c7225041d6a39d59f5bab39aa8", "event": "finished", "charge": 2.9946000000000004e-05, "run": "primary-v1", "usage": {"input_tokens": 713, "output_tokens": 212}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9946000000000004e-05, "seconds": 0.4006641659652814}
+{"call_id": "62c9cef877224f4a8c02610ebe4c04fb", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "151898542cb248189bb14eadb2fb81ab", "event": "finished", "charge": 3.0030000000000006e-05, "run": "primary-v1", "usage": {"input_tokens": 715, "output_tokens": 206}, "model": "jev-1.13.0", "estimated_cost_usd": 3.0030000000000006e-05, "seconds": 0.4255361660034396}
+{"call_id": "147d1a964a894b64a8727784ae93563e", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "6641b7b975484d95a5e14a3fd69c6f9e", "event": "finished", "charge": 3.0030000000000006e-05, "run": "primary-v1", "usage": {"input_tokens": 715, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 3.0030000000000006e-05, "seconds": 0.4228690409800038}
+{"call_id": "3a4eaf857ce0446aa05b65b3f2230b50", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "5d1ecbc54bad4e4e800892669746444f", "event": "finished", "charge": 2.9904000000000004e-05, "run": "primary-v1", "usage": {"input_tokens": 712, "output_tokens": 212}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9904000000000004e-05, "seconds": 0.3790830000070855}
+{"call_id": "a3f87faf207f43fc980fe8e9d3836a09", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "62c9cef877224f4a8c02610ebe4c04fb", "event": "finished", "charge": 2.9988000000000005e-05, "run": "primary-v1", "usage": {"input_tokens": 714, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9988000000000005e-05, "seconds": 0.3718598749837838}
+{"call_id": "dd433925b4ea424ebebcf18091bc7290", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "147d1a964a894b64a8727784ae93563e", "event": "finished", "charge": 3.0114000000000003e-05, "run": "primary-v1", "usage": {"input_tokens": 717, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 3.0114000000000003e-05, "seconds": 0.40693870797986165}
+{"call_id": "4963c995f7f14746852c58b95ae24423", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "3a4eaf857ce0446aa05b65b3f2230b50", "event": "finished", "charge": 3.0114000000000003e-05, "run": "primary-v1", "usage": {"input_tokens": 717, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 3.0114000000000003e-05, "seconds": 0.39965645800111815}
+{"call_id": "f4fcd92ce6b140d58f3269860f69dff8", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "a3f87faf207f43fc980fe8e9d3836a09", "event": "finished", "charge": 2.9568000000000006e-05, "run": "primary-v1", "usage": {"input_tokens": 704, "output_tokens": 212}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9568000000000006e-05, "seconds": 0.4470590419950895}
+{"call_id": "145375e7be554df08342532a390d6979", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "dd433925b4ea424ebebcf18091bc7290", "event": "finished", "charge": 2.9568000000000006e-05, "run": "primary-v1", "usage": {"input_tokens": 704, "output_tokens": 206}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9568000000000006e-05, "seconds": 0.3620062909903936}
+{"call_id": "26d1903c7d3f44a590115fefa9c43aa8", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "4963c995f7f14746852c58b95ae24423", "event": "finished", "charge": 2.9904000000000004e-05, "run": "primary-v1", "usage": {"input_tokens": 712, "output_tokens": 212}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9904000000000004e-05, "seconds": 0.37101433298084885}
+{"call_id": "25ff683a40c14d3cb6d0cca1cf2fa067", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "f4fcd92ce6b140d58f3269860f69dff8", "event": "finished", "charge": 2.9400000000000003e-05, "run": "primary-v1", "usage": {"input_tokens": 700, "output_tokens": 212}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9400000000000003e-05, "seconds": 0.39873758400790393}
+{"call_id": "b15fdb9e3cf343b09ca86a71dae69728", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "145375e7be554df08342532a390d6979", "event": "finished", "charge": 2.9610000000000003e-05, "run": "primary-v1", "usage": {"input_tokens": 705, "output_tokens": 209}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9610000000000003e-05, "seconds": 0.47109008400002494}
+{"call_id": "64cf80fd289c42b8a6f67629fa416c54", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "26d1903c7d3f44a590115fefa9c43aa8", "event": "finished", "charge": 2.9610000000000003e-05, "run": "primary-v1", "usage": {"input_tokens": 705, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9610000000000003e-05, "seconds": 0.3813356250175275}
+{"call_id": "f1f9835b021541c984676d50d6dfc069", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "25ff683a40c14d3cb6d0cca1cf2fa067", "event": "finished", "charge": 2.9820000000000002e-05, "run": "primary-v1", "usage": {"input_tokens": 710, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9820000000000002e-05, "seconds": 0.36863895802525803}
+{"call_id": "7970c7aa3f704e7ca30fbd3ce222abdc", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "b15fdb9e3cf343b09ca86a71dae69728", "event": "finished", "charge": 2.9568000000000006e-05, "run": "primary-v1", "usage": {"input_tokens": 704, "output_tokens": 212}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9568000000000006e-05, "seconds": 0.3839603749802336}
+{"call_id": "5135d481b1c84184b0f6b1301d040d5f", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "64cf80fd289c42b8a6f67629fa416c54", "event": "finished", "charge": 2.9484000000000004e-05, "run": "primary-v1", "usage": {"input_tokens": 702, "output_tokens": 212}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9484000000000004e-05, "seconds": 0.3948298339964822}
+{"call_id": "bfb137f9d7394c51a2cd12e02a5977e3", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "f1f9835b021541c984676d50d6dfc069", "event": "finished", "charge": 2.9778000000000005e-05, "run": "primary-v1", "usage": {"input_tokens": 709, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9778000000000005e-05, "seconds": 0.4245335829909891}
+{"call_id": "d7eee052bb3e49a1b5aa444147bb4019", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "7970c7aa3f704e7ca30fbd3ce222abdc", "event": "finished", "charge": 2.9736000000000005e-05, "run": "primary-v1", "usage": {"input_tokens": 708, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9736000000000005e-05, "seconds": 0.47486266697524115}
+{"call_id": "63ffe8333465490a8e16051f75d941e1", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "5135d481b1c84184b0f6b1301d040d5f", "event": "finished", "charge": 2.9694000000000004e-05, "run": "primary-v1", "usage": {"input_tokens": 707, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9694000000000004e-05, "seconds": 0.38136829098220915}
+{"call_id": "14835a69e8ba4ca489ccf34b222f4c70", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "bfb137f9d7394c51a2cd12e02a5977e3", "event": "finished", "charge": 2.9652000000000003e-05, "run": "primary-v1", "usage": {"input_tokens": 706, "output_tokens": 209}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9652000000000003e-05, "seconds": 0.34662762499647215}
+{"call_id": "7d68bbbd05e344b5a2d85124e07d82da", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "d7eee052bb3e49a1b5aa444147bb4019", "event": "finished", "charge": 2.9946000000000004e-05, "run": "primary-v1", "usage": {"input_tokens": 713, "output_tokens": 209}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9946000000000004e-05, "seconds": 0.3592354579595849}
+{"call_id": "51ca6f1d226a4b20aecb7070ba6a31b8", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "63ffe8333465490a8e16051f75d941e1", "event": "finished", "charge": 2.9820000000000002e-05, "run": "primary-v1", "usage": {"input_tokens": 710, "output_tokens": 212}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9820000000000002e-05, "seconds": 0.3926222919835709}
+{"call_id": "e0358b57d30b455aaa550d5926609b44", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "14835a69e8ba4ca489ccf34b222f4c70", "event": "finished", "charge": 3.0114000000000003e-05, "run": "primary-v1", "usage": {"input_tokens": 717, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 3.0114000000000003e-05, "seconds": 0.47850104101235047}
+{"call_id": "bdb62f7c63274faba7dd6d1ef520fe94", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "7d68bbbd05e344b5a2d85124e07d82da", "event": "finished", "charge": 3.0030000000000006e-05, "run": "primary-v1", "usage": {"input_tokens": 715, "output_tokens": 212}, "model": "jev-1.13.0", "estimated_cost_usd": 3.0030000000000006e-05, "seconds": 0.4074310829746537}
+{"call_id": "fd7e05efc87141729e8826c2e39e1c25", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "51ca6f1d226a4b20aecb7070ba6a31b8", "event": "finished", "charge": 2.9988000000000005e-05, "run": "primary-v1", "usage": {"input_tokens": 714, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9988000000000005e-05, "seconds": 0.4313911250210367}
+{"call_id": "4ec8deb000404254be97129b51d4df71", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "e0358b57d30b455aaa550d5926609b44", "event": "finished", "charge": 2.9778000000000005e-05, "run": "primary-v1", "usage": {"input_tokens": 709, "output_tokens": 209}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9778000000000005e-05, "seconds": 0.3775560000212863}
+{"call_id": "78f670891fda47f08de077aba3daa684", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "bdb62f7c63274faba7dd6d1ef520fe94", "event": "finished", "charge": 2.9946000000000004e-05, "run": "primary-v1", "usage": {"input_tokens": 713, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9946000000000004e-05, "seconds": 0.3937076670117676}
+{"call_id": "017ab03358c84f06838180c7fa49262b", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "fd7e05efc87141729e8826c2e39e1c25", "event": "finished", "charge": 2.9904000000000004e-05, "run": "primary-v1", "usage": {"input_tokens": 712, "output_tokens": 212}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9904000000000004e-05, "seconds": 0.43104875000426546}
+{"call_id": "4d05a60c54024affb44e041970d8455e", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "4ec8deb000404254be97129b51d4df71", "event": "finished", "charge": 3.0240000000000005e-05, "run": "primary-v1", "usage": {"input_tokens": 720, "output_tokens": 212}, "model": "jev-1.13.0", "estimated_cost_usd": 3.0240000000000005e-05, "seconds": 0.3796608340344392}
+{"call_id": "e689022ec0cd411da5c20f6ad3fd2e3b", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "78f670891fda47f08de077aba3daa684", "event": "finished", "charge": 3.0030000000000006e-05, "run": "primary-v1", "usage": {"input_tokens": 715, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 3.0030000000000006e-05, "seconds": 0.4261768750147894}
+{"call_id": "511c558a17c54057a9cbb1536cd1baaf", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "017ab03358c84f06838180c7fa49262b", "event": "finished", "charge": 3.0198000000000005e-05, "run": "primary-v1", "usage": {"input_tokens": 719, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 3.0198000000000005e-05, "seconds": 0.37038020900217816}
+{"call_id": "4ef2372989d74866a519c0e7a65a60cc", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "4d05a60c54024affb44e041970d8455e", "event": "finished", "charge": 2.9946000000000004e-05, "run": "primary-v1", "usage": {"input_tokens": 713, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9946000000000004e-05, "seconds": 0.421604833973106}
+{"call_id": "7361ef8243484af4a8de2b6e1daf850d", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "e689022ec0cd411da5c20f6ad3fd2e3b", "event": "finished", "charge": 2.9904000000000004e-05, "run": "primary-v1", "usage": {"input_tokens": 712, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9904000000000004e-05, "seconds": 0.4386196249979548}
+{"call_id": "0c6972bf871949fe96f60a922272d40d", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "511c558a17c54057a9cbb1536cd1baaf", "event": "finished", "charge": 2.9778000000000005e-05, "run": "primary-v1", "usage": {"input_tokens": 709, "output_tokens": 212}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9778000000000005e-05, "seconds": 0.385362500033807}
+{"call_id": "6d37cc12a21a4ce18c4bdf8bbfa5229f", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "7361ef8243484af4a8de2b6e1daf850d", "event": "finished", "charge": 2.9526000000000005e-05, "run": "primary-v1", "usage": {"input_tokens": 703, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9526000000000005e-05, "seconds": 0.33587391703622416}
+{"call_id": "9e9b9027f62e4f90a69cbf589672da9a", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "4ef2372989d74866a519c0e7a65a60cc", "event": "finished", "charge": 2.9862000000000003e-05, "run": "primary-v1", "usage": {"input_tokens": 711, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9862000000000003e-05, "seconds": 0.46525737503543496}
+{"call_id": "1741fad6b5784811b40bc3b05af005e6", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "0c6972bf871949fe96f60a922272d40d", "event": "finished", "charge": 2.9736000000000005e-05, "run": "primary-v1", "usage": {"input_tokens": 708, "output_tokens": 212}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9736000000000005e-05, "seconds": 0.36902966699562967}
+{"call_id": "a16fff0e9cdb4b499ea2757a34e615c7", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "6d37cc12a21a4ce18c4bdf8bbfa5229f", "event": "finished", "charge": 2.9904000000000004e-05, "run": "primary-v1", "usage": {"input_tokens": 712, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9904000000000004e-05, "seconds": 0.42895299999509007}
+{"call_id": "d8b4af01622245e38bc3d367cc6026fe", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "9e9b9027f62e4f90a69cbf589672da9a", "event": "finished", "charge": 2.9652000000000003e-05, "run": "primary-v1", "usage": {"input_tokens": 706, "output_tokens": 212}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9652000000000003e-05, "seconds": 0.34261054202215746}
+{"call_id": "b85f6b9441b84c12b2161ba1318b8f82", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "1741fad6b5784811b40bc3b05af005e6", "event": "finished", "charge": 2.9610000000000003e-05, "run": "primary-v1", "usage": {"input_tokens": 705, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9610000000000003e-05, "seconds": 0.41677987499861047}
+{"call_id": "98286059102a4df4b4f758a87f79afb3", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "a16fff0e9cdb4b499ea2757a34e615c7", "event": "finished", "charge": 2.9526000000000005e-05, "run": "primary-v1", "usage": {"input_tokens": 703, "output_tokens": 206}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9526000000000005e-05, "seconds": 0.38539704197319224}
+{"call_id": "0cba33b7cc3648e197a89efe3316ac9c", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "d8b4af01622245e38bc3d367cc6026fe", "event": "finished", "charge": 3.1206000000000006e-05, "run": "primary-v1", "usage": {"input_tokens": 743, "output_tokens": 212}, "model": "jev-1.13.0", "estimated_cost_usd": 3.1206000000000006e-05, "seconds": 0.4115934169967659}
+{"call_id": "5c7008459e8c425e9017f247a71ce64b", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "b85f6b9441b84c12b2161ba1318b8f82", "event": "finished", "charge": 3.1038e-05, "run": "primary-v1", "usage": {"input_tokens": 739, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 3.1038e-05, "seconds": 0.358212833001744}
+{"call_id": "4be693ca38704201b08542767838fea7", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "98286059102a4df4b4f758a87f79afb3", "event": "finished", "charge": 3.1584e-05, "run": "primary-v1", "usage": {"input_tokens": 752, "output_tokens": 212}, "model": "jev-1.13.0", "estimated_cost_usd": 3.1584e-05, "seconds": 0.43310629099141806}
+{"call_id": "6579464cec304e6b98659166f1c51031", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "0cba33b7cc3648e197a89efe3316ac9c", "event": "finished", "charge": 3.1206000000000006e-05, "run": "primary-v1", "usage": {"input_tokens": 743, "output_tokens": 212}, "model": "jev-1.13.0", "estimated_cost_usd": 3.1206000000000006e-05, "seconds": 0.41595549997873604}
+{"call_id": "f58dbe660ba7471d86597b16d8400ae5", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "5c7008459e8c425e9017f247a71ce64b", "event": "finished", "charge": 2.9778000000000005e-05, "run": "primary-v1", "usage": {"input_tokens": 709, "output_tokens": 209}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9778000000000005e-05, "seconds": 0.37211112497607246}
+{"call_id": "a118bd9af69c4675b8d93c84388c05bd", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "4be693ca38704201b08542767838fea7", "event": "finished", "charge": 2.9694000000000004e-05, "run": "primary-v1", "usage": {"input_tokens": 707, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9694000000000004e-05, "seconds": 0.3798783330130391}
+{"call_id": "05ed656240164cbaa446a90ff8acaecd", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "6579464cec304e6b98659166f1c51031", "event": "finished", "charge": 3.0282000000000002e-05, "run": "primary-v1", "usage": {"input_tokens": 721, "output_tokens": 212}, "model": "jev-1.13.0", "estimated_cost_usd": 3.0282000000000002e-05, "seconds": 0.44744283298496157}
+{"call_id": "f04f96c9e52c4f999e646ef52bcec36f", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "f58dbe660ba7471d86597b16d8400ae5", "event": "finished", "charge": 3.1122000000000005e-05, "run": "primary-v1", "usage": {"input_tokens": 741, "output_tokens": 206}, "model": "jev-1.13.0", "estimated_cost_usd": 3.1122000000000005e-05, "seconds": 0.384848540998064}
+{"call_id": "b9418dbdda514908b8c4332948b17cdd", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "a118bd9af69c4675b8d93c84388c05bd", "event": "finished", "charge": 1.9950000000000004e-05, "run": "primary-v1", "usage": {"input_tokens": 475, "output_tokens": 89}, "model": "jev-1.13.0", "estimated_cost_usd": 1.9950000000000004e-05, "seconds": 0.4488758749794215}
+{"call_id": "add17f01f88f467787c2a71dbba4b2b9", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "05ed656240164cbaa446a90ff8acaecd", "event": "finished", "charge": 3.057600000000001e-05, "run": "primary-v1", "usage": {"input_tokens": 728, "output_tokens": 215}, "model": "jev-1.13.0", "estimated_cost_usd": 3.057600000000001e-05, "seconds": 0.34379366697976366}
+{"call_id": "f11ab6990fac42d5b45f0aee82e83485", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "f04f96c9e52c4f999e646ef52bcec36f", "event": "finished", "charge": 2.4738000000000003e-05, "run": "primary-v1", "usage": {"input_tokens": 589, "output_tokens": 143}, "model": "jev-1.13.0", "estimated_cost_usd": 2.4738000000000003e-05, "seconds": 0.43239529203856364}
+{"call_id": "9f7687ccc9ee4f1faa02271fce489a79", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "b9418dbdda514908b8c4332948b17cdd", "event": "finished", "charge": 2.3478000000000005e-05, "run": "primary-v1", "usage": {"input_tokens": 559, "output_tokens": 134}, "model": "jev-1.13.0", "estimated_cost_usd": 2.3478000000000005e-05, "seconds": 0.3667767920414917}
+{"call_id": "72890eb021a0453789c2b234d0cb14c4", "charge": 0.0027525120000000004, "event": "reserved", "run": "primary-v1"}
+{"call_id": "add17f01f88f467787c2a71dbba4b2b9", "event": "finished", "charge": 4.3302000000000007e-05, "run": "primary-v1", "usage": {"input_tokens": 1031, "output_tokens": 359}, "model": "jev-1.13.0", "estimated_cost_usd": 4.3302000000000007e-05, "seconds": 0.37184445903403684}
+{"call_id": "f11ab6990fac42d5b45f0aee82e83485", "event": "finished", "charge": 2.2554000000000005e-05, "run": "primary-v1", "usage": {"input_tokens": 537, "output_tokens": 110}, "model": "jev-1.13.0", "estimated_cost_usd": 2.2554000000000005e-05, "seconds": 0.42149433301528916}
+{"call_id": "9f7687ccc9ee4f1faa02271fce489a79", "event": "finished", "charge": 2.5704000000000003e-05, "run": "primary-v1", "usage": {"input_tokens": 612, "output_tokens": 131}, "model": "jev-1.13.0", "estimated_cost_usd": 2.5704000000000003e-05, "seconds": 0.38192087499191985}
+{"call_id": "72890eb021a0453789c2b234d0cb14c4", "event": "finished", "charge": 3.1122000000000005e-05, "run": "primary-v1", "usage": {"input_tokens": 741, "output_tokens": 131}, "model": "jev-1.13.0", "estimated_cost_usd": 3.1122000000000005e-05, "seconds": 0.40393608302110806}
+{"call_id": "764c2190823543cf9850e2434ced0b15", "charge": 0.0027525120000000004, "event": "reserved", "run": "repeat-1"}
+{"call_id": "f088e99361864887ae1b1f1f635a86fa", "charge": 0.0027525120000000004, "event": "reserved", "run": "repeat-1"}
+{"call_id": "2cacb81555c5443798adfab9755a9d37", "charge": 0.0027525120000000004, "event": "reserved", "run": "repeat-1"}
+{"call_id": "90ebe121efe042518baf81795f03979e", "charge": 0.0027525120000000004, "event": "reserved", "run": "repeat-1"}
+{"call_id": "764c2190823543cf9850e2434ced0b15", "event": "finished", "charge": 2.9862000000000003e-05, "run": "repeat-1", "usage": {"input_tokens": 711, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9862000000000003e-05, "seconds": 0.4862635839963332}
+{"call_id": "27adcebfac5a4837ab121a8f7afeb27c", "charge": 0.0027525120000000004, "event": "reserved", "run": "repeat-1"}
+{"call_id": "f088e99361864887ae1b1f1f635a86fa", "event": "finished", "charge": 2.9694000000000004e-05, "run": "repeat-1", "usage": {"input_tokens": 707, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9694000000000004e-05, "seconds": 0.42558308300795034}
+{"call_id": "59493007b7ac4df0a12f68fcd8a32f48", "charge": 0.0027525120000000004, "event": "reserved", "run": "repeat-1"}
+{"call_id": "2cacb81555c5443798adfab9755a9d37", "event": "finished", "charge": 2.9904000000000004e-05, "run": "repeat-1", "usage": {"input_tokens": 712, "output_tokens": 209}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9904000000000004e-05, "seconds": 0.4689740839530714}
+{"call_id": "b67e32def9b94450b2e7b9398937acdf", "charge": 0.0027525120000000004, "event": "reserved", "run": "repeat-1"}
+{"call_id": "90ebe121efe042518baf81795f03979e", "event": "finished", "charge": 2.9820000000000002e-05, "run": "repeat-1", "usage": {"input_tokens": 710, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9820000000000002e-05, "seconds": 0.44865770800970495}
+{"call_id": "db578c27db23499382329819e17f279f", "charge": 0.0027525120000000004, "event": "reserved", "run": "repeat-1"}
+{"call_id": "27adcebfac5a4837ab121a8f7afeb27c", "event": "finished", "charge": 2.9904000000000004e-05, "run": "repeat-1", "usage": {"input_tokens": 712, "output_tokens": 212}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9904000000000004e-05, "seconds": 0.36555450002197176}
+{"call_id": "42318c9deb6a42c0aaff2a0eb22f2521", "charge": 0.0027525120000000004, "event": "reserved", "run": "repeat-1"}
+{"call_id": "59493007b7ac4df0a12f68fcd8a32f48", "event": "finished", "charge": 2.9736000000000005e-05, "run": "repeat-1", "usage": {"input_tokens": 708, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9736000000000005e-05, "seconds": 0.3577549170004204}
+{"call_id": "7097aabf01d74e30b537a02112071a0f", "charge": 0.0027525120000000004, "event": "reserved", "run": "repeat-1"}
+{"call_id": "b67e32def9b94450b2e7b9398937acdf", "event": "finished", "charge": 2.9694000000000004e-05, "run": "repeat-1", "usage": {"input_tokens": 707, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9694000000000004e-05, "seconds": 0.4130142079666257}
+{"call_id": "db578c27db23499382329819e17f279f", "event": "finished", "charge": 2.9862000000000003e-05, "run": "repeat-1", "usage": {"input_tokens": 711, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9862000000000003e-05, "seconds": 0.36425929196411744}
+{"call_id": "42318c9deb6a42c0aaff2a0eb22f2521", "event": "finished", "charge": 2.9736000000000005e-05, "run": "repeat-1", "usage": {"input_tokens": 708, "output_tokens": 212}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9736000000000005e-05, "seconds": 0.3699742500321008}
+{"call_id": "7097aabf01d74e30b537a02112071a0f", "event": "finished", "charge": 2.9862000000000003e-05, "run": "repeat-1", "usage": {"input_tokens": 711, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9862000000000003e-05, "seconds": 0.39126725000096485}
+{"call_id": "300f3f502b0b43b4a2633e12aa7d7886", "charge": 0.0027525120000000004, "event": "reserved", "run": "repeat-2"}
+{"call_id": "4d0bc06b936545988a8efd4457a26261", "charge": 0.0027525120000000004, "event": "reserved", "run": "repeat-2"}
+{"call_id": "d1933e3421a44f16842093abfc8b96fa", "charge": 0.0027525120000000004, "event": "reserved", "run": "repeat-2"}
+{"call_id": "96b1c0b7c8de406d8c6c539e9169b681", "charge": 0.0027525120000000004, "event": "reserved", "run": "repeat-2"}
+{"call_id": "300f3f502b0b43b4a2633e12aa7d7886", "event": "finished", "charge": 2.9862000000000003e-05, "run": "repeat-2", "usage": {"input_tokens": 711, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9862000000000003e-05, "seconds": 0.3986594169982709}
+{"call_id": "afdbe472576f44a8a1da1f735b6e8457", "charge": 0.0027525120000000004, "event": "reserved", "run": "repeat-2"}
+{"call_id": "4d0bc06b936545988a8efd4457a26261", "event": "finished", "charge": 2.9904000000000004e-05, "run": "repeat-2", "usage": {"input_tokens": 712, "output_tokens": 209}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9904000000000004e-05, "seconds": 0.3554524580249563}
+{"call_id": "1d89b8c19f904bd898bd83580cc04c5c", "charge": 0.0027525120000000004, "event": "reserved", "run": "repeat-2"}
+{"call_id": "d1933e3421a44f16842093abfc8b96fa", "event": "finished", "charge": 2.9820000000000002e-05, "run": "repeat-2", "usage": {"input_tokens": 710, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9820000000000002e-05, "seconds": 0.44511212495854124}
+{"call_id": "5fc9be925cad4c34a9267cb61e06622f", "charge": 0.0027525120000000004, "event": "reserved", "run": "repeat-2"}
+{"call_id": "96b1c0b7c8de406d8c6c539e9169b681", "event": "finished", "charge": 2.9694000000000004e-05, "run": "repeat-2", "usage": {"input_tokens": 707, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9694000000000004e-05, "seconds": 0.41903095797169954}
+{"call_id": "9c1ae10310894dc2bb1b39caacfe57f5", "charge": 0.0027525120000000004, "event": "reserved", "run": "repeat-2"}
+{"call_id": "afdbe472576f44a8a1da1f735b6e8457", "event": "finished", "charge": 2.9904000000000004e-05, "run": "repeat-2", "usage": {"input_tokens": 712, "output_tokens": 212}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9904000000000004e-05, "seconds": 0.3842100420151837}
+{"call_id": "8bf3334629f948f99e7330fcba7a1706", "charge": 0.0027525120000000004, "event": "reserved", "run": "repeat-2"}
+{"call_id": "1d89b8c19f904bd898bd83580cc04c5c", "event": "finished", "charge": 2.9736000000000005e-05, "run": "repeat-2", "usage": {"input_tokens": 708, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9736000000000005e-05, "seconds": 0.432541707996279}
+{"call_id": "cae39e1bfe9242d097f39fe3b2d64424", "charge": 0.0027525120000000004, "event": "reserved", "run": "repeat-2"}
+{"call_id": "5fc9be925cad4c34a9267cb61e06622f", "event": "finished", "charge": 2.9694000000000004e-05, "run": "repeat-2", "usage": {"input_tokens": 707, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9694000000000004e-05, "seconds": 0.44701741699827835}
+{"call_id": "9c1ae10310894dc2bb1b39caacfe57f5", "event": "finished", "charge": 2.9862000000000003e-05, "run": "repeat-2", "usage": {"input_tokens": 711, "output_tokens": 203}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9862000000000003e-05, "seconds": 0.47281562502030283}
+{"call_id": "8bf3334629f948f99e7330fcba7a1706", "event": "finished", "charge": 2.9736000000000005e-05, "run": "repeat-2", "usage": {"input_tokens": 708, "output_tokens": 212}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9736000000000005e-05, "seconds": 0.3602905830484815}
+{"call_id": "cae39e1bfe9242d097f39fe3b2d64424", "event": "finished", "charge": 2.9862000000000003e-05, "run": "repeat-2", "usage": {"input_tokens": 711, "output_tokens": 206}, "model": "jev-1.13.0", "estimated_cost_usd": 2.9862000000000003e-05, "seconds": 0.45987804199103266}

@@ -1,0 +1,40 @@
+{
+  "retrieved_at": "2026-09-22T13:40:48.214779+00:00",
+  "sources": [
+    {
+      "url": "https://docs.typesafe.ai/llms.txt",
+      "saved": "llms.txt",
+      "bytes": 16019
+    },
+    {
+      "url": "https://docs.typesafe.ai/primitives/choice.md",
+      "saved": "primitives-choice.md",
+      "bytes": 26794
+    },
+    {
+      "url": "https://docs.typesafe.ai/primitives/noul.md",
+      "saved": "primitives-noul.md",
+      "bytes": 27363
+    },
+    {
+      "url": "https://docs.typesafe.ai/confidence.md",
+      "saved": "confidence.md",
+      "bytes": 11396
+    },
+    {
+      "url": "https://docs.typesafe.ai/api.md",
+      "saved": "api.md",
+      "bytes": 11772
+    },
+    {
+      "url": "https://docs.typesafe.ai/models.md",
+      "saved": "models.md",
+      "bytes": 7245
+    },
+    {
+      "url": "https://docs.typesafe.ai/cookbooks/citation_check.md",
+      "saved": "cookbooks-citation_check.md",
+      "bytes": 15254
+    }
+  ]
+}

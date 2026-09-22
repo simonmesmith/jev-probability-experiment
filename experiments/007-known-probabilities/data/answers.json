@@ -1,0 +1,492 @@
+{
+  "P001": {
+    "p": 0.5,
+    "fraction": "1/2",
+    "derivation": "C(1,1) / 2^1 = 1/2",
+    "numeric_correct": "answer_1"
+  },
+  "P002": {
+    "p": 0.5,
+    "fraction": "1/2",
+    "derivation": "C(1,0) / 2^1 = 1/2",
+    "numeric_correct": "answer_2"
+  },
+  "P003": {
+    "p": 0.25,
+    "fraction": "1/4",
+    "derivation": "C(2,0) / 2^2 = 1/4",
+    "numeric_correct": "answer_1"
+  },
+  "P004": {
+    "p": 0.5,
+    "fraction": "1/2",
+    "derivation": "C(2,1) / 2^2 = 1/2",
+    "numeric_correct": "answer_3"
+  },
+  "P005": {
+    "p": 0.25,
+    "fraction": "1/4",
+    "derivation": "C(2,2) / 2^2 = 1/4",
+    "numeric_correct": "answer_4"
+  },
+  "P006": {
+    "p": 0.375,
+    "fraction": "3/8",
+    "derivation": "C(3,1) / 2^3 = 3/8",
+    "numeric_correct": "answer_2"
+  },
+  "P007": {
+    "p": 0.375,
+    "fraction": "3/8",
+    "derivation": "C(3,2) / 2^3 = 3/8",
+    "numeric_correct": "answer_3"
+  },
+  "P008": {
+    "p": 0.375,
+    "fraction": "3/8",
+    "derivation": "C(4,2) / 2^4 = 3/8",
+    "numeric_correct": "answer_2"
+  },
+  "P009": {
+    "p": 0.03125,
+    "fraction": "1/32",
+    "derivation": "C(5,0) / 2^5 = 1/32",
+    "numeric_correct": "answer_2"
+  },
+  "P010": {
+    "p": 0.3125,
+    "fraction": "5/16",
+    "derivation": "C(5,3) / 2^5 = 5/16",
+    "numeric_correct": "answer_4"
+  },
+  "P011": {
+    "p": 0.2734375,
+    "fraction": "35/128",
+    "derivation": "C(8,4) / 2^8 = 35/128",
+    "numeric_correct": "answer_2"
+  },
+  "P012": {
+    "p": 0.0009765625,
+    "fraction": "1/1024",
+    "derivation": "C(10,10) / 2^10 = 1/1024",
+    "numeric_correct": "answer_3"
+  },
+  "P013": {
+    "p": 0.1,
+    "fraction": "1/10",
+    "derivation": "C(1,1)*(1/10)^1*(1-1/10)^0 = 1/10",
+    "numeric_correct": "answer_3"
+  },
+  "P014": {
+    "p": 0.9,
+    "fraction": "9/10",
+    "derivation": "C(1,1)*(9/10)^1*(1-9/10)^0 = 9/10",
+    "numeric_correct": "answer_2"
+  },
+  "P015": {
+    "p": 0.0625,
+    "fraction": "1/16",
+    "derivation": "C(2,2)*(1/4)^2*(1-1/4)^0 = 1/16",
+    "numeric_correct": "answer_4"
+  },
+  "P016": {
+    "p": 0.375,
+    "fraction": "3/8",
+    "derivation": "C(2,1)*(3/4)^1*(1-3/4)^1 = 3/8",
+    "numeric_correct": "answer_4"
+  },
+  "P017": {
+    "p": 0.512,
+    "fraction": "64/125",
+    "derivation": "C(3,0)*(1/5)^0*(1-1/5)^3 = 64/125",
+    "numeric_correct": "answer_1"
+  },
+  "P018": {
+    "p": 0.384,
+    "fraction": "48/125",
+    "derivation": "C(3,2)*(4/5)^2*(1-4/5)^1 = 48/125",
+    "numeric_correct": "answer_3"
+  },
+  "P019": {
+    "p": 0.027777777777777776,
+    "fraction": "1/36",
+    "derivation": "Enumerate 36 ordered pairs; 1 satisfy the event.",
+    "numeric_correct": "answer_1"
+  },
+  "P020": {
+    "p": 0.16666666666666666,
+    "fraction": "1/6",
+    "derivation": "Enumerate 36 ordered pairs; 6 satisfy the event.",
+    "numeric_correct": "answer_4"
+  },
+  "P021": {
+    "p": 0.16666666666666666,
+    "fraction": "1/6",
+    "derivation": "Enumerate 36 ordered pairs; 6 satisfy the event.",
+    "numeric_correct": "answer_4"
+  },
+  "P022": {
+    "p": 0.16666666666666666,
+    "fraction": "1/6",
+    "derivation": "Enumerate 36 ordered pairs; 6 satisfy the event.",
+    "numeric_correct": "answer_2"
+  },
+  "P023": {
+    "p": 0.3055555555555556,
+    "fraction": "11/36",
+    "derivation": "Enumerate 36 ordered pairs; 11 satisfy the event.",
+    "numeric_correct": "answer_1"
+  },
+  "P024": {
+    "p": 0.5,
+    "fraction": "1/2",
+    "derivation": "Enumerate 36 ordered pairs; 18 satisfy the event.",
+    "numeric_correct": "answer_3"
+  },
+  "P025": {
+    "p": 0.4166666666666667,
+    "fraction": "5/12",
+    "derivation": "Enumerate 36 ordered pairs; 15 satisfy the event.",
+    "numeric_correct": "answer_1"
+  },
+  "P026": {
+    "p": 0.25,
+    "fraction": "1/4",
+    "derivation": "Enumerate 36 ordered pairs; 9 satisfy the event.",
+    "numeric_correct": "answer_3"
+  },
+  "P027": {
+    "p": 0.0,
+    "fraction": "0",
+    "derivation": "Enumerate 36 ordered pairs; 0 satisfy the event.",
+    "numeric_correct": "answer_2"
+  },
+  "P028": {
+    "p": 1.0,
+    "fraction": "1",
+    "derivation": "Enumerate 36 ordered pairs; 36 satisfy the event.",
+    "numeric_correct": "answer_2"
+  },
+  "P029": {
+    "p": 0.25,
+    "fraction": "1/4",
+    "derivation": "Enumerate 52 cards; 13 satisfy the event.",
+    "numeric_correct": "answer_1"
+  },
+  "P030": {
+    "p": 0.5,
+    "fraction": "1/2",
+    "derivation": "Enumerate 52 cards; 26 satisfy the event.",
+    "numeric_correct": "answer_4"
+  },
+  "P031": {
+    "p": 0.07692307692307693,
+    "fraction": "1/13",
+    "derivation": "Enumerate 52 cards; 4 satisfy the event.",
+    "numeric_correct": "answer_2"
+  },
+  "P032": {
+    "p": 0.23076923076923078,
+    "fraction": "3/13",
+    "derivation": "Enumerate 52 cards; 12 satisfy the event.",
+    "numeric_correct": "answer_3"
+  },
+  "P033": {
+    "p": 0.038461538461538464,
+    "fraction": "1/26",
+    "derivation": "Enumerate 52 cards; 2 satisfy the event.",
+    "numeric_correct": "answer_4"
+  },
+  "P034": {
+    "p": 0.3076923076923077,
+    "fraction": "4/13",
+    "derivation": "Enumerate 52 cards; 16 satisfy the event.",
+    "numeric_correct": "answer_3"
+  },
+  "P035": {
+    "p": 0.019230769230769232,
+    "fraction": "1/52",
+    "derivation": "Enumerate 52 cards; 1 satisfy the event.",
+    "numeric_correct": "answer_2"
+  },
+  "P036": {
+    "p": 0.6923076923076923,
+    "fraction": "9/13",
+    "derivation": "Enumerate 52 cards; 36 satisfy the event.",
+    "numeric_correct": "answer_2"
+  },
+  "P037": {
+    "p": 0.1,
+    "fraction": "1/10",
+    "derivation": "C(1,1)*C(9,0)/C(10,1) = 1/10",
+    "numeric_correct": "answer_1"
+  },
+  "P038": {
+    "p": 0.9,
+    "fraction": "9/10",
+    "derivation": "C(9,1)*C(1,0)/C(10,1) = 9/10",
+    "numeric_correct": "answer_3"
+  },
+  "P039": {
+    "p": 0.06666666666666667,
+    "fraction": "1/15",
+    "derivation": "C(3,2)*C(7,0)/C(10,2) = 1/15",
+    "numeric_correct": "answer_2"
+  },
+  "P040": {
+    "p": 0.09,
+    "fraction": "9/100",
+    "derivation": "C(2,2)*(3/10)^2*(7/10)^0 = 9/100",
+    "numeric_correct": "answer_2"
+  },
+  "P041": {
+    "p": 0.5555555555555556,
+    "fraction": "5/9",
+    "derivation": "C(5,1)*C(5,1)/C(10,2) = 5/9",
+    "numeric_correct": "answer_2"
+  },
+  "P042": {
+    "p": 0.5,
+    "fraction": "1/2",
+    "derivation": "C(2,1)*(5/10)^1*(5/10)^1 = 1/2",
+    "numeric_correct": "answer_1"
+  },
+  "P043": {
+    "p": 0.4666666666666667,
+    "fraction": "7/15",
+    "derivation": "C(2,0)*C(8,3)/C(10,3) = 7/15",
+    "numeric_correct": "answer_4"
+  },
+  "P044": {
+    "p": 0.525,
+    "fraction": "21/40",
+    "derivation": "C(7,2)*C(3,1)/C(10,3) = 21/40",
+    "numeric_correct": "answer_3"
+  },
+  "P045": {
+    "p": 0.0,
+    "fraction": "0",
+    "derivation": "C(1,2)*C(9,0)/C(10,2) = 0",
+    "numeric_correct": "answer_2"
+  },
+  "P046": {
+    "p": 1.0,
+    "fraction": "1",
+    "derivation": "C(10,2)*C(0,0)/C(10,2) = 1",
+    "numeric_correct": "answer_4"
+  },
+  "P047": {
+    "p": 0.5,
+    "fraction": "1/2",
+    "derivation": "5 favorable values / 10 equally likely values.",
+    "numeric_correct": "answer_4"
+  },
+  "P048": {
+    "p": 0.01,
+    "fraction": "1/100",
+    "derivation": "1 favorable values / 100 equally likely values.",
+    "numeric_correct": "answer_4"
+  },
+  "P049": {
+    "p": 0.99,
+    "fraction": "99/100",
+    "derivation": "99 favorable values / 100 equally likely values.",
+    "numeric_correct": "answer_1"
+  },
+  "P050": {
+    "p": 0.2,
+    "fraction": "1/5",
+    "derivation": "2 favorable values / 10 equally likely values.",
+    "numeric_correct": "answer_2"
+  },
+  "P051": {
+    "p": 0.3333333333333333,
+    "fraction": "1/3",
+    "derivation": "4 favorable values / 12 equally likely values.",
+    "numeric_correct": "answer_2"
+  },
+  "P052": {
+    "p": 0.4,
+    "fraction": "2/5",
+    "derivation": "8 favorable values / 20 equally likely values.",
+    "numeric_correct": "answer_1"
+  },
+  "P053": {
+    "p": 0.08333333333333333,
+    "fraction": "1/12",
+    "derivation": "Bayes: (1/100*9/10)/(1/100*9/10+(1-1/100)*1/10) = 1/12",
+    "numeric_correct": "answer_4"
+  },
+  "P054": {
+    "p": 0.9,
+    "fraction": "9/10",
+    "derivation": "Bayes: (1/2*9/10)/(1/2*9/10+(1-1/2)*1/10) = 9/10",
+    "numeric_correct": "answer_3"
+  },
+  "P055": {
+    "p": 0.09016393442622951,
+    "fraction": "11/122",
+    "derivation": "Bayes: (1/1000*99/100)/(1/1000*99/100+(1-1/1000)*1/100) = 11/122",
+    "numeric_correct": "answer_4"
+  },
+  "P056": {
+    "p": 0.3076923076923077,
+    "fraction": "4/13",
+    "derivation": "Bayes: (1/10*4/5)/(1/10*4/5+(1-1/10)*1/5) = 4/13",
+    "numeric_correct": "answer_4"
+  },
+  "P057": {
+    "p": 0.3333333333333333,
+    "fraction": "1/3",
+    "derivation": "Possible results {2,4,6}; one of three is 6.",
+    "numeric_correct": "answer_4"
+  },
+  "P058": {
+    "p": 0.5,
+    "fraction": "1/2",
+    "derivation": "13 hearts among 26 red cards.",
+    "numeric_correct": "answer_4"
+  },
+  "P059": {
+    "p": 0.2222222222222222,
+    "fraction": "2/9",
+    "derivation": "After removing a red ball, 2 of 9 remaining balls are red.",
+    "numeric_correct": "answer_4"
+  },
+  "P060": {
+    "p": 0.6666666666666666,
+    "fraction": "2/3",
+    "derivation": "Switching wins exactly when the original choice is wrong: 2/3.",
+    "numeric_correct": "answer_2"
+  },
+  "P061": {
+    "distribution": {
+      "heads": 0.5,
+      "tails": 0.5
+    },
+    "fractions": {
+      "heads": "1/2",
+      "tails": "1/2"
+    },
+    "derivation": "Two equally likely sides."
+  },
+  "P062": {
+    "distribution": {
+      "face_1": 0.16666666666666666,
+      "face_2": 0.16666666666666666,
+      "face_3": 0.16666666666666666,
+      "face_4": 0.16666666666666666,
+      "face_5": 0.16666666666666666,
+      "face_6": 0.16666666666666666
+    },
+    "fractions": {
+      "face_1": "1/6",
+      "face_2": "1/6",
+      "face_3": "1/6",
+      "face_4": "1/6",
+      "face_5": "1/6",
+      "face_6": "1/6"
+    },
+    "derivation": "Six equally likely faces."
+  },
+  "P063": {
+    "distribution": {
+      "hearts": 0.25,
+      "diamonds": 0.25,
+      "clubs": 0.25,
+      "spades": 0.25
+    },
+    "fractions": {
+      "hearts": "1/4",
+      "diamonds": "1/4",
+      "clubs": "1/4",
+      "spades": "1/4"
+    },
+    "derivation": "13 cards in each of four suits."
+  },
+  "P064": {
+    "distribution": {
+      "heads_0": 0.25,
+      "heads_1": 0.5,
+      "heads_2": 0.25
+    },
+    "fractions": {
+      "heads_0": "1/4",
+      "heads_1": "1/2",
+      "heads_2": "1/4"
+    },
+    "derivation": "Binomial(2, 1/2)."
+  },
+  "P065": {
+    "distribution": {
+      "sum_2": 0.027777777777777776,
+      "sum_3": 0.05555555555555555,
+      "sum_4": 0.08333333333333333,
+      "sum_5": 0.1111111111111111,
+      "sum_6": 0.1388888888888889,
+      "sum_7": 0.16666666666666666,
+      "sum_8": 0.1388888888888889,
+      "sum_9": 0.1111111111111111,
+      "sum_10": 0.08333333333333333,
+      "sum_11": 0.05555555555555555,
+      "sum_12": 0.027777777777777776
+    },
+    "fractions": {
+      "sum_2": "1/36",
+      "sum_3": "1/18",
+      "sum_4": "1/12",
+      "sum_5": "1/9",
+      "sum_6": "5/36",
+      "sum_7": "1/6",
+      "sum_8": "5/36",
+      "sum_9": "1/9",
+      "sum_10": "1/12",
+      "sum_11": "1/18",
+      "sum_12": "1/36"
+    },
+    "derivation": "Count each sum among 36 equally likely ordered pairs."
+  },
+  "P066": {
+    "distribution": {
+      "red": 0.1,
+      "blue": 0.2,
+      "green": 0.7
+    },
+    "fractions": {
+      "red": "1/10",
+      "blue": "1/5",
+      "green": "7/10"
+    },
+    "derivation": "Color counts divided by 10."
+  },
+  "P067": {
+    "distribution": {
+      "red": 0.5,
+      "blue": 0.25,
+      "green": 0.16666666666666666,
+      "yellow": 0.08333333333333333
+    },
+    "fractions": {
+      "red": "1/2",
+      "blue": "1/4",
+      "green": "1/6",
+      "yellow": "1/12"
+    },
+    "derivation": "Sector angles divided by 360."
+  },
+  "P068": {
+    "distribution": {
+      "HH": 0.25,
+      "HT": 0.25,
+      "TH": 0.25,
+      "TT": 0.25
+    },
+    "fractions": {
+      "HH": "1/4",
+      "HT": "1/4",
+      "TH": "1/4",
+      "TT": "1/4"
+    },
+    "derivation": "Four equally likely ordered pairs."
+  }
+}

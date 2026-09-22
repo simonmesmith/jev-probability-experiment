@@ -1,0 +1,35 @@
+{
+  "model": "jev-1.13.0",
+  "state": {
+    "scenario": "A fair coin is flipped twice independently. No results are observed."
+  },
+  "questions": {
+    "plain": {
+      "type": "choice",
+      "instructions": "Which outcome will occur?",
+      "criteria": {
+        "heads_0": "Exactly 0 flips are heads.",
+        "heads_1": "Exactly 1 flips are heads.",
+        "heads_2": "Exactly 2 flips are heads."
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "instructions": "Predict the unobserved outcome of the stated random process. Your option probabilities should represent the mathematical chances of the outcomes, not confidence that an outcome is the most likely. Use only the supplied information.",
+      "criteria": {
+        "heads_0": "Exactly 0 flips are heads.",
+        "heads_1": "Exactly 1 flips are heads.",
+        "heads_2": "Exactly 2 flips are heads."
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "instructions": "Which outcome will occur?",
+      "criteria": {
+        "heads_2": "Exactly 2 flips are heads.",
+        "heads_1": "Exactly 1 flips are heads.",
+        "heads_0": "Exactly 0 flips are heads."
+      }
+    }
+  }
+}

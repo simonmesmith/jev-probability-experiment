@@ -1,0 +1,38 @@
+{
+  "model": "jev-1.13.0",
+  "state": {
+    "scenario": "One card is drawn uniformly from a standard 52-card deck. No card is observed."
+  },
+  "questions": {
+    "plain": {
+      "type": "choice",
+      "instructions": "Which outcome will occur?",
+      "criteria": {
+        "hearts": "The card is hearts.",
+        "diamonds": "The card is diamonds.",
+        "clubs": "The card is clubs.",
+        "spades": "The card is spades."
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "instructions": "Predict the unobserved outcome of the stated random process. Your option probabilities should represent the mathematical chances of the outcomes, not confidence that an outcome is the most likely. Use only the supplied information.",
+      "criteria": {
+        "hearts": "The card is hearts.",
+        "diamonds": "The card is diamonds.",
+        "clubs": "The card is clubs.",
+        "spades": "The card is spades."
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "instructions": "Which outcome will occur?",
+      "criteria": {
+        "spades": "The card is spades.",
+        "clubs": "The card is clubs.",
+        "diamonds": "The card is diamonds.",
+        "hearts": "The card is hearts."
+      }
+    }
+  }
+}

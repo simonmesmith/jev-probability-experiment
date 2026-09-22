@@ -1,0 +1,38 @@
+{
+  "model": "jev-1.13.0",
+  "state": {
+    "scenario": "Two fair coins are flipped independently. Their ordered outcomes have not been observed."
+  },
+  "questions": {
+    "plain": {
+      "type": "choice",
+      "instructions": "Which outcome will occur?",
+      "criteria": {
+        "HH": "The first coin is H and the second is H, where H means heads and T tails.",
+        "HT": "The first coin is H and the second is T, where H means heads and T tails.",
+        "TH": "The first coin is T and the second is H, where H means heads and T tails.",
+        "TT": "The first coin is T and the second is T, where H means heads and T tails."
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "instructions": "Predict the unobserved outcome of the stated random process. Your option probabilities should represent the mathematical chances of the outcomes, not confidence that an outcome is the most likely. Use only the supplied information.",
+      "criteria": {
+        "HH": "The first coin is H and the second is H, where H means heads and T tails.",
+        "HT": "The first coin is H and the second is T, where H means heads and T tails.",
+        "TH": "The first coin is T and the second is H, where H means heads and T tails.",
+        "TT": "The first coin is T and the second is T, where H means heads and T tails."
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "instructions": "Which outcome will occur?",
+      "criteria": {
+        "TT": "The first coin is T and the second is T, where H means heads and T tails.",
+        "TH": "The first coin is T and the second is H, where H means heads and T tails.",
+        "HT": "The first coin is H and the second is T, where H means heads and T tails.",
+        "HH": "The first coin is H and the second is H, where H means heads and T tails."
+      }
+    }
+  }
+}

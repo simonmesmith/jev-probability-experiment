@@ -1,0 +1,38 @@
+{
+  "model": "jev-1.13.0",
+  "state": {
+    "scenario": "A pointer stops uniformly around a circular spinner. Red occupies 180 degrees, blue 90 degrees, green 60 degrees and yellow 30 degrees. The result has not been observed."
+  },
+  "questions": {
+    "plain": {
+      "type": "choice",
+      "instructions": "Which outcome will occur?",
+      "criteria": {
+        "red": "The pointer stops on red.",
+        "blue": "The pointer stops on blue.",
+        "green": "The pointer stops on green.",
+        "yellow": "The pointer stops on yellow."
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "instructions": "Predict the unobserved outcome of the stated random process. Your option probabilities should represent the mathematical chances of the outcomes, not confidence that an outcome is the most likely. Use only the supplied information.",
+      "criteria": {
+        "red": "The pointer stops on red.",
+        "blue": "The pointer stops on blue.",
+        "green": "The pointer stops on green.",
+        "yellow": "The pointer stops on yellow."
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "instructions": "Which outcome will occur?",
+      "criteria": {
+        "yellow": "The pointer stops on yellow.",
+        "green": "The pointer stops on green.",
+        "blue": "The pointer stops on blue.",
+        "red": "The pointer stops on red."
+      }
+    }
+  }
+}

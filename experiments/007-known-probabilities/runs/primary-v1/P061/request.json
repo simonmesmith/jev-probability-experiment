@@ -1,0 +1,32 @@
+{
+  "model": "jev-1.13.0",
+  "state": {
+    "scenario": "A fair coin is flipped once. No result has been observed."
+  },
+  "questions": {
+    "plain": {
+      "type": "choice",
+      "instructions": "Which outcome will occur?",
+      "criteria": {
+        "heads": "The coin lands heads.",
+        "tails": "The coin lands tails."
+      }
+    },
+    "explicit": {
+      "type": "choice",
+      "instructions": "Predict the unobserved outcome of the stated random process. Your option probabilities should represent the mathematical chances of the outcomes, not confidence that an outcome is the most likely. Use only the supplied information.",
+      "criteria": {
+        "heads": "The coin lands heads.",
+        "tails": "The coin lands tails."
+      }
+    },
+    "reversed": {
+      "type": "choice",
+      "instructions": "Which outcome will occur?",
+      "criteria": {
+        "tails": "The coin lands tails.",
+        "heads": "The coin lands heads."
+      }
+    }
+  }
+}
