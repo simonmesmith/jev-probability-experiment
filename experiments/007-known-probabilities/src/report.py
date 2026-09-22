@@ -61,23 +61,5 @@ lines+=['',f'Total estimated API cost: **US${s["total_estimated_cost_usd"]:.8f}*
 'The assistant authored and supervised the experiment. Jev supplied predictions; deterministic Python generated the mathematical answers, enforced the budget and computed all scores.']
 (OUT/'README.md').write_text('\n'.join(lines)+'\n')
 
-import matplotlib
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
-import numpy as np
-plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'axes.spines.top':False,'axes.spines.right':False})
-fig,axes=plt.subplots(2,3,figsize=(15,9.3));fig.subplots_adjust(top=.83,bottom=.12,hspace=.55,wspace=.3)
-fig.suptitle('Jev: knowing a probability ≠ returning that probability',fontsize=21,fontweight='bold',x=.06,ha='left',y=.98)
-fig.text(.06,.925,'60/60 correct numerical choices; outcome-probability errors depend strongly on the API primitive.',fontsize=12,color='#475569')
-for ax,v,title,color in zip(axes[0],['plain','explicit','noul'],['Ordinary Choice','Explicit probability Choice','Yes/no Noul'],['#c25b42','#ac7938','#237e82']):
- ax.plot([0,100],[0,100],color='#94a3b8',linestyle='--',linewidth=1,label='Exact match')
- ax.scatter([100*x['true_probability'] for x in rows],[100*x[v] for x in rows],s=37,alpha=.75,color=color,edgecolors='white',linewidth=.4)
- ax.set(xlim=(-3,103),ylim=(-3,103),xlabel='Mathematical probability (%)',ylabel='Jev probability (%)',title=f'{title}\nMean absolute error: {s["binary"][v]["mae_pp"]:.2f} pp')
- ax.grid(alpha=.15);ax.set_axisbelow(True)
-for ax,item,title in zip(axes[1],[m[0],m[1],m[4]],['Fair coin','Fair die','Sum of two fair dice']):
- keys=list(item['truth']);x=np.arange(len(keys));ax.bar(x-.18,[100*item['truth'][k] for k in keys],.36,color='#237e82',label='Exact probability');ax.bar(x+.18,[100*item['predictions']['plain'][k] for k in keys],.36,color='#c25b42',label='Jev ordinary Choice')
- ax.set_xticks(x,[k.replace('face_','').replace('sum_','').capitalize() for k in keys]);ax.set(ylim=(0,110),title=title,ylabel='Probability (%)');ax.grid(axis='y',alpha=.15);ax.set_axisbelow(True)
-axes[1,0].legend(frameon=False,fontsize=9,loc='upper right')
-fig.text(.06,.04,'Jev 1.13.0 • 68 scenarios • All responses valid • Frozen prompts, no tuning • Numerical control is four-option recognition',fontsize=10,color='#475569')
-fig.savefig(OUT/'probability-comparison.png',dpi=150,facecolor='white');fig.savefig(OUT/'probability-comparison.svg',facecolor='white')
-print('Wrote report and figures.')
+from presentation import build
+build(OUT)
