@@ -164,7 +164,7 @@ Useful follow-ups would test preregistered paraphrases, counterbalanced option n
 - [All binary cases and errors](binary-results.csv)
 - [All full outcome distributions](multiclass-results.csv)
 - [Complete structured results](results.json)
-- Experiment source, frozen protocol, exact-answer derivations and raw API traces are stored in workspace experiment `007-known-probabilities`.
+- Code is in `src/`, inputs and exact answers in `data/`, raw API records in `runs/`, and summaries and charts in `results/`.
 - Official TypeSafe documentation checked September 22, 2026: [Choice](https://docs.typesafe.ai/primitives/choice), [Noul](https://docs.typesafe.ai/primitives/noul), [confidence](https://docs.typesafe.ai/confidence), [API](https://docs.typesafe.ai/api), [models and pricing](https://docs.typesafe.ai/models). Retrieval provenance is included; third-party documentation snapshots remain in the original workspace.
 
 The assistant authored and supervised the experiment. Jev supplied predictions; deterministic Python generated the mathematical answers, enforced the budget and computed all scores.

@@ -2,7 +2,7 @@ import csv,math,statistics as st
 from collections import defaultdict
 from common import ROOT,read,dump,readlines,sha
 from method import payload
-OUT=ROOT.parents[1]/'outputs/known-probabilities';OUT.mkdir(exist_ok=True)
+OUT=ROOT/'results';OUT.mkdir(exist_ok=True)
 cases=read(ROOT/'data/cases.json');truth=read(ROOT/'data/answers.json')
 freeze=read(ROOT/'sources/frozen.json')
 for name,digest in freeze['files'].items():assert sha(ROOT/name)==digest,name

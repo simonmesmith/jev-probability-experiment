@@ -13,7 +13,7 @@ Use **Choice with numbers as the answers**. For example:
 
 Jev selected **1/2**. Across all 60 problems, it selected the correct numerical probability **60 times out of 60**.
 
-![Numerical-answer Choice selected the correct probability in all 60 problems. The exact answer was included among four options.](outputs/known-probabilities/numerical-answer-accuracy.png)
+![Numerical-answer Choice selected the correct probability in all 60 problems. The exact answer was included among four options.](results/numerical-answer-accuracy.png)
 
 **What this tells a builder:** when your task is selecting a probability from supplied candidates, this approach worked very well here. Read the selected number as the answer. A high probability assigned to the option “1/2” means support for that answer; it does not mean the coin itself is almost certain to land heads.
 
@@ -36,7 +36,7 @@ All four examples above come from case P001. The earlier **94% heads** result co
 
 **Noul was the closest direct estimate:** its mean absolute error was **5.56 percentage points**, versus **21.14** for ordinary outcome Choice. Adding an explicit probability instruction to outcome Choice increased the error to **29.41 points** in this run. This instruction does **not** refer to the numerical-answer method that scored 60/60.
 
-![Direct event-probability estimates: Noul has the lowest mean absolute error among five tested variants. Numerical-answer accuracy is a different metric and is shown separately.](outputs/known-probabilities/event-probability-error.png)
+![Direct event-probability estimates: Noul has the lowest mean absolute error among five tested variants. Numerical-answer accuracy is a different metric and is shown separately.](results/event-probability-error.png)
 
 A 20-percentage-point error means, for example, returning 70% when the truth is 50%. Lower error is better. The chart compares five ways of obtaining an event probability on the same 60 cases, with no missing responses. The 60/60 numerical-answer result is deliberately shown in its own visual because counting correct answers is a different measurement.
 
@@ -161,44 +161,55 @@ Useful follow-ups would test preregistered paraphrases, counterbalanced option n
 
 ## Files and sources
 
-- [All binary cases and errors](outputs/known-probabilities/binary-results.csv)
-- [All full outcome distributions](outputs/known-probabilities/multiclass-results.csv)
-- [Complete structured results](outputs/known-probabilities/results.json)
-- Experiment source, frozen protocol, exact-answer derivations and raw API traces are stored in workspace experiment `007-known-probabilities`.
+- [All binary cases and errors](results/binary-results.csv)
+- [All full outcome distributions](results/multiclass-results.csv)
+- [Complete structured results](results/results.json)
+- Code is in `src/`, inputs and exact answers in `data/`, raw API records in `runs/`, and summaries and charts in `results/`.
 - Official TypeSafe documentation checked September 22, 2026: [Choice](https://docs.typesafe.ai/primitives/choice), [Noul](https://docs.typesafe.ai/primitives/noul), [confidence](https://docs.typesafe.ai/confidence), [API](https://docs.typesafe.ai/api), [models and pricing](https://docs.typesafe.ai/models). Retrieval provenance is included; third-party documentation snapshots remain in the original workspace.
 
 The assistant authored and supervised the experiment. Jev supplied predictions; deterministic Python generated the mathematical answers, enforced the budget and computed all scores.
 
 ## Reproduce the saved results
 
+This repository contains one experiment:
+
+```text
+src/          Code for the experiment, analysis and figures
+data/         Questions and exact mathematical answers
+runs/         Original API requests, responses and usage records
+results/      Charts, CSV tables and summarized results
+sources/      Frozen hashes and documentation provenance
+PROTOCOL.md   The plan frozen before running the experiment
+```
+
 From the repository root, score the included API responses without credentials, network access or spending:
 
 ```sh
-python3 experiments/007-known-probabilities/src/analyze.py
+python3 src/analyze.py
 ```
 
-This verifies the frozen input/source hashes, scores all saved runs, and recreates the JSON and CSV results under `outputs/known-probabilities/`. Python's standard library is sufficient. To recreate the report and figures as well:
+This verifies the frozen input/source hashes, scores all saved runs, and recreates the JSON and CSV results under `results/`. Python's standard library is sufficient. To recreate the report and figures as well:
 
 ```sh
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
-python experiments/007-known-probabilities/src/report.py
+python src/report.py
 ```
 
-The report generator updates the report under `outputs/known-probabilities/`; this root README includes additional publication and reproduction notes. Exact plotting environment versions are also recorded in `experiments/007-known-probabilities/sources/plot-requirements.txt`.
+The report generator updates the report under `results/`; this root README includes additional publication and reproduction notes. Exact plotting environment versions are also recorded in `sources/plot-requirements.txt`.
 
-The original [protocol](experiments/007-known-probabilities/PROTOCOL.md), [cases](experiments/007-known-probabilities/data/cases.json), [exact answers and derivations](experiments/007-known-probabilities/data/answers.json), [frozen manifest](experiments/007-known-probabilities/sources/frozen.json), and [raw runs](experiments/007-known-probabilities/runs) are included. Official documentation links and retrieval provenance are included; third-party documentation snapshots are omitted from this publication.
+The original [protocol](PROTOCOL.md), [cases](data/cases.json), [exact answers and derivations](data/answers.json), [frozen manifest](sources/frozen.json), and [raw runs](runs) are included. Official documentation links and retrieval provenance are included; third-party documentation snapshots are omitted from this publication.
 
 ### Optional fresh API run
 
-Fresh API calls incur charges. Keep the published runs intact. In a separate scratch copy of the experiment directory, replace the copied `runs/` directory with an empty one, and set `TYPESAFE_API_KEY` privately in your shell. From the repository root of that scratch copy, run:
+Fresh API calls incur charges. Keep the published runs intact. In a separate scratch copy of this repository, replace the copied `runs/` directory with an empty one, and set `TYPESAFE_API_KEY` privately in your shell. From the repository root of that scratch copy, run:
 
 ```sh
-python3 experiments/007-known-probabilities/src/run.py primary-v1
-python3 experiments/007-known-probabilities/src/run.py repeat-1
-python3 experiments/007-known-probabilities/src/run.py repeat-2
-python3 experiments/007-known-probabilities/src/analyze.py
+python3 src/run.py primary-v1
+python3 src/run.py repeat-1
+python3 src/run.py repeat-2
+python3 src/analyze.py
 ```
 
 The runner refuses to overwrite existing named runs and enforces a shared US$5 cap using conservative per-attempt reservations. It uses the historical pinned model and price; confirm their availability and current pricing before a new run. Retain a fresh run's actual metrics rather than assuming the published numbers will repeat. The narrative report contains historical numerical summaries, so generating a report for new API results also requires updating that prose.

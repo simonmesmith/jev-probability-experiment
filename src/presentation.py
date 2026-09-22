@@ -74,7 +74,7 @@ def build(out):
     import matplotlib.pyplot as plt
     import numpy as np
     result=json.loads((out/'results.json').read_text());s=result['summary']
-    root=out.parents[1]
+    root=out.parent
     old=(out/'README.md').read_text()
     detail='## What we tested'+old.split('## What we tested',1)[1]
     replacements={
@@ -100,7 +100,7 @@ def build(out):
     previous=root_readme.read_text() if root_readme.exists() else ''
     tail='\n## Reproduce the saved results'+previous.split('## Reproduce the saved results',1)[1] if '## Reproduce the saved results' in previous else ''
     for name in ['numerical-answer-accuracy.png','event-probability-error.png','binary-results.csv','multiclass-results.csv','results.json']:
-        text=text.replace('('+name+')','(outputs/known-probabilities/'+name+')')
+        text=text.replace('('+name+')','(results/'+name+')')
     root_readme.write_text(text+tail)
     plt.rcParams.update({'font.family':'DejaVu Sans','font.size':12,'axes.spines.top':False,'axes.spines.right':False})
     teal='#167a72';ink='#183044';muted='#526477'

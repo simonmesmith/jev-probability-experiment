@@ -1,5 +1,5 @@
 from common import ROOT,read
-OUT=ROOT.parents[1]/'outputs/known-probabilities'
+OUT=ROOT/'results'
 r=read(OUT/'results.json');s=r['summary'];rows=r['binary_cases'];m=r['multiclass_cases']
 labels={'plain':'Choice: ordinary outcome question','explicit':'Choice: explicit probability instructions','reversed':'Choice: reversed option order','noul':'Noul: will the event occur?','complement_inverted':'Noul: 1 − probability of the opposite'}
 lines=['# Can Jev reproduce known probabilities?','',
@@ -56,7 +56,7 @@ lines+=['',f'Total estimated API cost: **US${s["total_estimated_cost_usd"]:.8f}*
 '- [All binary cases and errors](binary-results.csv)',
 '- [All full outcome distributions](multiclass-results.csv)',
 '- [Complete structured results](results.json)',
-'- Experiment source, frozen protocol, exact-answer derivations and raw API traces are stored in workspace experiment `007-known-probabilities`.',
+'- Code is in `src/`, inputs and exact answers in `data/`, raw API records in `runs/`, and summaries and charts in `results/`.',
 '- Official TypeSafe documentation checked September 22, 2026: [Choice](https://docs.typesafe.ai/primitives/choice), [Noul](https://docs.typesafe.ai/primitives/noul), [confidence](https://docs.typesafe.ai/confidence), [API](https://docs.typesafe.ai/api), [models and pricing](https://docs.typesafe.ai/models). Copies and retrieval provenance are retained in the experiment.','',
 'The assistant authored and supervised the experiment. Jev supplied predictions; deterministic Python generated the mathematical answers, enforced the budget and computed all scores.']
 (OUT/'README.md').write_text('\n'.join(lines)+'\n')
